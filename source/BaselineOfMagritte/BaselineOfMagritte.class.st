@@ -38,7 +38,7 @@ BaselineOfMagritte >> baseline310CommonExtDeps: spec [
 		baseline: #'Seaside3'
 			with: [
 			spec
-				repository: 'github://SeasideSt/Seaside:master/repository';
+				repository: 'github://SeasideSt/Seaside:v3.5.9/repository';
 				loads: #(#'Core' #'Zinc') ]
 ]
 
