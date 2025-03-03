@@ -39,7 +39,7 @@ BaselineOfMagritte >> baseline310CommonExtDeps: spec [
 			with: [
 			spec
 				repository: 'github://SeasideSt/Seaside:v3.5.9/repository';
-				loads ]
+				load ]
 ]
 
 { #category : #baselines }
