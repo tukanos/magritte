@@ -37,8 +37,8 @@ BaselineOfMagritte >> baseline310CommonExtDeps: spec [
 		"baseline: #'Grease' with: [ spec repository: 'github://SeasideSt/Grease:v1.18.0/repository' ];"	
 		baseline: #'Seaside3'
 			with: [
-			spec repository: 'github://SeasideSt/Seaside:v3.5.9/repository'
-	                        loads: #(#'default')]
+			spec repository: 'github://SeasideSt/Seaside:v3.5.9/repository';
+	                          loads: #(#'default')]
 ]
 
 { #category : #baselines }
