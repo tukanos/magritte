@@ -29,13 +29,13 @@ BaselineOfMagritte >> baseline300ForGemStone: spec [
 				package: #'Magritte-GemStone-Seaside' with: [ spec requires: #(#'Magritte-Seaside') ] ]
 ]
 "This baseline should detect if external dependencies are already satisfied!"
-"{ #category : #baselines }
-BaselineOfMagritte >> baseline310CommonExtDeps: spec ["
+{ #category : #baselines }
+BaselineOfMagritte >> baseline310CommonExtDeps: spec [
 	"Common external dependencies for baseline 3.1.0"
 	
-	"spec"    "The library is loaded with Seaside -> collision if both are loaded"
-		"baseline: #'Grease' with: [ spec repository: 'github://SeasideSt/Grease:v1.18.0/repository' ];"	
-		"baseline: #'Seaside3'
+	spec 
+		baseline: #'Grease' with: [ spec repository: 'github://SeasideSt/Grease:v1.18.0/repository' ];
+		baseline: #'Seaside3'
 			with: [
 			spec repository: 'github://SeasideSt/Seaside:v3.5.9/repository';
 	                          loads: 'default']
@@ -111,7 +111,7 @@ BaselineOfMagritte >> baseline: spec [
 			spec author: 'SeanDeNigris'.
 			spec timestamp: '2015-04-05'.
 			spec description: 'For pharo4.x, add Magritte-GT package and add it to the default group'.
-			"self baseline310CommonExtDeps: spec."
+			self baseline310CommonExtDeps: spec.
 			spec
 				package: #'Magritte-Model' with: [ 
 					spec 
