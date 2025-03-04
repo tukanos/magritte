@@ -111,7 +111,7 @@ BaselineOfMagritte >> baseline: spec [
 			spec author: 'SeanDeNigris'.
 			spec timestamp: '2015-04-05'.
 			spec description: 'For pharo4.x, add Magritte-GT package and add it to the default group'.
-			self baseline310CommonExtDeps: spec.
+			"self baseline310CommonExtDeps: spec."
 			spec
 				package: #'Magritte-Model' with: [ 
 					spec 
