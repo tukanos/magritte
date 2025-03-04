@@ -29,17 +29,17 @@ BaselineOfMagritte >> baseline300ForGemStone: spec [
 				package: #'Magritte-GemStone-Seaside' with: [ spec requires: #(#'Magritte-Seaside') ] ]
 ]
 
-{ #category : #baselines }
-BaselineOfMagritte >> baseline310CommonExtDeps: spec [
+"{ #category : #baselines }
+BaselineOfMagritte >> baseline310CommonExtDeps: spec ["
 	"Common external dependencies for baseline 3.1.0"
 	
-	spec    "The library is loaded with Seaside -> collision if both are loaded"
+	"spec"    "The library is loaded with Seaside -> collision if both are loaded"
 		"baseline: #'Grease' with: [ spec repository: 'github://SeasideSt/Grease:v1.18.0/repository' ];"	
-		baseline: #'Seaside3'
+		"baseline: #'Seaside3'
 			with: [
 			spec repository: 'github://SeasideSt/Seaside:v3.5.9/repository';
 	                          loads: 'default']
-]
+]"
 
 { #category : #baselines }
 BaselineOfMagritte >> baseline330ForPharo: spec [
