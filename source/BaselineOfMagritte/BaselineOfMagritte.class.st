@@ -33,11 +33,12 @@ BaselineOfMagritte >> baseline300ForGemStone: spec [
 BaselineOfMagritte >> baseline310CommonExtDeps: spec [
 	"Common external dependencies for baseline 3.1.0"
 	
-	spec
-		baseline: #'Grease' with: [ spec repository: 'github://SeasideSt/Grease:v1.18.0/repository' ];	
+	spec    "The library is loaded with Seaside -> collision if both are loaded"
+		"baseline: #'Grease' with: [ spec repository: 'github://SeasideSt/Grease:v1.18.0/repository' ];"	
 		baseline: #'Seaside3'
 			with: [
-			spec repository: 'github://SeasideSt/Seaside:v3.5.9/repository' ]
+			spec repository: 'github://SeasideSt/Seaside:v3.5.9/repository'
+	                        loads: #(#'default')]
 ]
 
 { #category : #baselines }
