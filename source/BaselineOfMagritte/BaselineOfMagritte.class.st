@@ -28,7 +28,7 @@ BaselineOfMagritte >> baseline300ForGemStone: spec [
 				package: #'Magritte-Tests-GemStone-Model' with: [ spec requires: #(#'Magritte-GemStone-Model') ];
 				package: #'Magritte-GemStone-Seaside' with: [ spec requires: #(#'Magritte-Seaside') ] ]
 ]
-
+"This baseline should detect if external dependencies are already satisfied!"
 "{ #category : #baselines }
 BaselineOfMagritte >> baseline310CommonExtDeps: spec ["
 	"Common external dependencies for baseline 3.1.0"
