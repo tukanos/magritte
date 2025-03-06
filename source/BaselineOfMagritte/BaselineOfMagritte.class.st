@@ -38,7 +38,7 @@ BaselineOfMagritte >> baseline310CommonExtDeps: spec [
 		baseline: #'Seaside3'
 			with: [ "note: we do not want to depend on Zinc, since this is not present in Squeak. Currently no adapter is loaded"
 			spec
-				repository: 'github://SeasideSt/Seaside:master/repository';
+				repository: 'github://tukanos/Seaside:master/repository';
 				loads: #(#'Core') ]
 ]
 
