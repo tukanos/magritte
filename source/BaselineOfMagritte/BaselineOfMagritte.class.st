@@ -8,25 +8,24 @@ Class {
 BaselineOfMagritte >> baseline300ForGemStone: spec [
 	spec
 		for: #gemstone
-		do: [ 
+		do: [
 			spec
-				project: #'GsCore'
-				with: [ 
+				baseline: #'Metacello'
+				with: [
 					spec
-						className: #'ConfigurationOfGsCore';
-						versionString: #bleedingEdge;
-						repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ].
+						loads: #('Metacello');
+						repository: 'github://Metacello/metacello:master/repository'].
 			spec
 				package: #'Magritte-Model'
 					with: [ 
 							spec
-								requires: #(#'GsCore');
-								includes: #(#'Magritte-GemStone-Model') ];
+								requires: #('Metacello');
+								includes: #('Magritte-GemStone-Model') ];
 				package: #'Magritte-Tests-Model' with: [ spec includes: #('Magritte-Tests-GemStone-Model') ];
-				package: #'Magritte-Seaside' with: [ spec includes: #(#'Magritte-GemStone-Seaside') ];
-				package: #'Magritte-GemStone-Model' with: [ spec requires: #(#'Magritte-Model') ];
-				package: #'Magritte-Tests-GemStone-Model' with: [ spec requires: #(#'Magritte-GemStone-Model') ];
-				package: #'Magritte-GemStone-Seaside' with: [ spec requires: #(#'Magritte-Seaside') ] ]
+				package: #'Magritte-Seaside' with: [ spec includes: #('Magritte-GemStone-Seaside') ];
+				package: #'Magritte-GemStone-Model' with: [ spec requires: #('Magritte-Model') ];
+				package: #'Magritte-Tests-GemStone-Model' with: [ spec requires: #('Magritte-GemStone-Model') ];
+				package: #'Magritte-GemStone-Seaside' with: [ spec requires: #('Magritte-Seaside') ] ]
 ]
 
 { #category : #baselines }
