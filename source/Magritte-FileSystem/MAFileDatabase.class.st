@@ -16,7 +16,7 @@ The files are currently stored using the following scheme:
 "
 Class {
 	#name : 'MAFileDatabase',
-	#superclass : #Object,
+	#superclass : 'Object',
 	#classInstVars : [
 		'baseDirectory',
 		'baseUrl'

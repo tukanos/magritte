@@ -3,7 +3,7 @@ I am a description of strings, possible values are instances of ==String==. My v
 "
 Class {
 	#name : 'MAStringDescription',
-	#superclass : #MAElementDescription,
+	#superclass : 'MAElementDescription',
 	#category : 'Magritte-Model-Description'
 }
 

@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAReader',
-	#superclass : #MAStreamingVisitor,
+	#superclass : 'MAStreamingVisitor',
 	#category : 'Magritte-Model-Visitor'
 }
 

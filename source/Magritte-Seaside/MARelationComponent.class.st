@@ -1,6 +1,6 @@
 Class {
 	#name : 'MARelationComponent',
-	#superclass : #MAElementComponent,
+	#superclass : 'MAElementComponent',
 	#instVars : [
 		'selected'
 	],

@@ -1,5 +1,5 @@
 Class {
 	#name : 'MATextMorph',
-	#superclass : #MAMorphicText,
+	#superclass : 'MAMorphicText',
 	#category : 'Magritte-Deprecated3dot7'
 }

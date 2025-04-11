@@ -3,7 +3,7 @@ I am a description of Smalltalk classes, possible values can be any of ==Smallta
 "
 Class {
 	#name : 'MAClassDescription',
-	#superclass : #MAElementDescription,
+	#superclass : 'MAElementDescription',
 	#category : 'Magritte-Model-Description'
 }
 

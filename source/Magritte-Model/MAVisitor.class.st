@@ -9,7 +9,7 @@ My 'visiting-description' protocol reflects the hierarchy of *MADescription* and
 "
 Class {
 	#name : 'MAVisitor',
-	#superclass : #MABasicObject,
+	#superclass : 'MABasicObject',
 	#category : 'Magritte-Model-Visitor'
 }
 

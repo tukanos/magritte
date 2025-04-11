@@ -3,7 +3,7 @@ I am a description of tokens all described by the referenced description, possib
 "
 Class {
 	#name : 'MATokenDescription',
-	#superclass : #MAReferenceDescription,
+	#superclass : 'MAReferenceDescription',
 	#instVars : [
 		'separators'
 	],

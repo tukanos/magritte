@@ -3,7 +3,7 @@ I display a simple list to allow the user to choose one element from the list. I
 "
 Class {
 	#name : 'MASelectListComponent',
-	#superclass : #MASingleSelectionComponent,
+	#superclass : 'MASingleSelectionComponent',
 	#category : 'Magritte-Seaside-Components'
 }
 

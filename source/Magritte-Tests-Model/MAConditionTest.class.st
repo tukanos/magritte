@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAConditionTest',
-	#superclass : #TestCase,
+	#superclass : 'TestCase',
 	#category : 'Magritte-Tests-Model-Utility'
 }
 

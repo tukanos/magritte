@@ -3,7 +3,7 @@ I am an error that is raised whenever there are multiple validation rules failin
 "
 Class {
 	#name : 'MAMultipleErrors',
-	#superclass : #MAValidationError,
+	#superclass : 'MAValidationError',
 	#instVars : [
 		'collection'
 	],

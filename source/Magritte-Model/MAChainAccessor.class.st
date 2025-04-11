@@ -3,7 +3,7 @@ I am an access strategy used to chain two access strategies. To read and write a
 "
 Class {
 	#name : 'MAChainAccessor',
-	#superclass : #MADelegatorAccessor,
+	#superclass : 'MADelegatorAccessor',
 	#instVars : [
 		'accessor'
 	],

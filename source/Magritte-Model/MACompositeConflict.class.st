@@ -1,6 +1,6 @@
 Class {
 	#name : 'MACompositeConflict',
-	#superclass : #Object,
+	#superclass : 'Object',
 	#instVars : [
 		'kind',
 		'string'

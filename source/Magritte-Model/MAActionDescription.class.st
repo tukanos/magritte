@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAActionDescription',
-	#superclass : #MAObject,
+	#superclass : 'MAObject',
 	#instVars : [
 		'enableBlock',
 		'model',

@@ -3,7 +3,7 @@ I provide basic functionalities for MAListCompositionComponent and MACheckboxGro
 "
 Class {
 	#name : 'MAMultipleSelectionComponent',
-	#superclass : #MAOptionComponent,
+	#superclass : 'MAOptionComponent',
 	#category : 'Magritte-Seaside-Components'
 }
 

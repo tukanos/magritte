@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAMorphicMemo',
-	#superclass : #MAMorphicText,
+	#superclass : 'MAMorphicText',
 	#category : 'Magritte-Morph-Model'
 }
 

@@ -16,7 +16,7 @@ The files are currently stored using the following scheme:
 "
 Class {
 	#name : 'MAExternalFileModel',
-	#superclass : #MAFileModel,
+	#superclass : 'MAFileModel',
 	#instVars : [
 		'location'
 	],

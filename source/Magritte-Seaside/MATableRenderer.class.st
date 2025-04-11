@@ -1,6 +1,6 @@
 Class {
 	#name : 'MATableRenderer',
-	#superclass : #MAComponentRenderer,
+	#superclass : 'MAComponentRenderer',
 	#category : 'Magritte-Seaside-Renderer'
 }
 

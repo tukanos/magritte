@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAFileModelTest',
-	#superclass : #TestCase,
+	#superclass : 'TestCase',
 	#instVars : [
 		'model'
 	],

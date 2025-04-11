@@ -3,7 +3,7 @@ When you have a ""to-many"" relationship, I describe the flattened collection of
 "
 Class {
 	#name : 'MACompositeAccessor',
-	#superclass : #MAChainAccessor,
+	#superclass : 'MAChainAccessor',
 	#instVars : [
 		'kind'
 	],

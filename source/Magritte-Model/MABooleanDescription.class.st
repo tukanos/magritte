@@ -3,7 +3,7 @@ I am a description of the Boolean values ==true== and ==false==. My visual repre
 "
 Class {
 	#name : 'MABooleanDescription',
-	#superclass : #MAElementDescription,
+	#superclass : 'MAElementDescription',
 	#category : 'Magritte-Model-Description'
 }
 

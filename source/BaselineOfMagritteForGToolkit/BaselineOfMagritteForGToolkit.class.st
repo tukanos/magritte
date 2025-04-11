@@ -1,6 +1,6 @@
 Class {
 	#name : 'BaselineOfMagritteForGToolkit',
-	#superclass : #BaselineOf,
+	#superclass : 'BaselineOf',
 	#category : 'BaselineOfMagritteForGToolkit'
 }
 

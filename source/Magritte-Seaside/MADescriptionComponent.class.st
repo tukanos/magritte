@@ -3,7 +3,7 @@ I'm a seaside object which provides all the functions for my subclasses to displ
 "
 Class {
 	#name : 'MADescriptionComponent',
-	#superclass : #MAComponent,
+	#superclass : 'MAComponent',
 	#instVars : [
 		'memento',
 		'description',

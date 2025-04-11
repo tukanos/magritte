@@ -3,7 +3,7 @@ I am the abstract superclass to all accessor strategies. Accessors are used to i
 "
 Class {
 	#name : 'MAAccessor',
-	#superclass : #MAObject,
+	#superclass : 'MAObject',
 	#category : 'Magritte-Model-Accessor'
 }
 

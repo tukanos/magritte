@@ -20,7 +20,7 @@ Possible fixes might be:
 "
 Class {
 	#name : 'MAOptionDescription',
-	#superclass : #MAReferenceDescription,
+	#superclass : 'MAReferenceDescription',
 	#instVars : [
 		'options'
 	],

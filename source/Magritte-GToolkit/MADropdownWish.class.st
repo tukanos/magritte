@@ -1,6 +1,6 @@
 Class {
 	#name : 'MADropdownWish',
-	#superclass : #BrWish,
+	#superclass : 'BrWish',
 	#instVars : [
 		'selection'
 	],

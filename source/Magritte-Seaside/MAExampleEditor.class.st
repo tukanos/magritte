@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAExampleEditor',
-	#superclass : #WAComponent,
+	#superclass : 'WAComponent',
 	#instVars : [
 		'description',
 		'report'

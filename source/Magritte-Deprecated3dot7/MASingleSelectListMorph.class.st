@@ -1,5 +1,5 @@
 Class {
 	#name : 'MASingleSelectListMorph',
-	#superclass : #MAMorphicSingleSelectList,
+	#superclass : 'MAMorphicSingleSelectList',
 	#category : 'Magritte-Deprecated3dot7'
 }

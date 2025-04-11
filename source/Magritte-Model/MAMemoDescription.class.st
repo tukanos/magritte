@@ -3,7 +3,7 @@ I am a description of multiline strings, possible values are instances of ==Stri
 "
 Class {
 	#name : 'MAMemoDescription',
-	#superclass : #MAStringDescription,
+	#superclass : 'MAStringDescription',
 	#category : 'Magritte-Model-Description'
 }
 

@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAInternalEditorComponent',
-	#superclass : #MAOneToOneComponent,
+	#superclass : 'MAOneToOneComponent',
 	#instVars : [
 		'component'
 	],

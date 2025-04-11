@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAToggleColumn',
-	#superclass : #MADescribedColumn,
+	#superclass : 'MADescribedColumn',
 	#category : 'Magritte-Seaside-Report'
 }
 

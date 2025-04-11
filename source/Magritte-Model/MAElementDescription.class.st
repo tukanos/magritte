@@ -3,7 +3,7 @@ I am an abstract description for all basic description types.
 "
 Class {
 	#name : 'MAElementDescription',
-	#superclass : #MADescription,
+	#superclass : 'MADescription',
 	#category : 'Magritte-Model-Description'
 }
 

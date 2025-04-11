@@ -3,7 +3,7 @@ This column uses the component of a description to render the cell value.
 "
 Class {
 	#name : 'MADescribedComponentColumn',
-	#superclass : #MADescribedColumn,
+	#superclass : 'MADescribedColumn',
 	#instVars : [
 		'component'
 	],

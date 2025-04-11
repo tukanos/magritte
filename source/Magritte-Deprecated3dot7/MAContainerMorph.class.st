@@ -1,5 +1,5 @@
 Class {
 	#name : 'MAContainerMorph',
-	#superclass : #MAMorphicContainer,
+	#superclass : 'MAMorphicContainer',
 	#category : 'Magritte-Deprecated3dot7'
 }

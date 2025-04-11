@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAPropertyChangedAnnouncement',
-	#superclass : #Announcement,
+	#superclass : 'Announcement',
 	#instVars : [
 		'key',
 		'value',

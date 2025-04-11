@@ -7,7 +7,7 @@ You can also have a look at RadioButtonGroupExample for a full example of how to
 "
 Class {
 	#name : 'RadioButtonModel',
-	#superclass : #AbstractBasicWidget,
+	#superclass : 'AbstractBasicWidget',
 	#instVars : [
 		'actionWhenActivatedHolder',
 		'actionWhenDesactivatedHolder',

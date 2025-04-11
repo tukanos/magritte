@@ -3,7 +3,7 @@ I am an access strategy defined by two block-closures. The read-block expects th
 "
 Class {
 	#name : 'MAPluggableAccessor',
-	#superclass : #MAAccessor,
+	#superclass : 'MAAccessor',
 	#instVars : [
 		'readBlock',
 		'writeBlock'

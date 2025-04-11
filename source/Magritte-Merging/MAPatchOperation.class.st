@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAPatchOperation',
-	#superclass : #Object,
+	#superclass : 'Object',
 	#instVars : [
 		'receiver',
 		'field',

@@ -1,6 +1,6 @@
 Class {
 	#name : 'MABrTextEditor',
-	#superclass : #BrEditor,
+	#superclass : 'BrEditor',
 	#instVars : [
 		'elementDescription',
 		'builder',

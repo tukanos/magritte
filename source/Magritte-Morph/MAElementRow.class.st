@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAElementRow',
-	#superclass : #BorderedMorph,
+	#superclass : 'BorderedMorph',
 	#instVars : [
 		'object',
 		'container'

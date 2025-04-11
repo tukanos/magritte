@@ -3,7 +3,7 @@ I surround the owning component with a XHTML form element and render the form bu
 "
 Class {
 	#name : 'MAFormDecoration',
-	#superclass : #MAContainerDecoration,
+	#superclass : 'MAContainerDecoration',
 	#instVars : [
 		'buttons'
 	],

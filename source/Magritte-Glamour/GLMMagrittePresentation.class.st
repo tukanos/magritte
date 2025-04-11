@@ -1,6 +1,6 @@
 Class {
 	#name : 'GLMMagrittePresentation',
-	#superclass : #GLMPresentation,
+	#superclass : 'GLMPresentation',
 	#instVars : [
 		'magritteDescription',
 		'answerBlock'

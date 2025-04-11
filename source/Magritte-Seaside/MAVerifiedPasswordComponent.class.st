@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAVerifiedPasswordComponent',
-	#superclass : #MATextPasswordComponent,
+	#superclass : 'MATextPasswordComponent',
 	#instVars : [
 		'verificationValue'
 	],

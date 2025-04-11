@@ -3,7 +3,7 @@ I am a description of files, their contents, filename and mime-type. Possible va
 "
 Class {
 	#name : 'MAFileDescription',
-	#superclass : #MAElementDescription,
+	#superclass : 'MAElementDescription',
 	#category : 'Magritte-Model-Description'
 }
 

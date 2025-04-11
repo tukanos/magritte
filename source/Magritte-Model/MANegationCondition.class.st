@@ -1,6 +1,6 @@
 Class {
 	#name : 'MANegationCondition',
-	#superclass : #MACondition,
+	#superclass : 'MACondition',
 	#instVars : [
 		'condition'
 	],

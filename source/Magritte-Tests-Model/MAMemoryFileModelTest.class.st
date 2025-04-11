@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAMemoryFileModelTest',
-	#superclass : #MAFileModelTest,
+	#superclass : 'MAFileModelTest',
 	#category : 'Magritte-Tests-Model-Models'
 }
 

@@ -3,7 +3,7 @@ I am a description of dates, possible values are instances of ==Date==. My visua
 "
 Class {
 	#name : 'MADateDescription',
-	#superclass : #MAMagnitudeDescription,
+	#superclass : 'MAMagnitudeDescription',
 	#category : 'Magritte-Model-Description'
 }
 

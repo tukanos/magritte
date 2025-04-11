@@ -5,7 +5,7 @@ I fully support the collection protocol: descriptions can be added and removed. 
 "
 Class {
 	#name : 'MAContainer',
-	#superclass : #MADescription,
+	#superclass : 'MADescription',
 	#instVars : [
 		'children'
 	],

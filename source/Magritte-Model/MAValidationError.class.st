@@ -3,7 +3,7 @@ I am a generic validation error. I reference the description that caused the val
 "
 Class {
 	#name : 'MAValidationError',
-	#superclass : #MAError,
+	#superclass : 'MAError',
 	#category : 'Magritte-Model-Exception'
 }
 

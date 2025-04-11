@@ -3,7 +3,7 @@ I am a container holding a collection of descriptions and I keep them sorted acc
 "
 Class {
 	#name : 'MAPriorityContainer',
-	#superclass : #MAContainer,
+	#superclass : 'MAContainer',
 	#category : 'Magritte-Model-Description'
 }
 

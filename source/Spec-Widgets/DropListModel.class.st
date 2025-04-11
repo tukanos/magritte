@@ -7,7 +7,7 @@ See DropListExample for an example
 "
 Class {
 	#name : 'DropListModel',
-	#superclass : #AbstractBasicWidget,
+	#superclass : 'AbstractBasicWidget',
 	#instVars : [
 		'listHolder',
 		'selectionHolder'

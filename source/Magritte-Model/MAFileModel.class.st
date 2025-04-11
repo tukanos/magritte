@@ -5,7 +5,7 @@ There are different file-models that you can use with Magritte. The idea is that
 "
 Class {
 	#name : 'MAFileModel',
-	#superclass : #MABasicObject,
+	#superclass : 'MABasicObject',
 	#instVars : [
 		'filename',
 		'mimetype',

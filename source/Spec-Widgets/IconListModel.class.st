@@ -3,7 +3,7 @@ An IconListModel is a spec model for icon list
 "
 Class {
 	#name : 'IconListModel',
-	#superclass : #ListComposableModel,
+	#superclass : 'ListComposableModel',
 	#instVars : [
 		'iconHolder'
 	],

@@ -11,7 +11,7 @@ Money decoded from a string uses a float for the amount. See class comment for m
 "
 Class {
 	#name : 'MAMoneyDescription',
-	#superclass : #MAElementDescription,
+	#superclass : 'MAElementDescription',
 	#classVars : [
 		'DefaultMoneyClass'
 	],

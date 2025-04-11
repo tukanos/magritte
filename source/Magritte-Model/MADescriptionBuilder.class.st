@@ -10,7 +10,7 @@ Instance Variables:
 "
 Class {
 	#name : 'MADescriptionBuilder',
-	#superclass : #MAVisitor,
+	#superclass : 'MAVisitor',
 	#instVars : [
 		'model',
 		'target',

@@ -3,7 +3,7 @@ Besides caching values like my superclass, I also remember the original values o
 "
 Class {
 	#name : 'MACheckedMemento',
-	#superclass : #MACachedMemento,
+	#superclass : 'MACachedMemento',
 	#instVars : [
 		'original'
 	],

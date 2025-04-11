@@ -1,6 +1,6 @@
 Class {
 	#name : 'MADropdownElement',
-	#superclass : #BrButton,
+	#superclass : 'BrButton',
 	#instVars : [
 		'items',
 		'selection',

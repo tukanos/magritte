@@ -3,7 +3,7 @@ I am an abstract description for subclasses of ==Magnitude==. The range of accep
 "
 Class {
 	#name : 'MAMagnitudeDescription',
-	#superclass : #MAElementDescription,
+	#superclass : 'MAElementDescription',
 	#category : 'Magritte-Model-Description'
 }
 

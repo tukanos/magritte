@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAToManyRelationDescriptionTest',
-	#superclass : #MARelationDescriptionTest,
+	#superclass : 'MARelationDescriptionTest',
 	#category : 'Magritte-Tests-Model-Description'
 }
 

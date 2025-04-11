@@ -3,7 +3,7 @@ I cache values being read and written without touching the model. When committin
 "
 Class {
 	#name : 'MACachedMemento',
-	#superclass : #MAMemento,
+	#superclass : 'MAMemento',
 	#instVars : [
 		'cache'
 	],

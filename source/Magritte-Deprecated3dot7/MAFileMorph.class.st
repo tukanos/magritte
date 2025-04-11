@@ -1,5 +1,5 @@
 Class {
 	#name : 'MAFileMorph',
-	#superclass : #MAMorphicFile,
+	#superclass : 'MAMorphicFile',
 	#category : 'Magritte-Deprecated3dot7'
 }

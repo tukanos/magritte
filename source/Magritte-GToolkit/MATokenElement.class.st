@@ -1,6 +1,6 @@
 Class {
 	#name : 'MATokenElement',
-	#superclass : #BrButton,
+	#superclass : 'BrButton',
 	#instVars : [
 		'object',
 		'removeAction',

@@ -1,6 +1,6 @@
 Class {
 	#name : 'TokenCollectorMorph',
-	#superclass : #Morph,
+	#superclass : 'Morph',
 	#instVars : [
 		'options',
 		'tokenViewer',

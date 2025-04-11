@@ -5,7 +5,7 @@ See {{gtClass:MACompositeAccessor}} for more info.
 "
 Class {
 	#name : 'MACompositeElementBuilder',
-	#superclass : #MAElementBuilder,
+	#superclass : 'MAElementBuilder',
 	#category : 'Magritte-GToolkit'
 }
 

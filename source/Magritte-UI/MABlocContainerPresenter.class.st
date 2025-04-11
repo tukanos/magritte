@@ -1,6 +1,6 @@
 Class {
 	#name : 'MABlocContainerPresenter',
-	#superclass : #MADescriptionPresenter,
+	#superclass : 'MADescriptionPresenter',
 	#traits : 'MATContainerPresenter',
 	#classTraits : 'MATContainerPresenter classTrait',
 	#category : 'Magritte-UI'

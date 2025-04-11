@@ -3,7 +3,7 @@ I am an access strategy that directly reads from and writes to instance variable
 "
 Class {
 	#name : 'MAVariableAccessor',
-	#superclass : #MAAccessor,
+	#superclass : 'MAAccessor',
 	#instVars : [
 		'name'
 	],

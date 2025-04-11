@@ -1,6 +1,6 @@
 Class {
 	#name : 'MADeveloperMenus',
-	#superclass : #Object,
+	#superclass : 'Object',
 	#category : 'Magritte-Developer'
 }
 

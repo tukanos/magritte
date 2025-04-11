@@ -5,7 +5,7 @@ self example
 "
 Class {
 	#name : 'ButtonModel',
-	#superclass : #AbstractBasicWidget,
+	#superclass : 'AbstractBasicWidget',
 	#instVars : [
 		'actionHolder',
 		'labelHolder',

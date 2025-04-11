@@ -3,7 +3,7 @@ A LabelModel is a spec model for Labels
 "
 Class {
 	#name : 'LabelModel',
-	#superclass : #AbstractBasicWidget,
+	#superclass : 'AbstractBasicWidget',
 	#instVars : [
 		'textHolder'
 	],

@@ -7,7 +7,7 @@ Unlike the Morphic implementation, which has a presenter class per description t
 "
 Class {
 	#name : 'MAElementBuilder',
-	#superclass : #MAVisitor,
+	#superclass : 'MAVisitor',
 	#instVars : [
 		'object',
 		'element',

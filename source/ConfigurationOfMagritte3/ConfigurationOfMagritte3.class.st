@@ -3,7 +3,7 @@
 "
 Class {
 	#name : 'ConfigurationOfMagritte3',
-	#superclass : #Object,
+	#superclass : 'Object',
 	#instVars : [
 		'project'
 	],

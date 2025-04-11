@@ -1,5 +1,5 @@
 Class {
 	#name : 'MAOneToOneMorph',
-	#superclass : #MAMorphicOneToOne,
+	#superclass : 'MAMorphicOneToOne',
 	#category : 'Magritte-Deprecated3dot7'
 }

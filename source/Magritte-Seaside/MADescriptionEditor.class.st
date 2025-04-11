@@ -1,6 +1,6 @@
 Class {
 	#name : 'MADescriptionEditor',
-	#superclass : #MAExampleEditor,
+	#superclass : 'MAExampleEditor',
 	#instVars : [
 		'example',
 		'selected',

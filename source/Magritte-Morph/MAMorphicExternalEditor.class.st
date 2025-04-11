@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAMorphicExternalEditor',
-	#superclass : #MAMorphicOneToOne,
+	#superclass : 'MAMorphicOneToOne',
 	#category : 'Magritte-Morph-Model'
 }
 

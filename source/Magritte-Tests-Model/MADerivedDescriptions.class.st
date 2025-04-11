@@ -1,6 +1,6 @@
 Class {
 	#name : 'MADerivedDescriptions',
-	#superclass : #TestCase,
+	#superclass : 'TestCase',
 	#instVars : [
 		'baseModel',
 		'derivedModel'

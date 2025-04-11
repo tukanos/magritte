@@ -3,7 +3,7 @@ I'm the MAFileDescription seaside component. With me user can upload files to th
 "
 Class {
 	#name : 'MAFileUploadComponent',
-	#superclass : #MAElementComponent,
+	#superclass : 'MAElementComponent',
 	#category : 'Magritte-Seaside-Components'
 }
 

@@ -1,6 +1,6 @@
 Class {
 	#name : 'MATableModelTest',
-	#superclass : #TestCase,
+	#superclass : 'TestCase',
 	#instVars : [
 		'table'
 	],

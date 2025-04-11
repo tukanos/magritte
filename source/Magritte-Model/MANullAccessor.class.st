@@ -3,7 +3,7 @@ I am a null access strategy and I should be neither read nor written. I am still
 "
 Class {
 	#name : 'MANullAccessor',
-	#superclass : #MAAccessor,
+	#superclass : 'MAAccessor',
 	#instVars : [
 		'uuid'
 	],

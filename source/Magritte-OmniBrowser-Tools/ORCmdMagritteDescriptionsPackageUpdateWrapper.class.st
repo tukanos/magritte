@@ -1,6 +1,6 @@
 Class {
 	#name : 'ORCmdMagritteDescriptionsPackageUpdateWrapper',
-	#superclass : #ORCmdOpen,
+	#superclass : 'ORCmdOpen',
 	#category : 'Magritte-OmniBrowser-Tools'
 }
 

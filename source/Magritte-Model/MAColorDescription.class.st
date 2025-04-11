@@ -3,7 +3,7 @@ I am a description of colors, possible values are instances of ==Color==. My vis
 "
 Class {
 	#name : 'MAColorDescription',
-	#superclass : #MAElementDescription,
+	#superclass : 'MAElementDescription',
 	#category : 'Magritte-Model-Description'
 }
 

@@ -3,7 +3,7 @@ I am a model class representing a table within the Magritte framework. Internall
 "
 Class {
 	#name : 'MATableModel',
-	#superclass : #MABasicObject,
+	#superclass : 'MABasicObject',
 	#instVars : [
 		'rowCount',
 		'columnCount',

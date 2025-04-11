@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAActionPragmaBuilder',
-	#superclass : #MAPragmaBuilder,
+	#superclass : 'MAPragmaBuilder',
 	#category : 'Magritte-Model-Utility'
 }
 

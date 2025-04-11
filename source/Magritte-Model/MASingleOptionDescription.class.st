@@ -3,7 +3,7 @@ I am a description of a single option, possible values are stored within the ==o
 "
 Class {
 	#name : 'MASingleOptionDescription',
-	#superclass : #MAOptionDescription,
+	#superclass : 'MAOptionDescription',
 	#category : 'Magritte-Model-Description'
 }
 

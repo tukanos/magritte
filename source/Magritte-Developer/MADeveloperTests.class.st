@@ -1,6 +1,6 @@
 Class {
 	#name : 'MADeveloperTests',
-	#superclass : #TestCase,
+	#superclass : 'TestCase',
 	#category : 'Magritte-Developer-Tests'
 }
 
