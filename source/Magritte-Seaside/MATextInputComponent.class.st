@@ -7,27 +7,27 @@ Class {
 	#category : 'Magritte-Seaside-Components'
 }
 
-{ #category : #testing }
+{ #category : 'testing' }
 MATextInputComponent class >> isAbstract [
 	^ false
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 MATextInputComponent >> hasLabelId [
 	^ self isReadOnly not
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MATextInputComponent >> renderButtonOn: html [
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MATextInputComponent >> renderEditorOn: html [
 	self renderInputOn: html.
 	self renderButtonOn: html
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MATextInputComponent >> renderInputOn: html [
 	html textInput
 		id: self labelId;

@@ -10,7 +10,7 @@ Class {
 	#category : 'Magritte-Deprecated'
 }
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MADynamicObject >> realSubject [
 	^ GRPlatform current
 		magritteEvaluate: super realSubject

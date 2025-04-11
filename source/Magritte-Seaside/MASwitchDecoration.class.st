@@ -7,14 +7,14 @@ Class {
 	#category : 'Magritte-Seaside-Decorations'
 }
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MASwitchDecoration >> buttons [
 	^ self decoratedComponent isReadOnly
 		ifTrue: [ Array with: #edit -> 'Edit' ]
 		ifFalse: [ Array with: #save -> 'Save' with: #cancel -> 'Cancel' ]
 ]
 
-{ #category : #processing }
+{ #category : 'processing' }
 MASwitchDecoration >> handleAnswer: anObject continueWith: aBlock [
 	self decoratedComponent readOnly: true.
 	super handleAnswer: anObject continueWith: aBlock

@@ -4,7 +4,7 @@ Class {
 	#category : 'Magritte-Seaside-Components'
 }
 
-{ #category : #private }
+{ #category : 'private' }
 MAOptionComponent >> labelForOption: anObject [
 	^ self magritteDescription labelForOption: anObject
 ]

@@ -1,6 +1,6 @@
 Extension { #name : #GRPackage }
 
-{ #category : #'*magritte-tests-model' }
+{ #category : '*magritte-tests-model' }
 GRPackage class >> magritteTestsModel [
 	^ self new
 		name: 'Magritte-Tests-Model';

@@ -1,10 +1,10 @@
 Class {
 	#name : #MAMorphicDropList,
 	#superclass : #MAMorphicList,
-	#category : #'Magritte-Morph-Model'
+	#category : 'Magritte-Morph-Model'
 }
 
-{ #category : #'private-building' }
+{ #category : 'private-building' }
 MAMorphicDropList >> buildMorphView [
 
 	^ SpDropListPresenter new

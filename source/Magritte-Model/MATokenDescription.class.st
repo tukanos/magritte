@@ -7,35 +7,35 @@ Class {
 	#instVars : [
 		'separators'
 	],
-	#category : #'Magritte-Model-Description'
+	#category : 'Magritte-Model-Description'
 }
 
-{ #category : #'accessing-defaults' }
+{ #category : 'accessing-defaults' }
 MATokenDescription class >> defaultKind [
 	^ Array
 ]
 
-{ #category : #'accessing-defaults' }
+{ #category : 'accessing-defaults' }
 MATokenDescription class >> defaultSeparators [
 	^ ' ,;', (String with: Character cr with: Character lf with: Character tab)
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 MATokenDescription class >> isAbstract [
 	^ false
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MATokenDescription class >> label [
 	^ 'Token'
 ]
 
-{ #category : #visiting }
+{ #category : 'visiting' }
 MATokenDescription >> acceptMagritte: aVisitor [
 	aVisitor visitTokenDescription: self
 ]
 
-{ #category : #'acessing-magritte' }
+{ #category : 'acessing-magritte' }
 MATokenDescription >> descriptionSeparators [
 	<magritteDescription>
 	^ MAStringDescription new
@@ -45,12 +45,12 @@ MATokenDescription >> descriptionSeparators [
 		yourself
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MATokenDescription >> separators [
 	^ separators ifNil: [ separators := self class defaultSeparators ]
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MATokenDescription >> separators: aString [
 	"A string with the separator characters to split tokens, the first character is used as a default for printing."
 

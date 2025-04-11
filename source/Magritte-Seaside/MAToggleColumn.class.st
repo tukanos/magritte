@@ -4,7 +4,7 @@ Class {
 	#category : 'Magritte-Seaside-Report'
 }
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MAToggleColumn >> renderCellContent: anObject on: html [
 	| value |
 	value := self valueFor: anObject.

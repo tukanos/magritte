@@ -33,33 +33,33 @@ Class {
 	#instVars : [
 		'messageSend'
 	],
-	#category : #'Magritte-Model-Visitor'
+	#category : 'Magritte-Model-Visitor'
 }
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MAMessagingStringWriter >> messageSend [
 	^ messageSend
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MAMessagingStringWriter >> messageSend: anObject [
 	Halt if: [ anObject receiver employee isNil ].
 	messageSend := anObject
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MAMessagingStringWriter >> visitContainer: aDescription [
 
 	self visitDescription: aDescription
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 MAMessagingStringWriter >> visitDescription: aDescription [
 	
 	self stream nextPutAll: self messageSend value
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 MAMessagingStringWriter >> visitElementDescription: aDescription [
 
 	self visitDescription: aDescription

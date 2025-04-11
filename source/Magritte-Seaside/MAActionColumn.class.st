@@ -4,39 +4,39 @@ Class {
 	#category : 'Magritte-Seaside-Report'
 }
 
-{ #category : #'accessing-defaults' }
+{ #category : 'accessing-defaults' }
 MAActionColumn >> defaultLabel [
 	^ String new
 ]
 
-{ #category : #'accessing-defaults' }
+{ #category : 'accessing-defaults' }
 MAActionColumn >> defaultUseLinks [
 	^ true
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MAActionColumn >> renderCellContent: anObject on: html [
 	self useLinks
 		ifTrue: [ self renderCellLinkContent: anObject on: html ]
 		ifFalse: [ self renderCellFormContent: anObject on: html ]
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MAActionColumn >> renderCellFormContent: anObject on: html [
 	self subclassResponsibility
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MAActionColumn >> renderCellLinkContent: anObject  on: html [
 	self subclassResponsibility
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MAActionColumn >> useLinks [
 	^ self propertyAt: #useLinks ifAbsent: [ self defaultUseLinks ]
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MAActionColumn >> useLinks: aBoolean [
 	self propertyAt: #useLinks put: aBoolean
 ]

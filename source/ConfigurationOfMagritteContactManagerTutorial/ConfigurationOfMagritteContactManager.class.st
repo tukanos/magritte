@@ -13,7 +13,7 @@ Class {
 	#category : 'ConfigurationOfMagritteContactManagerTutorial'
 }
 
-{ #category : #'development support' }
+{ #category : 'development support' }
 ConfigurationOfMagritteContactManager class >> DevelopmentSupport [
 
 "See the methods in the 'development support' category on the class-side of MetacelloBaseConfiguration. Decide what development support methods you would like to use and copy them the the class-side of your configuration."
@@ -21,7 +21,7 @@ ConfigurationOfMagritteContactManager class >> DevelopmentSupport [
 
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 ConfigurationOfMagritteContactManager class >> baseConfigurationClassIfAbsent: aBlock [
 
 	^Smalltalk
@@ -32,30 +32,30 @@ ConfigurationOfMagritteContactManager class >> baseConfigurationClassIfAbsent: a
 
 ]
 
-{ #category : #catalog }
+{ #category : 'catalog' }
 ConfigurationOfMagritteContactManager class >> catalogContactInfo [
 	^ 'Contact  S. Ducasse'
 ]
 
-{ #category : #catalog }
+{ #category : 'catalog' }
 ConfigurationOfMagritteContactManager class >> catalogDescription [
 
 	^ 'Magritte-ContactManager is a little tutorial on Magritte. '
 ]
 
-{ #category : #catalog }
+{ #category : 'catalog' }
 ConfigurationOfMagritteContactManager class >> catalogKeywords [
 	^ #(HTML web form metadata description example tutorial)
 	
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 ConfigurationOfMagritteContactManager class >> ensureMetacello [
 
 	(self baseConfigurationClassIfAbsent: []) ensureMetacello
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 ConfigurationOfMagritteContactManager class >> ensureMetacelloBaseConfiguration [
 
 	Smalltalk
@@ -71,14 +71,14 @@ ConfigurationOfMagritteContactManager class >> ensureMetacelloBaseConfiguration 
 					version workingCopy repositoryGroup addRepository: repository ] ]
 ]
 
-{ #category : #'metacello tool support' }
+{ #category : 'metacello tool support' }
 ConfigurationOfMagritteContactManager class >> isMetacelloConfig [
 	"Answer true and the Metacello tools will operate on you"
 	
 	^true
 ]
 
-{ #category : #loading }
+{ #category : 'loading' }
 ConfigurationOfMagritteContactManager class >> load [
 	"Load the #stable version defined for this platform. The #stable version is the version that is recommended to be used on this platform."
 
@@ -88,7 +88,7 @@ ConfigurationOfMagritteContactManager class >> load [
 	^(self project version: #stable) load
 ]
 
-{ #category : #loading }
+{ #category : 'loading' }
 ConfigurationOfMagritteContactManager class >> loadBleedingEdge [
 	"Load the latest versions of the mcz files defined for this project. It is not likely that the #bleedingEdge has been tested."
 
@@ -98,7 +98,7 @@ ConfigurationOfMagritteContactManager class >> loadBleedingEdge [
 	^(self project version: #bleedingEdge) load
 ]
 
-{ #category : #loading }
+{ #category : 'loading' }
 ConfigurationOfMagritteContactManager class >> loadDevelopment [
 	"Load the #development version defined for this platform. The #development version will change over time and is not expected to be stable."
 
@@ -108,13 +108,13 @@ ConfigurationOfMagritteContactManager class >> loadDevelopment [
 	^(self project version: #development) load
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 ConfigurationOfMagritteContactManager class >> project [
 
 	^self new project
 ]
 
-{ #category : #'development support' }
+{ #category : 'development support' }
 ConfigurationOfMagritteContactManager class >> validate [
 	"Check the configuration for Errors, Critical Warnings, and Warnings (see class comment for MetacelloMCVersionValidator for more information). 
 	Errors identify specification issues that will result in unexpected behaviour when you load the configuration. 
@@ -128,7 +128,7 @@ ConfigurationOfMagritteContactManager class >> validate [
 	^ ((Smalltalk at: #MetacelloToolBox) validateConfiguration: self debug: #() recurse: false) explore
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 ConfigurationOfMagritteContactManager >> baseline10: spec [
 	<version: '1.0-baseline'>
 
@@ -152,7 +152,7 @@ ConfigurationOfMagritteContactManager >> baseline10: spec [
 
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 ConfigurationOfMagritteContactManager >> customProjectAttributes [
 	 "Edit to return a collection of any custom attributes e.g. for conditional loading: Array with: #'Condition1' with: #'Condition2.
 	For more information see: http://code.google.com/p/metacello/wiki/CustomProjectAttrributes"
@@ -160,7 +160,7 @@ ConfigurationOfMagritteContactManager >> customProjectAttributes [
 	^ #().
 ]
 
-{ #category : #'symbolic versions' }
+{ #category : 'symbolic versions' }
 ConfigurationOfMagritteContactManager >> development: spec [
 	<symbolicVersion: #'development'>
 
@@ -168,7 +168,7 @@ ConfigurationOfMagritteContactManager >> development: spec [
 
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 ConfigurationOfMagritteContactManager >> project [
 
 	^ project ifNil: [ 
@@ -181,7 +181,7 @@ ConfigurationOfMagritteContactManager >> project [
 		project ]
 ]
 
-{ #category : #'symbolic versions' }
+{ #category : 'symbolic versions' }
 ConfigurationOfMagritteContactManager >> version: spec [ 
 	<version: '1.0' imports: #('1.0-baseline')>
 	

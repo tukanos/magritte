@@ -1,10 +1,10 @@
 Class {
 	#name : #BaselineOfMagritte,
 	#superclass : #BaselineOf,
-	#category : #BaselineOfMagritte
+	#category : 'BaselineOfMagritte'
 }
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 BaselineOfMagritte >> baseline300ForGemStone: spec [
 	spec
 		for: #gemstone
@@ -28,7 +28,7 @@ BaselineOfMagritte >> baseline300ForGemStone: spec [
 				package: #'Magritte-GemStone-Seaside' with: [ spec requires: #(#'Magritte-Seaside') ] ]
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 BaselineOfMagritte >> baseline310CommonExtDeps: spec [
 	"Common external dependencies for baseline 3.1.0"
 	
@@ -41,7 +41,7 @@ BaselineOfMagritte >> baseline310CommonExtDeps: spec [
 				loads: #(#'Core') ]
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 BaselineOfMagritte >> baseline330ForPharo: spec [
 			
 	spec for: #(#'pharo7.x' #'pharo8.x' #'pharo9.x' #'pharo10.x' #'pharo11.x' #'pharo12.x' #'pharo13.x') do: [
@@ -75,7 +75,7 @@ BaselineOfMagritte >> baseline330ForPharo: spec [
 		spec group: #'default' with: #(#'Magritte-GToolkit' #'Magritte-Merging-Bloc') ].
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 BaselineOfMagritte >> baseline330ForSqueakCommon: spec [
 
 	spec for: #squeak do: [
@@ -107,7 +107,7 @@ BaselineOfMagritte >> baseline330ForSqueakCommon: spec [
 			package: #'Magritte-NotGToolkit' ]
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 BaselineOfMagritte >> baseline: spec [
 	<baseline>
 	spec
@@ -140,14 +140,14 @@ BaselineOfMagritte >> baseline: spec [
 	self baseline300ForGemStone: spec
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 BaselineOfMagritte >> customProjectAttributes [
 	^ self isGTImage
 			ifFalse: [ #(notGToolkit) ]
 			ifTrue: [ #(GToolkit) ]
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 BaselineOfMagritte >> isGTImage [
 	| packageOrg |
 	packageOrg := Smalltalk

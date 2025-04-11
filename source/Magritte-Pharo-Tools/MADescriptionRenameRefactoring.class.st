@@ -4,29 +4,29 @@ Class {
 	#category : 'Magritte-Pharo-Tools'
 }
 
-{ #category : #initialization }
+{ #category : 'initialization' }
 MADescriptionRenameRefactoring class >> forClass: class [
 	^ self new
 		class: class
 		yourself
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MADescriptionRenameRefactoring >> class: aClass [
 	class := aClass
 ]
 
-{ #category : #preconditions }
+{ #category : 'preconditions' }
 MADescriptionRenameRefactoring >> preconditions [
 	^ RBCondition true
 ]
 
-{ #category : #transforming }
+{ #category : 'transforming' }
 MADescriptionRenameRefactoring >> transform [
 	self privateTransform
 ]
 
-{ #category : #transforming }
+{ #category : 'transforming' }
 MADescriptionRenameRefactoring >> privateTransform [
 	| parseTree |
 	parseTree := class parseTreeFor: #description.

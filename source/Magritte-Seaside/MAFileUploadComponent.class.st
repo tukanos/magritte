@@ -7,38 +7,38 @@ Class {
 	#category : 'Magritte-Seaside-Components'
 }
 
-{ #category : #testing }
+{ #category : 'testing' }
 MAFileUploadComponent class >> isAbstract [
 	^ false
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 MAFileUploadComponent >> hasLabelId [
 	^ self requiresMultipartForm
 ]
 
-{ #category : #actions }
+{ #category : 'actions' }
 MAFileUploadComponent >> remove [
 	self value isNil
 		ifFalse: [ self value finalize ].
 	self value: nil
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MAFileUploadComponent >> renderEditorOn: html [
 	self requiresMultipartForm
 		ifTrue: [ self renderUploadOn: html ]
 		ifFalse: [ self renderRemoveOn: html ]
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MAFileUploadComponent >> renderRemoveOn: html [
 	html render: self value.
 	html text: ' ('; render: self value filesize asFileSize; text: ') '.
 	html submitButton on: #remove of: self
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MAFileUploadComponent >> renderUploadOn: html [
 	html fileUpload
 		id: self labelId;
@@ -47,17 +47,17 @@ MAFileUploadComponent >> renderUploadOn: html [
 		text: 'upload'
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MAFileUploadComponent >> renderViewerOn: html [
 	html render: self value
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 MAFileUploadComponent >> requiresMultipartForm [
 	^ self isReadOnly not and: [ self value isNil or: [ self value isEmpty ] ]
 ]
 
-{ #category : #actions }
+{ #category : 'actions' }
 MAFileUploadComponent >> upload: aFile [ 
 	self value: (aFile isNil ifFalse: [ 
 		self magritteDescription  kind new

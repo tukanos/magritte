@@ -1,5 +1,5 @@
 Class {
 	#name : #MADirectoryMorph,
 	#superclass : #MAMorphicDirectory,
-	#category : #'Magritte-Deprecated3dot7'
+	#category : 'Magritte-Deprecated3dot7'
 }

@@ -7,12 +7,12 @@ Class {
 	#category : 'Magritte-GToolkit-Support'
 }
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MADropdownWish >> selection [
 	^ selection
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MADropdownWish >> selection: anObject [
 	selection := anObject
 ]

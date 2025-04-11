@@ -4,20 +4,20 @@ Class {
 	#instVars : [
 		'conditions'
 	],
-	#category : #'Magritte-Model-Utility'
+	#category : 'Magritte-Model-Utility'
 }
 
-{ #category : #operators }
+{ #category : 'operators' }
 MAConjunctiveCondition >> & aCondition [
 	conditions := conditions copyWith: aCondition
 ]
 
-{ #category : #initialization }
+{ #category : 'initialization' }
 MAConjunctiveCondition >> initialize [
 	conditions := #()
 ]
 
-{ #category : #evaluating }
+{ #category : 'evaluating' }
 MAConjunctiveCondition >> value: anObject [
 	^ conditions allSatisfy: [ :each | each value: anObject ]
 ]

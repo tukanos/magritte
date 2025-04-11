@@ -4,17 +4,17 @@ Class {
 	#category : 'Magritte-Tests-Model-Description'
 }
 
-{ #category : #private }
+{ #category : 'private' }
 MAToManyScalarRelationDescriptionTest >> actualClass [
 	^ MAToManyScalarRelationDescription
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 MAToManyScalarRelationDescriptionTest >> includedInstance [
 	^ Array with: '1' with: '2'
 ]
 
-{ #category : #running }
+{ #category : 'running' }
 MAToManyScalarRelationDescriptionTest >> setUp [
 	super setUp.
 	self description

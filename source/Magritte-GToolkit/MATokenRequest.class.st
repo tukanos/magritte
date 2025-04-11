@@ -4,10 +4,10 @@ Class {
 	#instVars : [
 		'action'
 	],
-	#category : #'Magritte-GToolkit-Support'
+	#category : 'Magritte-GToolkit-Support'
 }
 
-{ #category : #'api - stream' }
+{ #category : 'api - stream' }
 MATokenRequest class >> action: aBlock [
 	
 	^ self new
@@ -15,19 +15,19 @@ MATokenRequest class >> action: aBlock [
 		yourself
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MATokenRequest >> action [
 
 	^ action
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MATokenRequest >> action: anObject [
 
 	action := anObject
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MATokenRequest >> answer: player [
 	^ self action value: player
 ]

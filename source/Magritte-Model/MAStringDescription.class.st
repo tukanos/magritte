@@ -4,30 +4,30 @@ I am a description of strings, possible values are instances of ==String==. My v
 Class {
 	#name : #MAStringDescription,
 	#superclass : #MAElementDescription,
-	#category : #'Magritte-Model-Description'
+	#category : 'Magritte-Model-Description'
 }
 
-{ #category : #'accessing-defaults' }
+{ #category : 'accessing-defaults' }
 MAStringDescription class >> defaultKind [
 	^ String
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 MAStringDescription class >> isAbstract [
 	^ false
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MAStringDescription class >> label [
 	^ 'String'
 ]
 
-{ #category : #visiting }
+{ #category : 'visiting' }
 MAStringDescription >> acceptMagritte: aVisitor [
 	aVisitor visitStringDescription: self
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 MAStringDescription >> isSortable [
 	^ true
 ]
