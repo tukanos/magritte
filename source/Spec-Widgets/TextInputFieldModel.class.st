@@ -2,7 +2,7 @@
 I handle one line of text.
 "
 Class {
-	#name : #TextInputFieldModel,
+	#name : 'TextInputFieldModel',
 	#superclass : #TextModel,
 	#instVars : [
 		'ghostText',

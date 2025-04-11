@@ -1,5 +1,5 @@
 Class {
-	#name : #MAClyAddFieldCommand,
+	#name : 'MAClyAddFieldCommand',
 	#superclass : #SycSingleClassCommand,
 	#instVars : [
 		'fieldName'

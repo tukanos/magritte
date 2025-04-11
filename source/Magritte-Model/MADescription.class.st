@@ -17,7 +17,7 @@ The selector ==#title== is the name of the accessor method used by Magritte to r
 The write-accessor is automatically deduced by adding a colon to the read-selector, in this example ==#title:==. You can specify your own accessor strategy using one of the subclasses of ==*MAAccessor*==. If you have multiple description within the same object, the ==#priority:== field is used to order them. Assign a low priority to have descriptions traversed first.
 "
 Class {
-	#name : #MADescription,
+	#name : 'MADescription',
 	#superclass : #MAObject,
 	#instVars : [
 		'accessor'

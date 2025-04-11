@@ -1,5 +1,5 @@
 Class {
-	#name : #MAOneToManyComponent,
+	#name : 'MAOneToManyComponent',
 	#superclass : #MARelationComponent,
 	#instVars : [
 		'report',

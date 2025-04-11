@@ -1,4 +1,4 @@
-Extension { #name : #GRPackage }
+Extension { #name : 'GRPackage' }
 
 { #category : '*magritte-filesystem' }
 GRPackage class >> magritteFileSystem [

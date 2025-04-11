@@ -1,5 +1,5 @@
 Class {
-	#name : #MATableComponent,
+	#name : 'MATableComponent',
 	#superclass : #MAElementComponent,
 	#instVars : [
 		'descriptionTable',

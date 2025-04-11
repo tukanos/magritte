@@ -1,4 +1,4 @@
-Extension { #name : #MATableDescription }
+Extension { #name : 'MATableDescription' }
 
 { #category : '*magritte-seaside-defaults' }
 MATableDescription class >> defaultComponentClasses [

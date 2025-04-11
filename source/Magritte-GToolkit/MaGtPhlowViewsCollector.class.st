@@ -1,5 +1,5 @@
 Class {
-	#name : #MaGtPhlowViewsCollector,
+	#name : 'MaGtPhlowViewsCollector',
 	#superclass : #GtPhlowViewsCollector,
 	#category : 'Magritte-GToolkit'
 }

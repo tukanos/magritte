@@ -1,4 +1,4 @@
-Extension { #name : #MAToOneRelationDescription }
+Extension { #name : 'MAToOneRelationDescription' }
 
 { #category : '*magritte-seaside-defaults' }
 MAToOneRelationDescription class >> defaultComponentClasses [

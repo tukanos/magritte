@@ -1,5 +1,5 @@
 Class {
-	#name : #MADescribedColumn,
+	#name : 'MADescribedColumn',
 	#superclass : #MAColumn,
 	#instVars : [
 		'description'

@@ -1,4 +1,4 @@
-Extension { #name : #Symbol }
+Extension { #name : 'Symbol' }
 
 { #category : '*magritte-model-converting' }
 Symbol >> asAccessor [

@@ -1,5 +1,5 @@
 Class {
-	#name : #MADescriptionContext,
+	#name : 'MADescriptionContext',
 	#superclass : #MABasicObject,
 	#instVars : [
 		'modelClass',

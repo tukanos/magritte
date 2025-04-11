@@ -2,7 +2,7 @@
 I represent an abstract proxy object, to be refined by my subclasses.
 "
 Class {
-	#name : #MAProxyObject,
+	#name : 'MAProxyObject',
 	#superclass : #ProtoObject,
 	#instVars : [
 		'realSubject'

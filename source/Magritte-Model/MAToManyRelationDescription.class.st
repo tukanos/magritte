@@ -2,7 +2,7 @@
 I am a description of an one-to-many relationship, possible values are instances of ==Collection==.
 "
 Class {
-	#name : #MAToManyRelationDescription,
+	#name : 'MAToManyRelationDescription',
 	#superclass : #MARelationDescription,
 	#category : 'Magritte-Model-Description'
 }

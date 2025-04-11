@@ -1,5 +1,5 @@
 Class {
-	#name : #MAStraightMementoTest,
+	#name : 'MAStraightMementoTest',
 	#superclass : #MAMementoTest,
 	#category : 'Magritte-Tests-Model-Memento'
 }

@@ -1,4 +1,4 @@
-Extension { #name : #GRPharoPlatform }
+Extension { #name : 'GRPharoPlatform' }
 
 { #category : '*magritte-deprecated' }
 GRPharoPlatform >> magritteEvaluate: aBlock onUnhandledErrorDo: errorBlock [

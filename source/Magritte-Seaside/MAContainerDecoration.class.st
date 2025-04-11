@@ -1,5 +1,5 @@
 Class {
-	#name : #MAContainerDecoration,
+	#name : 'MAContainerDecoration',
 	#superclass : #MAComponentDecoration,
 	#category : 'Magritte-Seaside-Decorations'
 }

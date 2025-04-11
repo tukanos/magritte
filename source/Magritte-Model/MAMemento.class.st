@@ -6,7 +6,7 @@ I am an abstract memento. I am a stand-in for an object, typically for reading a
 - the ==description== currently used to describe this ==model==
 "
 Class {
-	#name : #MAMemento,
+	#name : 'MAMemento',
 	#superclass : #MAObject,
 	#instVars : [
 		'model',

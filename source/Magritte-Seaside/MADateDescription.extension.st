@@ -1,4 +1,4 @@
-Extension { #name : #MADateDescription }
+Extension { #name : 'MADateDescription' }
 
 { #category : '*magritte-seaside' }
 MADateDescription class >> defaultComponentClasses [

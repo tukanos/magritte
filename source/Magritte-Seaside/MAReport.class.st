@@ -1,5 +1,5 @@
 Class {
-	#name : #MAReport,
+	#name : 'MAReport',
 	#superclass : #MAComponent,
 	#instVars : [
 		'rows',

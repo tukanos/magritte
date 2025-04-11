@@ -1,5 +1,5 @@
 Class {
-	#name : #MACommandColumn,
+	#name : 'MACommandColumn',
 	#superclass : #MAActionColumn,
 	#instVars : [
 		'commands'

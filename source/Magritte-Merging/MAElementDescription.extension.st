@@ -1,4 +1,4 @@
-Extension { #name : #MAElementDescription }
+Extension { #name : 'MAElementDescription' }
 
 { #category : '*Magritte-Merging' }
 MAElementDescription >> mergeInPlace: aBoolean [

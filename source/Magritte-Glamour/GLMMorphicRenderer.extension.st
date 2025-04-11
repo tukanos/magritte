@@ -1,4 +1,4 @@
-Extension { #name : #GLMMorphicRenderer }
+Extension { #name : 'GLMMorphicRenderer' }
 
 { #category : '*Magritte-Glamour' }
 GLMMorphicRenderer >> renderMagrittePresentation: aMagrittePresentation [ 

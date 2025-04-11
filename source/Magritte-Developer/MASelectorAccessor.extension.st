@@ -1,4 +1,4 @@
-Extension { #name : #MASelectorAccessor }
+Extension { #name : 'MASelectorAccessor' }
 
 { #category : '*Magritte-Developer-private' }
 MASelectorAccessor >> maCompile: templateString asAccessor: aSymbol forinstVarNamed: variableName in: aClass [ 

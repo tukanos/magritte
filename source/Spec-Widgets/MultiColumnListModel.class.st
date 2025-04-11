@@ -2,7 +2,7 @@
 A MultiColumnListModel is a spec model for Multi columns list
 "
 Class {
-	#name : #MultiColumnListModel,
+	#name : 'MultiColumnListModel',
 	#superclass : #ListComposableModel,
 	#category : 'Spec-Widgets'
 }

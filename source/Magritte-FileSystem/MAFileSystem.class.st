@@ -1,5 +1,5 @@
 Class {
-	#name : #MAFileSystem,
+	#name : 'MAFileSystem',
 	#superclass : #Object,
 	#category : 'Magritte-FileSystem'
 }

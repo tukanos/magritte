@@ -1,5 +1,5 @@
 Class {
-	#name : #MASingleOptionDescriptionTest,
+	#name : 'MASingleOptionDescriptionTest',
 	#superclass : #MAOptionDescriptionTest,
 	#category : 'Magritte-Tests-Model-Description'
 }

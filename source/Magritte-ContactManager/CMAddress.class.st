@@ -2,7 +2,7 @@
 A simple address for a city located in Switzerland.
 "
 Class {
-	#name : #CMAddress,
+	#name : 'CMAddress',
 	#superclass : #Object,
 	#instVars : [
 		'street',

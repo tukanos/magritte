@@ -1,5 +1,5 @@
 Class {
-	#name : #MABasicObject,
+	#name : 'MABasicObject',
 	#superclass : #GRObject,
 	#category : 'Magritte-Model-Core'
 }

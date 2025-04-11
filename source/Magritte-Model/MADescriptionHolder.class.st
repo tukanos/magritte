@@ -1,5 +1,5 @@
 Class {
-	#name : #MADescriptionHolder,
+	#name : 'MADescriptionHolder',
 	#superclass : #MAValueHolder,
 	#category : 'Magritte-Model-Utility'
 }

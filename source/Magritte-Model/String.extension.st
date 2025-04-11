@@ -1,4 +1,4 @@
-Extension { #name : #String }
+Extension { #name : 'String' }
 
 { #category : '*Magritte-Model' }
 String >> matches: aString [

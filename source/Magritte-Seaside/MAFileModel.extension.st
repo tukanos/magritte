@@ -1,4 +1,4 @@
-Extension { #name : #MAFileModel }
+Extension { #name : 'MAFileModel' }
 
 { #category : '*magritte-seaside-rendering' }
 MAFileModel >> renderOn: html [

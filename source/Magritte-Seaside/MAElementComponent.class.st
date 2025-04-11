@@ -2,7 +2,7 @@
 I provide a basic display for all subclasses of MAElementDescription (only for readonly descriptions). The object is just displayed as a string. For more complex behaviour, overried #renderViewerOn:. 
 "
 Class {
-	#name : #MAElementComponent,
+	#name : 'MAElementComponent',
 	#superclass : #MADescriptionComponent,
 	#category : 'Magritte-Seaside-Components'
 }

@@ -1,5 +1,5 @@
 Class {
-	#name : #MATokenElement,
+	#name : 'MATokenElement',
 	#superclass : #BrButton,
 	#instVars : [
 		'object',

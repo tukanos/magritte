@@ -1,5 +1,5 @@
 Class {
-	#name : #GLMMagrittePresentation,
+	#name : 'GLMMagrittePresentation',
 	#superclass : #GLMPresentation,
 	#instVars : [
 		'magritteDescription',

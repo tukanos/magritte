@@ -1,4 +1,4 @@
-Extension { #name : #MADescription }
+Extension { #name : 'MADescription' }
 
 { #category : '*Magritte-GToolkit' }
 MADescription >> blocClass [

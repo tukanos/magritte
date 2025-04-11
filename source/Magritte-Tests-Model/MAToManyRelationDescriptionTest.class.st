@@ -1,5 +1,5 @@
 Class {
-	#name : #MAToManyRelationDescriptionTest,
+	#name : 'MAToManyRelationDescriptionTest',
 	#superclass : #MARelationDescriptionTest,
 	#category : 'Magritte-Tests-Model-Description'
 }

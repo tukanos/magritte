@@ -1,4 +1,4 @@
-Extension { #name : #MAElementDescription }
+Extension { #name : 'MAElementDescription' }
 
 { #category : '*Magritte-Glamour' }
 MAElementDescription >> glmCustomizePresentation: presentation for: domainObject [

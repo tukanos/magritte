@@ -1,5 +1,5 @@
 Class {
-	#name : #MAOptionComponent,
+	#name : 'MAOptionComponent',
 	#superclass : #MAElementComponent,
 	#category : 'Magritte-Seaside-Components'
 }

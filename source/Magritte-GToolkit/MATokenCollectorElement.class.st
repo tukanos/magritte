@@ -1,5 +1,5 @@
 Class {
-	#name : #MATokenCollectorElement,
+	#name : 'MATokenCollectorElement',
 	#superclass : #MATokenSelectorElement,
 	#category : 'Magritte-GToolkit-Widgets'
 }

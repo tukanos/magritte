@@ -1,5 +1,5 @@
 Class {
-	#name : #MAMorphicMultiSelectList,
+	#name : 'MAMorphicMultiSelectList',
 	#superclass : #MAMorphicList,
 	#instVars : [
 		'selected'

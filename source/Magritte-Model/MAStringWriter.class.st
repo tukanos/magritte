@@ -2,7 +2,7 @@
 I take into account the description's specified ==undefined== string. See ${method:MAStringWriter>>#write:description:to:}$.
 "
 Class {
-	#name : #MAStringWriter,
+	#name : 'MAStringWriter',
 	#superclass : #MAWriter,
 	#category : 'Magritte-Model-Visitor'
 }

@@ -1,4 +1,4 @@
-Extension { #name : #MADescription }
+Extension { #name : 'MADescription' }
 
 { #category : '*magritte-seaside-accessing' }
 MADescription >> componentClass [

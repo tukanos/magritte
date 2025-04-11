@@ -1,1 +1,1 @@
-Package { #name : #ConfigurationOfMagritteSeaside }
+Package { #name : 'ConfigurationOfMagritteSeaside' }

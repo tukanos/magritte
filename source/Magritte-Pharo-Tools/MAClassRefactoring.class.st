@@ -1,5 +1,5 @@
 Class {
-	#name : #MAClassRefactoring,
+	#name : 'MAClassRefactoring',
 	#superclass : #RBClassRefactoring,
 	#category : 'Magritte-Pharo-Tools'
 }

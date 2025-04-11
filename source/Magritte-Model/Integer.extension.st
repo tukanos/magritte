@@ -1,4 +1,4 @@
-Extension { #name : #Integer }
+Extension { #name : 'Integer' }
 
 { #category : '*Magritte-Model' }
 Integer >> asFileSize [

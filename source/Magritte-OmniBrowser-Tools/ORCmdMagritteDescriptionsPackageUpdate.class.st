@@ -1,5 +1,5 @@
 Class {
-	#name : #ORCmdMagritteDescriptionsPackageUpdate,
+	#name : 'ORCmdMagritteDescriptionsPackageUpdate',
 	#superclass : #ORCmdRefactoring,
 	#category : 'Magritte-OmniBrowser-Tools'
 }

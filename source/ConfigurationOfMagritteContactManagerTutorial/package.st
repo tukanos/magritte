@@ -1,1 +1,1 @@
-Package { #name : #ConfigurationOfMagritteContactManagerTutorial }
+Package { #name : 'ConfigurationOfMagritteContactManagerTutorial' }

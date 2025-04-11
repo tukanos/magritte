@@ -1,5 +1,5 @@
 Class {
-	#name : #MAAccessorTest,
+	#name : 'MAAccessorTest',
 	#superclass : #MAObjectTest,
 	#instVars : [
 		'accessor',

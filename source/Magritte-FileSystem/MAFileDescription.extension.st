@@ -1,4 +1,4 @@
-Extension { #name : #MAFileDescription }
+Extension { #name : 'MAFileDescription' }
 
 { #category : '*Magritte-FileSystem' }
 MAFileDescription >> defaultDirectory [

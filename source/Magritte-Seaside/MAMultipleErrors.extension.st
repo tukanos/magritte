@@ -1,4 +1,4 @@
-Extension { #name : #MAMultipleErrors }
+Extension { #name : 'MAMultipleErrors' }
 
 { #category : '*magritte-seaside-rendering' }
 MAMultipleErrors >> renderOn: html [

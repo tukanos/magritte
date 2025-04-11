@@ -1,5 +1,5 @@
 Class {
-	#name : #MADirectoryDescription,
+	#name : 'MADirectoryDescription',
 	#superclass : #MAFileDescription,
 	#category : 'Magritte-Model-Description'
 }

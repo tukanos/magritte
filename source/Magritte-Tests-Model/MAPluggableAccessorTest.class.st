@@ -1,5 +1,5 @@
 Class {
-	#name : #MAPluggableAccessorTest,
+	#name : 'MAPluggableAccessorTest',
 	#superclass : #MAAccessorTest,
 	#category : 'Magritte-Tests-Model-Accessor'
 }

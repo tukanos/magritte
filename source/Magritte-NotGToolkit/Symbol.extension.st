@@ -1,4 +1,4 @@
-Extension { #name : #Symbol }
+Extension { #name : 'Symbol' }
 
 { #category : '*Magritte-NotGToolkit' }
 Symbol >> cull: receiverObject cull: argumentObject [ 

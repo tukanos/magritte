@@ -1,5 +1,5 @@
 Class {
-	#name : #MADescriptionPresenter,
+	#name : 'MADescriptionPresenter',
 	#superclass : #Model,
 	#traits : 'MATDescriptionPresenter',
 	#classTraits : 'MATDescriptionPresenter classTrait',

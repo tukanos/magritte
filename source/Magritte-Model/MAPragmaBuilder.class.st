@@ -5,7 +5,7 @@ I dynamically build container descriptions from instance-side methods decorated 
 # ==#magritteDescription:== for single parameter methods returning Magritte description extensions, where the pragma parameter defines the related Magritte description method. The extension method will be called after the related method to refine the description definition.
 "
 Class {
-	#name : #MAPragmaBuilder,
+	#name : 'MAPragmaBuilder',
 	#superclass : #MABasicObject,
 	#category : 'Magritte-Model-Utility'
 }

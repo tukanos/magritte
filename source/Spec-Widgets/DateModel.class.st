@@ -8,7 +8,7 @@ Usage: the simplest way is to add a DateModel in your UI, and send #date when yo
 As it is Spec-based, it can be easily adapted and composed into a larger UI.
 "
 Class {
-	#name : #DateModel,
+	#name : 'DateModel',
 	#superclass : #ComposableModel,
 	#instVars : [
 		'dateLabel',

@@ -2,7 +2,7 @@
 I am a container holding a collection of descriptions and I keep them sorted according to their priority.
 "
 Class {
-	#name : #MAPriorityContainer,
+	#name : 'MAPriorityContainer',
 	#superclass : #MAContainer,
 	#category : 'Magritte-Model-Description'
 }

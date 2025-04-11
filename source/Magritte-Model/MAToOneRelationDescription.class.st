@@ -2,7 +2,7 @@
 I am a description of an one-to-one relationship.
 "
 Class {
-	#name : #MAToOneRelationDescription,
+	#name : 'MAToOneRelationDescription',
 	#superclass : #MARelationDescription,
 	#category : 'Magritte-Model-Description'
 }

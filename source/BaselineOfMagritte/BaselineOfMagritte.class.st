@@ -1,5 +1,5 @@
 Class {
-	#name : #BaselineOfMagritte,
+	#name : 'BaselineOfMagritte',
 	#superclass : #BaselineOf,
 	#category : 'BaselineOfMagritte'
 }

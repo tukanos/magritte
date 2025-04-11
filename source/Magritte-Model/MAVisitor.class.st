@@ -8,7 +8,7 @@ In order to get from the generic #visit: to the #visitXyzDescription: message fr
 My 'visiting-description' protocol reflects the hierarchy of *MADescription* and its subclasses. Visiting a class which my subclasses don't handle specifically automatically defaults to a less-specific implementation e.g. Boolean -> Element -> Description. This code, along with the corresponding #acceptMagritte: methods, was automatically created using code on my class-side.
 "
 Class {
-	#name : #MAVisitor,
+	#name : 'MAVisitor',
 	#superclass : #MABasicObject,
 	#category : 'Magritte-Model-Visitor'
 }

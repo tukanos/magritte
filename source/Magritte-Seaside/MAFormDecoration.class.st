@@ -2,7 +2,7 @@
 I surround the owning component with a XHTML form element and render the form buttons.
 "
 Class {
-	#name : #MAFormDecoration,
+	#name : 'MAFormDecoration',
 	#superclass : #MAContainerDecoration,
 	#instVars : [
 		'buttons'

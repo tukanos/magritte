@@ -1,5 +1,5 @@
 Class {
-	#name : #MAMorphicCheckbox,
+	#name : 'MAMorphicCheckbox',
 	#superclass : #MAMorphicElement,
 	#category : 'Magritte-Morph-Model'
 }

@@ -2,7 +2,7 @@
 I am a description of a password string, possible values are instances of ==String==. My visual representation could be a password field, where there are stars printed instead of the characters the user enters.
 "
 Class {
-	#name : #MAPasswordDescription,
+	#name : 'MAPasswordDescription',
 	#superclass : #MAStringDescription,
 	#category : 'Magritte-Model-Description'
 }

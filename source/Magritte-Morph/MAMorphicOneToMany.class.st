@@ -1,5 +1,5 @@
 Class {
-	#name : #MAMorphicOneToMany,
+	#name : 'MAMorphicOneToMany',
 	#superclass : #MAMorphicRelation,
 	#category : 'Magritte-Morph-Model'
 }

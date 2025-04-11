@@ -1,5 +1,5 @@
 Class {
-	#name : #MASymbolDescriptionTest,
+	#name : 'MASymbolDescriptionTest',
 	#superclass : #MAStringDescriptionTest,
 	#category : 'Magritte-Tests-Model-Description'
 }

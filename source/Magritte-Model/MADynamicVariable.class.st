@@ -1,5 +1,5 @@
 Class {
-	#name : #MADynamicVariable,
+	#name : 'MADynamicVariable',
 	#superclass : #GRNotification,
 	#category : 'Magritte-Model-Utility'
 }

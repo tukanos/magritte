@@ -2,7 +2,7 @@
 A MorphWrapper is used to wrap a morph with a layout in the goal to be easily added to another morph
 "
 Class {
-	#name : #MorphWrapper,
+	#name : 'MorphWrapper',
 	#superclass : #Object,
 	#instVars : [
 		'layout',

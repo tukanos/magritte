@@ -1,4 +1,4 @@
-Extension { #name : #WAPresenter }
+Extension { #name : 'WAPresenter' }
 
 { #category : '*magritte-seaside' }
 WAPresenter >> requiresMultipartForm [

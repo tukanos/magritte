@@ -2,7 +2,7 @@
 I represent a generic Magritte error.
 "
 Class {
-	#name : #MAError,
+	#name : 'MAError',
 	#superclass : #GRError,
 	#category : 'Magritte-Model-Exception'
 }

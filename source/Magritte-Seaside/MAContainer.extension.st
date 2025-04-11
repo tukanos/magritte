@@ -1,4 +1,4 @@
-Extension { #name : #MAContainer }
+Extension { #name : 'MAContainer' }
 
 { #category : '*magritte-seaside-converting' }
 MAContainer >> asComponentOn: anObject [

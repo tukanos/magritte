@@ -15,7 +15,7 @@ The files are currently stored using the following scheme:
 #This is the original file-name. Subclasses might want to store other cached versions of the same file there, for example resized images, etc.
 "
 Class {
-	#name : #MAExternalFileModel,
+	#name : 'MAExternalFileModel',
 	#superclass : #MAFileModel,
 	#instVars : [
 		'location'

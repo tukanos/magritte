@@ -1,5 +1,5 @@
 Class {
-	#name : #MACondition,
+	#name : 'MACondition',
 	#superclass : #MAObject,
 	#category : 'Magritte-Model-Utility'
 }

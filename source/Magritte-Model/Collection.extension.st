@@ -1,4 +1,4 @@
-Extension { #name : #Collection }
+Extension { #name : 'Collection' }
 
 { #category : '*magritte-model' }
 Collection >> asMultilineString [

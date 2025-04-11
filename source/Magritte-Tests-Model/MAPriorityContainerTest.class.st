@@ -1,5 +1,5 @@
 Class {
-	#name : #MAPriorityContainerTest,
+	#name : 'MAPriorityContainerTest',
 	#superclass : #MAContainerTest,
 	#category : 'Magritte-Tests-Model-Description'
 }

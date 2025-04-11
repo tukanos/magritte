@@ -1,5 +1,5 @@
 Class {
-	#name : #MABlocContainerPresenter,
+	#name : 'MABlocContainerPresenter',
 	#superclass : #MADescriptionPresenter,
 	#traits : 'MATContainerPresenter',
 	#classTraits : 'MATContainerPresenter classTrait',

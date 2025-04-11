@@ -1,4 +1,4 @@
-Extension { #name : #NumberParser }
+Extension { #name : 'NumberParser' }
 
 { #category : '*Magritte-Model' }
 NumberParser class >> isValidNumber: aStringOrStream [

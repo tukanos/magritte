@@ -1,5 +1,5 @@
 Trait {
-	#name : #MATDescriptionPresenter,
+	#name : 'MATDescriptionPresenter',
 	#instVars : [
 		'memento',
 		'description',

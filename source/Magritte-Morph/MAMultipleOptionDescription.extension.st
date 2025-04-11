@@ -1,4 +1,4 @@
-Extension { #name : #MAMultipleOptionDescription }
+Extension { #name : 'MAMultipleOptionDescription' }
 
 { #category : '*Magritte-Morph' }
 MAMultipleOptionDescription class >> defaultMorphicClasses [

@@ -2,7 +2,7 @@
 A simple modle of a person.
 "
 Class {
-	#name : #CMPerson,
+	#name : 'CMPerson',
 	#superclass : #Object,
 	#instVars : [
 		'title',

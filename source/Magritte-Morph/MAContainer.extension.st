@@ -1,4 +1,4 @@
-Extension { #name : #MAContainer }
+Extension { #name : 'MAContainer' }
 
 { #category : '*magritte-morph-converting' }
 MAContainer >> asMorphOn: anObject [

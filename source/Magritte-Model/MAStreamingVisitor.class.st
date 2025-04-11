@@ -1,5 +1,5 @@
 Class {
-	#name : #MAStreamingVisitor,
+	#name : 'MAStreamingVisitor',
 	#superclass : #MAVisitor,
 	#instVars : [
 		'stream',

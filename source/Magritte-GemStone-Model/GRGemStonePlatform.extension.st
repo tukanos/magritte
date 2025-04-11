@@ -1,4 +1,4 @@
-Extension { #name : #GRGemStonePlatform }
+Extension { #name : 'GRGemStonePlatform' }
 
 { #category : '*magritte-gemstone-model' }
 GRGemStonePlatform >> magritteAllSubInstancesOf: aClass do: aBlock [

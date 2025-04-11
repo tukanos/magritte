@@ -1,4 +1,4 @@
-Extension { #name : #CompiledMethod }
+Extension { #name : 'CompiledMethod' }
 
 { #category : '*Magritte-GT' }
 CompiledMethod >> maIsDescription [

@@ -1,5 +1,5 @@
 Class {
-	#name : #BaselineOfMagritteForGToolkit,
+	#name : 'BaselineOfMagritteForGToolkit',
 	#superclass : #BaselineOf,
 	#category : 'BaselineOfMagritteForGToolkit'
 }

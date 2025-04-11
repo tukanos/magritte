@@ -1,5 +1,5 @@
 Class {
-	#name : #ClyTagInspectorExtensionCommand,
+	#name : 'ClyTagInspectorExtensionCommand',
 	#superclass : #SycMethodCommand,
 	#category : 'Magritte-GT'
 }

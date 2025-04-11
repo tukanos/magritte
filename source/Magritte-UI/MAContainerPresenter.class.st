@@ -1,5 +1,5 @@
 Class {
-	#name : #MAContainerPresenter,
+	#name : 'MAContainerPresenter',
 	#superclass : #MADescriptionPresenter,
 	#traits : 'MATContainerPresenter @ {#superValidate->#validate}',
 	#classTraits : 'MATContainerPresenter classTrait',

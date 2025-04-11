@@ -1,4 +1,4 @@
-Extension { #name : #MorphicUIManager }
+Extension { #name : 'MorphicUIManager' }
 
 { #category : '*Magritte-Morph' }
 MorphicUIManager >> chooseFile: windowTitle in: directoryString [

@@ -1,5 +1,5 @@
 Class {
-	#name : #MAChainAccessorTest,
+	#name : 'MAChainAccessorTest',
 	#superclass : #MADelegatorAccessorTest,
 	#category : 'Magritte-Tests-Model-Accessor'
 }

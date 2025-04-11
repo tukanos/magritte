@@ -15,7 +15,7 @@ The files are currently stored using the following scheme:
 4. This is the original filename. Subclasses might want to store other cached versions of the same file there, for example resized images, etc.
 "
 Class {
-	#name : #MAFileDatabase,
+	#name : 'MAFileDatabase',
 	#superclass : #Object,
 	#classInstVars : [
 		'baseDirectory',

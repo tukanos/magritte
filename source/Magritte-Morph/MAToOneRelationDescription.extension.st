@@ -1,4 +1,4 @@
-Extension { #name : #MAToOneRelationDescription }
+Extension { #name : 'MAToOneRelationDescription' }
 
 { #category : '*Magritte-Morph' }
 MAToOneRelationDescription class >> defaultMorphicClasses [

@@ -8,7 +8,7 @@ b method: (ButtonModel>>#state:).
 b method: nil
 "
 Class {
-	#name : #MethodToolbar,
+	#name : 'MethodToolbar',
 	#superclass : #ComposableModel,
 	#instVars : [
 		'methodHolder',

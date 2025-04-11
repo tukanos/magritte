@@ -2,7 +2,7 @@
 I am a memento that forwards read- and write-access directly to the model. I can mostly be replaced with the model itself.
 "
 Class {
-	#name : #MAStraightMemento,
+	#name : 'MAStraightMemento',
 	#superclass : #MAMemento,
 	#category : 'Magritte-Model-Memento'
 }

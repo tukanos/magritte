@@ -1,5 +1,5 @@
 Class {
-	#name : #MAValueHolder,
+	#name : 'MAValueHolder',
 	#superclass : #MABasicObject,
 	#instVars : [
 		'contents'

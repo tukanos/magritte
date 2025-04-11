@@ -1,4 +1,4 @@
-Extension { #name : #GtPhlowProtoView }
+Extension { #name : 'GtPhlowProtoView' }
 
 { #category : '*Magritte-GToolkit' }
 GtPhlowProtoView >> maColumnedListOf: aClassOrContainer [

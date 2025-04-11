@@ -1,5 +1,5 @@
 Class {
-	#name : #MAExtensionsTest,
+	#name : 'MAExtensionsTest',
 	#superclass : #TestCase,
 	#category : 'Magritte-Tests-Model-Utility'
 }

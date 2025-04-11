@@ -1,5 +1,5 @@
 Class {
-	#name : #MAComponentRenderer,
+	#name : 'MAComponentRenderer',
 	#superclass : #MAVisitor,
 	#instVars : [
 		'component',

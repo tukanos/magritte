@@ -2,7 +2,7 @@
 (ConfigurationOfMagritte3 project version: #stable) load
 "
 Class {
-	#name : #ConfigurationOfMagritte3,
+	#name : 'ConfigurationOfMagritte3',
 	#superclass : #Object,
 	#instVars : [
 		'project'

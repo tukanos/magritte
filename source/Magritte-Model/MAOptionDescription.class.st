@@ -19,7 +19,7 @@ Possible fixes might be:
 - have the ==options== getter return what's currently returned by ==allOptions==
 "
 Class {
-	#name : #MAOptionDescription,
+	#name : 'MAOptionDescription',
 	#superclass : #MAReferenceDescription,
 	#instVars : [
 		'options'

@@ -1,4 +1,4 @@
-Extension { #name : #MAToManyScalarRelationDescription }
+Extension { #name : 'MAToManyScalarRelationDescription' }
 
 { #category : '*magritte-seaside-accessing-defaults' }
 MAToManyScalarRelationDescription class >> defaultComponentClasses [

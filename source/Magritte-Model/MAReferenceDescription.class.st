@@ -50,7 +50,7 @@ From *a 2006 thread>http://forum.world.st/MA-labaled-options-tp116188.html`*, se
 1. *Lukas on customizing references via the Magritte ML>http://forum.world.st/MAToOneRelationDescription-dispaly-data-tp117214p117218.html*
 "
 Class {
-	#name : #MAReferenceDescription,
+	#name : 'MAReferenceDescription',
 	#superclass : #MAElementDescription,
 	#instVars : [
 		'reference'

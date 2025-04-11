@@ -1,5 +1,5 @@
 Class {
-	#name : #MAIndexedCommandColumn,
+	#name : 'MAIndexedCommandColumn',
 	#superclass : #MACommandColumn,
 	#category : 'Magritte-Seaside-Report'
 }

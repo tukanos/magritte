@@ -1,5 +1,5 @@
 Class {
-	#name : #MADeveloperMenus,
+	#name : 'MADeveloperMenus',
 	#superclass : #Object,
 	#category : 'Magritte-Developer'
 }

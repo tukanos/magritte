@@ -2,7 +2,7 @@
 I am a generic validation error. I reference the description that caused the validation error.
 "
 Class {
-	#name : #MAValidationError,
+	#name : 'MAValidationError',
 	#superclass : #MAError,
 	#category : 'Magritte-Model-Exception'
 }

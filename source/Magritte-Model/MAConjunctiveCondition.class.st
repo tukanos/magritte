@@ -1,5 +1,5 @@
 Class {
-	#name : #MAConjunctiveCondition,
+	#name : 'MAConjunctiveCondition',
 	#superclass : #MACondition,
 	#instVars : [
 		'conditions'

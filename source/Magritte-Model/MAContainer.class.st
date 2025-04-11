@@ -4,7 +4,7 @@ I am a container holding a collection of descriptions, all instances of subclass
 I fully support the collection protocol: descriptions can be added and removed. Moreover I implement most enumeration methods, so that users are able to iterate (==do:==), filter (==select:==, ==reject:==), transform (==collect:==), extract (==detect:==, ==detect:ifNone:==), and test (==allSatisfy:==, ==anySatisfy:==, ==noneSatisfy:==) my elements.
 "
 Class {
-	#name : #MAContainer,
+	#name : 'MAContainer',
 	#superclass : #MADescription,
 	#instVars : [
 		'children'

@@ -1,4 +1,4 @@
-Extension { #name : #MARelationDescription }
+Extension { #name : 'MARelationDescription' }
 
 { #category : '*Magritte-Morph' }
 MARelationDescription >> descriptionClassesWithMorphic: description [

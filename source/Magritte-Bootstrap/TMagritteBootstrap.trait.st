@@ -1,5 +1,5 @@
 Trait {
-	#name : #TMagritteBootstrap,
+	#name : 'TMagritteBootstrap',
 	#category : 'Magritte-Bootstrap'
 }
 

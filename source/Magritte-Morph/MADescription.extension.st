@@ -1,4 +1,4 @@
-Extension { #name : #MADescription }
+Extension { #name : 'MADescription' }
 
 { #category : '*Magritte-Morph' }
 MADescription class >> defaultMorphColor [

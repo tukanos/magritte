@@ -1,5 +1,5 @@
 Class {
-	#name : #MAClassDescriptionTest,
+	#name : 'MAClassDescriptionTest',
 	#superclass : #MAElementDescriptionTest,
 	#category : 'Magritte-Tests-Model-Description'
 }

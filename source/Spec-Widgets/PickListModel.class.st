@@ -2,7 +2,7 @@
 A PickList is a tick list done using spec.
 "
 Class {
-	#name : #PickListModel,
+	#name : 'PickListModel',
 	#superclass : #ComposableModel,
 	#instVars : [
 		'defaultValueHolder',

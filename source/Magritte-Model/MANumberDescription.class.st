@@ -2,7 +2,7 @@
 I am a description of numbers, possible values are instances of ==Number== and all its subclasses, including ==Integer== and ==Float==. My visual representation could be a number input-box or even a slider-control.
 "
 Class {
-	#name : #MANumberDescription,
+	#name : 'MANumberDescription',
 	#superclass : #MAMagnitudeDescription,
 	#category : 'Magritte-Model-Description'
 }

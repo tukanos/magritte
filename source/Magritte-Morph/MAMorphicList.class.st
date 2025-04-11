@@ -1,5 +1,5 @@
 Class {
-	#name : #MAMorphicList,
+	#name : 'MAMorphicList',
 	#superclass : #MAMorphicElement,
 	#category : 'Magritte-Morph-Model'
 }

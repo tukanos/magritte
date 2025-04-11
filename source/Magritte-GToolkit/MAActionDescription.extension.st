@@ -1,4 +1,4 @@
-Extension { #name : #MAActionDescription }
+Extension { #name : 'MAActionDescription' }
 
 { #category : '*Magritte-GToolkit' }
 MAActionDescription >> gtAction: aValuable [

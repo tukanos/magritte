@@ -1,5 +1,5 @@
 Class {
-	#name : #MABlockDescription,
+	#name : 'MABlockDescription',
 	#superclass : #MAElementDescription,
 	#category : 'Magritte-Model-Description'
 }

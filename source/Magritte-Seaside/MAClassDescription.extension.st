@@ -1,4 +1,4 @@
-Extension { #name : #MAClassDescription }
+Extension { #name : 'MAClassDescription' }
 
 { #category : '*magritte-seaside-accessing-defaults' }
 MAClassDescription class >> defaultComponentClasses [

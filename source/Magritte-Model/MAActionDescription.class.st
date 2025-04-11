@@ -1,5 +1,5 @@
 Class {
-	#name : #MAActionDescription,
+	#name : 'MAActionDescription',
 	#superclass : #MAObject,
 	#instVars : [
 		'enableBlock',
