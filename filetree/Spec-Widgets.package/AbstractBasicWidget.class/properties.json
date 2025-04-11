@@ -1,0 +1,17 @@
+{
+	"category" : "Spec-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"helpHolder",
+		"borderWidth",
+		"borderColor",
+		"enabledHolder" ],
+	"name" : "AbstractBasicWidget",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

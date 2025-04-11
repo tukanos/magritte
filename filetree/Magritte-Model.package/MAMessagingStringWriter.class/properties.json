@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Model-Visitor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"messageSend" ],
+	"name" : "MAMessagingStringWriter",
+	"pools" : [
+		 ],
+	"super" : "MAStringWriter",
+	"type" : "normal" }

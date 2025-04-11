@@ -1,0 +1,15 @@
+{
+	"category" : "Magritte-Seaside-Components",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"report",
+		"commandColumn" ],
+	"name" : "MAOneToManyComponent",
+	"pools" : [
+		 ],
+	"super" : "MARelationComponent",
+	"type" : "normal" }

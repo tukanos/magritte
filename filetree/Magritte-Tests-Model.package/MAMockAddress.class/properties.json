@@ -1,0 +1,18 @@
+{
+	"category" : "Magritte-Tests-Model-Mocks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"place",
+		"street",
+		"plz",
+		"plzType",
+		"occupants" ],
+	"name" : "MAMockAddress",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

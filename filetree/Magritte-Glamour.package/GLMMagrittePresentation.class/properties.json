@@ -1,0 +1,15 @@
+{
+	"category" : "Magritte-Glamour",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"magritteDescription",
+		"answerBlock" ],
+	"name" : "GLMMagrittePresentation",
+	"pools" : [
+		 ],
+	"super" : "GLMPresentation",
+	"type" : "normal" }

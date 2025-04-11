@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-GToolkit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MaGtPhlowViewsCollector",
+	"pools" : [
+		 ],
+	"super" : "GtPhlowViewsCollector",
+	"type" : "normal" }

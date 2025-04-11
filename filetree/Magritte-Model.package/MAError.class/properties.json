@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Model-Exception",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MAError",
+	"pools" : [
+		 ],
+	"super" : "GRError",
+	"type" : "normal" }

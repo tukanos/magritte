@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-GToolkit-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selection" ],
+	"name" : "MADropdownWish",
+	"pools" : [
+		 ],
+	"super" : "BrWish",
+	"type" : "normal" }

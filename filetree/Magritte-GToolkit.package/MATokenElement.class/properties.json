@@ -1,0 +1,16 @@
+{
+	"category" : "Magritte-GToolkit-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"object",
+		"removeAction",
+		"contextMenuActions" ],
+	"name" : "MATokenElement",
+	"pools" : [
+		 ],
+	"super" : "BrButton",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-GT",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ClyTagInspectorExtensionCommand",
+	"pools" : [
+		 ],
+	"super" : "SycMethodCommand",
+	"type" : "normal" }

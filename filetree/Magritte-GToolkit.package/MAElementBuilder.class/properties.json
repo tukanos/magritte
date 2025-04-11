@@ -1,0 +1,21 @@
+{
+	"category" : "Magritte-GToolkit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"object",
+		"element",
+		"form",
+		"presenter",
+		"buttonSelectors",
+		"objectDescription",
+		"completionControllerClass",
+		"completionStrategy" ],
+	"name" : "MAElementBuilder",
+	"pools" : [
+		 ],
+	"super" : "MAVisitor",
+	"type" : "normal" }

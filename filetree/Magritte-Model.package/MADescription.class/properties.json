@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Model-Description",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"accessor" ],
+	"name" : "MADescription",
+	"pools" : [
+		 ],
+	"super" : "MAObject",
+	"type" : "normal" }

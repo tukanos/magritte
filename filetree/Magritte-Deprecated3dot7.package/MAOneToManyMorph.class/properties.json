@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Deprecated3dot7",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MAOneToManyMorph",
+	"pools" : [
+		 ],
+	"super" : "MAMorphicOneToMany",
+	"type" : "normal" }

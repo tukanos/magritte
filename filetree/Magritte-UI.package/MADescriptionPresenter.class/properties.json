@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"view" ],
+	"name" : "MADescriptionPresenter",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

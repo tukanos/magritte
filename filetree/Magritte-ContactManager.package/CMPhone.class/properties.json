@@ -1,0 +1,15 @@
+{
+	"category" : "Magritte-ContactManager",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"kind",
+		"number" ],
+	"name" : "CMPhone",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

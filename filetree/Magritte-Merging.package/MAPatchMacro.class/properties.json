@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Merging",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"operations" ],
+	"name" : "MAPatchMacro",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

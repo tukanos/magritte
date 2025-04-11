@@ -1,0 +1,16 @@
+{
+	"category" : "Magritte-GToolkit-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"items",
+		"selection",
+		"itemDescription" ],
+	"name" : "MADropdownElement",
+	"pools" : [
+		 ],
+	"super" : "BrButton",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Deprecated3dot7-Manifest",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ManifestMagritteDeprecateddot",
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }
