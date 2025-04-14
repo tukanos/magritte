@@ -1,1 +1,1 @@
-Package { #name : #'Magritte-OmniBrowser-Tools' }
+Package { #name : 'Magritte-OmniBrowser-Tools' }
