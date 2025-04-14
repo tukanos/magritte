@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Model-Description",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MAPriorityContainer",
+	"pools" : [
+		 ],
+	"super" : "MAContainer",
+	"type" : "normal" }

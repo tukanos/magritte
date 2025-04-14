@@ -1,0 +1,17 @@
+{
+	"category" : "Magritte-Model-Builder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model",
+		"target",
+		"priority",
+		"builtDescription" ],
+	"name" : "MADescriptionBuilder",
+	"pools" : [
+		 ],
+	"super" : "MAVisitor",
+	"type" : "normal" }

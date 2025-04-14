@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Model-Accessor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MAPropertyAccessor",
+	"pools" : [
+		 ],
+	"super" : "MADictionaryAccessor",
+	"type" : "normal" }

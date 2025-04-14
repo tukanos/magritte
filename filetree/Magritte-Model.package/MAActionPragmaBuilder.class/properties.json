@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Model-Utility",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MAActionPragmaBuilder",
+	"pools" : [
+		 ],
+	"super" : "MAPragmaBuilder",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+When you have a "to-many" relationship, I describe the flattened collection of its items - something like {{gtMethod:Collection>>#flatCollect:}} meets {{gtClass:MAChainAccessor}}. Here's a usage example {{gtExample:MACompositeElementBuilder class>>#example}}:

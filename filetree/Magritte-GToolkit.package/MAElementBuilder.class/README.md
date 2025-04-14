@@ -1,0 +1,5 @@
+I create a Bloc element representing a Magritte form. By default, I use my model ${method:MAElementBuilder>>#object}$'s Magritte Description, but you can pass any to ${method:MAElementBuilder>>#visit:}$.
+!Implementation Note
+Unlike the Morphic implementation, which has a presenter class per description type, I take advantage of Magritte's built-in visitor capabilities. This allowed us to avoid about 18 classes, many of which had only a few methods. We will see if this approach holds up as the implementation is fleshed out and used in the real world. We ''did'' implement ${class:MABlocContainerPresenter}$ because it represents the model object and:
+- provides a nice point for inspection/debugging. To access from my built element: ==anElement userData at: #magrittePresenter==
+- serves as the reciever for form actions like ${method:MABlocContainerPresenter>>#save|label='save'}$.

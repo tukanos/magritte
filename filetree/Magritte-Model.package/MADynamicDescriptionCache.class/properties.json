@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Model-Utility",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MADynamicDescriptionCache",
+	"pools" : [
+		 ],
+	"super" : "MADynamicVariable",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Spec-Widgets-PolyWidgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"okButton",
+		"okAction" ],
+	"name" : "OkToolbar",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

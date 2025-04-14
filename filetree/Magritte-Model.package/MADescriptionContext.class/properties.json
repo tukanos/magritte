@@ -1,0 +1,15 @@
+{
+	"category" : "Magritte-Model-Utility",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"modelClass",
+		"methodSelector" ],
+	"name" : "MADescriptionContext",
+	"pools" : [
+		 ],
+	"super" : "MABasicObject",
+	"type" : "normal" }

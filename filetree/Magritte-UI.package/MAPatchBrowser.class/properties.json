@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MAPatchBrowser",
+	"pools" : [
+		 ],
+	"super" : "SpPresenter",
+	"type" : "normal" }

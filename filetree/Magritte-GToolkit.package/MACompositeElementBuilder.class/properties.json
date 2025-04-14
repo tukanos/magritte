@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-GToolkit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MACompositeElementBuilder",
+	"pools" : [
+		 ],
+	"super" : "MAElementBuilder",
+	"type" : "normal" }

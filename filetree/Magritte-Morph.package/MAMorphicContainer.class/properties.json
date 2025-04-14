@@ -1,0 +1,15 @@
+{
+	"category" : "Magritte-Morph-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"children",
+		"answerBlock" ],
+	"name" : "MAMorphicContainer",
+	"pools" : [
+		 ],
+	"super" : "MAMorphicDescription",
+	"type" : "normal" }

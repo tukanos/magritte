@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-GToolkit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MAGtInputFieldAptitude",
+	"pools" : [
+		 ],
+	"super" : "BrGlamorousInputFieldSpacingAptitude",
+	"type" : "normal" }

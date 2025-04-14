@@ -1,0 +1,15 @@
+{
+	"category" : "Magritte-Model-Models",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"magritteDescription",
+		"values" ],
+	"name" : "MAAdaptiveModel",
+	"pools" : [
+		 ],
+	"super" : "MABasicObject",
+	"type" : "normal" }

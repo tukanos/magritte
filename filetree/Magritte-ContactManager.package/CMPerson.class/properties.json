@@ -1,0 +1,23 @@
+{
+	"category" : "Magritte-ContactManager",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"firstName",
+		"lastName",
+		"email",
+		"homeAddress",
+		"officeAddress",
+		"picture",
+		"birthday",
+		"phones",
+		"password" ],
+	"name" : "CMPerson",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

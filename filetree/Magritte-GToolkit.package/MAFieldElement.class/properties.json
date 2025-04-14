@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-GToolkit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MAFieldElement",
+	"pools" : [
+		 ],
+	"super" : "BrVerticalPane",
+	"type" : "normal" }

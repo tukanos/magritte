@@ -1,0 +1,15 @@
+{
+	"category" : "Magritte-FileSystem",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"location",
+		"directory" ],
+	"name" : "MAExternalFileModel",
+	"pools" : [
+		 ],
+	"super" : "MAFileModel",
+	"type" : "normal" }

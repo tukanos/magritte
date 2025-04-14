@@ -1,0 +1,16 @@
+{
+	"category" : "Magritte-Merging-Bloc",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model",
+		"expander",
+		"header" ],
+	"name" : "MAPatchMacroElement",
+	"pools" : [
+		 ],
+	"super" : "BlElement",
+	"type" : "normal" }
