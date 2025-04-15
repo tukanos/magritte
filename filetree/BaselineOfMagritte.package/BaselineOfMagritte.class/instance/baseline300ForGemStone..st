@@ -4,7 +4,7 @@ baseline300ForGemStone: spec
 		for: #gemstone
 		do: [ 
 			spec
-				baseline: 'Metacello'
+				baseline: #'Metacello'
 				with: [ 
 					spec
 						loads: #('Core');
