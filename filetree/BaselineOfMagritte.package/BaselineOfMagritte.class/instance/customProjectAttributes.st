@@ -1,5 +1,9 @@
 accessing
 customProjectAttributes
-		^ self isGTImage
+	Smalltalk globals isDictionary
+		ifTrue: [ "Pharo"
+			^ self isGTImage
 				ifFalse: [ #(notGToolkit) ]
-				ifTrue: [ #(GToolkit) ]
+				ifTrue: [ #(GToolkit) ] ]
+		ifFalse: [ "GemStone"
+			^ #() ]
