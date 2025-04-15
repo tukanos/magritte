@@ -85,6 +85,8 @@ BaselineOfMagritte >> baseline330ForSqueakCommon: spec [
 			group: #'SqueakTools' with: #(#'Magritte-OmniBrowser-Tools') ].
 
 	spec for: #squeakCommon do: [
+		spec author: 'SeanDeNigris'.
+		spec timestamp: '2015-04-05'.
 		spec
 			package: #'Magritte-Bootstrap' with: [ spec requires: #(#'Magritte-Model') ];
 			package: #'Magritte-Deprecated3dot7' with: [ spec requires: #(#'Magritte-Model' #'Magritte-Morph') ];
@@ -113,9 +115,6 @@ BaselineOfMagritte >> baseline: spec [
 	spec
 		for: #common
 		do: [ 
-			spec author: 'SeanDeNigris'.
-			spec timestamp: '2015-04-05'.
-			spec description: 'For pharo4.x, add Magritte-GT package and add it to the default group'.
 			self baseline310CommonExtDeps: spec.
 			spec
 				package: #'Magritte-Model' with: [ 

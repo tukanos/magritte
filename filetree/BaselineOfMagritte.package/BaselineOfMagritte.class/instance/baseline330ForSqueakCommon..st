@@ -8,6 +8,8 @@ baseline330ForSqueakCommon: spec
 			group: #'SqueakTools' with: #(#'Magritte-OmniBrowser-Tools') ].
 
 	spec for: #squeakCommon do: [
+		pec author: 'SeanDeNigris'.
+		spec timestamp: '2015-04-05'.
 		spec
 			package: #'Magritte-Bootstrap' with: [ spec requires: #(#'Magritte-Model') ];
 			package: #'Magritte-Deprecated3dot7' with: [ spec requires: #(#'Magritte-Model' #'Magritte-Morph') ];

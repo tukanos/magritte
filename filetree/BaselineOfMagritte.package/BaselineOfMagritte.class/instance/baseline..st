@@ -3,10 +3,7 @@ baseline: spec
 	<baseline>
 	spec
 		for: #common
-		do: [ 
-			spec author: 'SeanDeNigris'.
-			spec timestamp: '2015-04-05'.
-			spec description: 'For pharo4.x, add Magritte-GT package and add it to the default group'.
+		do: [
 			self baseline310CommonExtDeps: spec.
 			spec
 				package: #'Magritte-Model' with: [ 
