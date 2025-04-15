@@ -31,7 +31,7 @@ BaselineOfMagritte >> baseline300ForGemStone: spec [
 { #category : 'baselines' }
 BaselineOfMagritte >> baseline310CommonExtDeps: spec [
 	"Common external dependencies for baseline 3.1.0"
-	
+
 	spec
 		baseline: #'Grease' with: [ spec repository: 'github://SeasideSt/Grease:v1.18.x/repository' ];	
 		baseline: #'Seaside3'
@@ -43,7 +43,7 @@ BaselineOfMagritte >> baseline310CommonExtDeps: spec [
 
 { #category : 'baselines' }
 BaselineOfMagritte >> baseline330ForPharo: spec [
-			
+
 	spec for: #(#'pharo7.x' #'pharo8.x' #'pharo9.x' #'pharo10.x' #'pharo11.x' #'pharo12.x' #'pharo13.x') do: [
 		spec 
 			baseline: #'PharoEnhancements' with: [ spec repository: 'github://seandenigris/Pharo-Enhancements' ].
@@ -142,18 +142,18 @@ BaselineOfMagritte >> baseline: spec [
 
 { #category : 'accessing' }
 BaselineOfMagritte >> customProjectAttributes [
-	^ self isGTImage
-			ifFalse: [ #(notGToolkit) ]
-			ifTrue: [ #(GToolkit) ]
+	spec for: #(#'pharo7.x' #'pharo8.x' #'pharo9.x' #'pharo10.x' #'pharo11.x' #'pharo12.x' #'pharo13.x') do: [
+		^ self isGTImage
+				ifFalse: [ #(notGToolkit) ]
+				ifTrue: [ #(GToolkit) ]
+	]
 ]
 
 { #category : 'testing' }
 BaselineOfMagritte >> isGTImage [
 	| packageOrg |
-	packageOrg := Smalltalk
-		at: #'RPackageOrganizer'
-			ifPresent: [ :cls | cls default ]
-			ifAbsent: [ self packageOrganizer ].
-	^ packageOrg packageNames anySatisfy: [ :pn | pn beginsWith: 'Lepiter-' ].
+	packageOrg := (Smalltalk at: #'RPackageOrganizer' ifAbsent: [ nil ])
+		ifNil: [ ^ self packageOrganizer packageNames anySatisfy: [ :pn | pn beginsWith: 'Lepiter-' ] ]
+		ifNotNil: [ ^ RPackageOrganizer default packageNams anySatisfy: [ :pn | pn beginsWith: 'Lepiter-' ] ]
 	"Implementation note: used to check for GToolkit prefix, but P7 has a GToolkit-Examples package. Lepiter, OTOH, could only be loaded in a GT image"
 ]
