@@ -21,6 +21,13 @@ baseline: spec
 				group: #'Tests' with: #('Magritte-Tests-Files-Model');
 				group: #'Seaside' with: #('Magritte-Seaside');
 				group: #'Deprecated' with: #('Magritte-Deprecated') ].
-	self baseline330ForPharo: spec.
-	self baseline330ForSqueakCommon: spec.
-	self baseline300ForGemStone: spec
+
+	spec
+		for: #(#'pharo7.x' #'pharo8.x' #'pharo9.x' #'pharo10.x' #'pharo11.x' #'pharo12.x' #'pharo13.x') 
+		do: [ self baseline330ForPharo: spec ].
+	spec
+		for: #'squeak'
+		do: [ self baseline330ForSqueakCommon: spec ].
+	spec
+		for: #'gemstone'
+		do: [ self baseline300ForGemStone: spec ]
