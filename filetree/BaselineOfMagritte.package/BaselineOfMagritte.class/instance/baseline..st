@@ -21,10 +21,10 @@ baseline: spec
 				package: 'Magritte-Merging' with: [ spec requires: #('Magritte-Model') ];
 				package: 'Magritte-Money' with: [ spec requires: #('Magritte-Model') ].
 			spec
-				group: #'Core' with: #('Magritte-Model');
-				group: #'Tests' with: #('Magritte-Tests-Files-Model');
-				group: #'Seaside' with: #('Magritte-Seaside');
-				group: #'Deprecated' with: #('Magritte-Deprecated') ].
-	self baseline330ForPharo: spec.
-	self baseline330ForSqueakCommon: spec.
-	self baseline300ForGemStone: spec
+				group: 'Core' with: #('Magritte-Model');
+				group: 'Tests' with: #('Magritte-Tests-Files-Model');
+				group: 'Seaside' with: #('Magritte-Seaside');
+				group: 'Deprecated' with: #('Magritte-Deprecated') ].
+			self baseline330ForPharo: spec.
+			self baseline330ForSqueakCommon: spec.
+			self baseline300ForGemStone: spec
