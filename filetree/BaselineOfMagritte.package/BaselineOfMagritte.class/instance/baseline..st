@@ -2,25 +2,25 @@ baselines
 baseline: spec
 	<baseline>
 	spec
-		for: #common
+		for: #'common'
 		do: [
 			self baseline310CommonExtDeps: spec.
 			spec
-				package: #'Magritte-Model' with: [ 
+				package: 'Magritte-Model' with: [ 
 					spec 
 						requires: #('Grease');
-				package: #'Magritte-Tests-Model' with: [ spec requires: #('Magritte-Model') ];
-				package: #'Magritte-Tests-Files-Model' with: [ spec requires: #('Grease' 'Magritte-Tests-Model') ];
-				package: #'Magritte-Seaside' with: [ spec requires: #('Magritte-Model' 'Seaside3') ];
-				package: #'Magritte-Bootstrap' with: [ spec requires: #('Magritte-Model') ];
-				package: #'Magritte-Deprecated' with: [ spec requires: #('Magritte-Model') ];
-				package: #'Magritte-Merging' with: [ spec requires: #('Magritte-Model') ];
-				package: #'Magritte-Money' with: [ spec requires: #('Magritte-Model') ].
+				package: 'Magritte-Tests-Model' with: [ spec requires: #('Magritte-Model') ];
+				package: 'Magritte-Tests-Files-Model' with: [ spec requires: #('Grease' 'Magritte-Tests-Model') ];
+				package: 'Magritte-Seaside' with: [ spec requires: #('Magritte-Model' 'Seaside3') ];
+				package: 'Magritte-Bootstrap' with: [ spec requires: #('Magritte-Model') ];
+				package: 'Magritte-Deprecated' with: [ spec requires: #('Magritte-Model') ];
+				package: 'Magritte-Merging' with: [ spec requires: #('Magritte-Model') ];
+				package: 'Magritte-Money' with: [ spec requires: #('Magritte-Model') ].
 			spec
-				group: #'Core' with: #('Magritte-Model');
-				group: #'Tests' with: #('Magritte-Tests-Files-Model');
-				group: #'Seaside' with: #('Magritte-Seaside');
-				group: #'Deprecated' with: #('Magritte-Deprecated') ].
+				group: 'Core' with: #('Magritte-Model');
+				group: 'Tests' with: #('Magritte-Tests-Files-Model');
+				group: 'Seaside' with: #('Magritte-Seaside');
+				group: 'Deprecated' with: #('Magritte-Deprecated') ].
 
 	spec
 		for: #(#'pharo7.x' #'pharo8.x' #'pharo9.x' #'pharo10.x' #'pharo11.x' #'pharo12.x' #'pharo13.x') 
