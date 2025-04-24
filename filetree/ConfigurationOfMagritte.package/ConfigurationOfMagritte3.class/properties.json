@@ -1,5 +1,5 @@
 {
-	"category" : "ConfigurationOfMagritte3",
+	"category" : "ConfigurationOfMagritte",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"project" ],
-	"name" : "ConfigurationOfMagritte3",
+	"name" : "ConfigurationOfMagritte",
 	"pools" : [
 		 ],
 	"super" : "Object",

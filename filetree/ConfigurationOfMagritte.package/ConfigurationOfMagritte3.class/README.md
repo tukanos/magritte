@@ -1,0 +1,1 @@
+(ConfigurationOfMagritte project version: #stable) load
