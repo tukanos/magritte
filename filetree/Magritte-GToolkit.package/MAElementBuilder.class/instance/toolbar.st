@@ -1,6 +1,7 @@
 accessing
 toolbar
-	| toolbar |
+	toolbar ifNotNil: [ ^ toolbar ].
+
 	toolbar := BrToolbar new
 		aptitude: BrToolbarAptitude new;
 		layout:

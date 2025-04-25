@@ -13,7 +13,8 @@
 		"buttonSelectors",
 		"objectDescription",
 		"completionControllerClass",
-		"completionStrategy" ],
+		"completionStrategy",
+		"toolbar" ],
 	"name" : "MAElementBuilder",
 	"pools" : [
 		 ],
