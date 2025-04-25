@@ -86,17 +86,18 @@ baseline: spec
 	spec
 		for: #'gemstone'
 		do: [ 
-			spec
+			"spec
 				baseline: 'Metacello'
 				with: [ 
 					spec
 						loads: #('Core');
-						repository: 'github://Metacello/metacello-work:gs_port/repository' ].
+						repository: 'github://Metacello/metacello-work:gs_port/repository'
+						repository: ' github://dalehenrich/metacello-work:master/repository' ]."
 			spec
 				package: 'Magritte-Model'
 					with: [ 
 							spec
-								requires: #('Metacello');
+								"requires: #('Metacello');"
 								includes: #('Magritte-GemStone-Model') ];
 				package: 'Magritte-Tests-Model' with: [ spec includes: #('Magritte-Tests-GemStone-Model') ];
 				package: 'Magritte-Seaside' with: [ spec includes: #('Magritte-GemStone-Seaside') ];
