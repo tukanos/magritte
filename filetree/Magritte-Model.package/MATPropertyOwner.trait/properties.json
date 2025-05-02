@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Model-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [ 
+			"properties" ],
+	"name" : "MATPropertyOwner",
+	"pools" : [
+		 ],
+	"super" : "Trait",
+	"type" : "normal" }
