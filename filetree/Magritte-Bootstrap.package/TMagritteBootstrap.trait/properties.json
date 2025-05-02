@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Bootstrap",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [ 
+		 ],
+	"name" : "MATPropertyOwner",
+	"pools" : [
+		 ],
+	"super" : "Trait",
+	"type" : "normal" }
