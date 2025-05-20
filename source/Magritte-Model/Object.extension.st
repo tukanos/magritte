@@ -131,7 +131,7 @@ Object >> magritteDescriptionBuilders [
 	|builderPragmas container|
 	builderPragmas := Pragma allNamed: #magritteBuilder from: self class to: Object.
 	builderPragmas ifEmpty: [ ^nil ].
-	container := QCDescriptionBuilderContainer new.
+	container := MAComposedDescriptionBuilder new.
 	builderPragmas do: [ :pragma |
 		|bld |
 		pragma method numArgs = 0 ifTrue: [ 
