@@ -6,7 +6,7 @@ I am assume there is a little problem on an empty list, but frankly, who creates
 See DropListExample for an example
 "
 Class {
-	#name : #DropListModel,
+	#name : 'DropListModel',
 	#superclass : #AbstractBasicWidget,
 	#instVars : [
 		'listHolder',

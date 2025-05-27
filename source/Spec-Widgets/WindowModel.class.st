@@ -2,7 +2,7 @@
 A WindowModel is a spec model for a Window
 "
 Class {
-	#name : #WindowModel,
+	#name : 'WindowModel',
 	#superclass : #AbstractBasicWidget,
 	#instVars : [
 		'model',

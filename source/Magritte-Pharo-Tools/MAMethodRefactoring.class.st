@@ -1,5 +1,5 @@
 Class {
-	#name : #MAMethodRefactoring,
+	#name : 'MAMethodRefactoring',
 	#superclass : #RBMethodRefactoring,
 	#instVars : [
 		'selector',

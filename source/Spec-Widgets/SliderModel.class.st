@@ -2,7 +2,7 @@
 A SliderModel is a spec model for a slider
 "
 Class {
-	#name : #SliderModel,
+	#name : 'SliderModel',
 	#superclass : #AbstractBasicWidget,
 	#instVars : [
 		'max',

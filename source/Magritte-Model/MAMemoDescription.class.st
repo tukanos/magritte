@@ -2,7 +2,7 @@
 I am a description of multiline strings, possible values are instances of ==String==. My visual representation could be a text-area field.
 "
 Class {
-	#name : #MAMemoDescription,
+	#name : 'MAMemoDescription',
 	#superclass : #MAStringDescription,
 	#category : 'Magritte-Model-Description'
 }

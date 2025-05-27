@@ -1,5 +1,5 @@
 Class {
-	#name : #MADropdownWish,
+	#name : 'MADropdownWish',
 	#superclass : #BrWish,
 	#instVars : [
 		'selection'

@@ -36,7 +36,7 @@ maintain) better working and well tested relationship descriptions
 that solve the current problems. - *Lukas>http://forum.world.st/magrite-toOne-relationship-and-component-creation-tp1561754p1563032.html*
 "
 Class {
-	#name : #MARelationDescription,
+	#name : 'MARelationDescription',
 	#superclass : #MAReferenceDescription,
 	#instVars : [
 		'classes'

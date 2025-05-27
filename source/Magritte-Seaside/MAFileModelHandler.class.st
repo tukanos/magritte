@@ -1,5 +1,5 @@
 Class {
-	#name : #MAFileModelHandler,
+	#name : 'MAFileModelHandler',
 	#superclass : #WARequestHandler,
 	#instVars : [
 		'model'

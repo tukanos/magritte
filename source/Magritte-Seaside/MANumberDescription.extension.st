@@ -1,4 +1,4 @@
-Extension { #name : #MANumberDescription }
+Extension { #name : 'MANumberDescription' }
 
 { #category : '*magritte-seaside' }
 MANumberDescription class >> defaultComponentClasses [

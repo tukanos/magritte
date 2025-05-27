@@ -1,4 +1,4 @@
-Extension { #name : #GtPhlowView }
+Extension { #name : 'GtPhlowView' }
 
 { #category : '*Magritte-GToolkit' }
 GtPhlowView >> maOn: anObject perform: aMessageSymbol withContext: aContext [

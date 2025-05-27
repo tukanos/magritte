@@ -1,5 +1,5 @@
 Class {
-	#name : #MAMorphicFile,
+	#name : 'MAMorphicFile',
 	#superclass : #MAMorphicElement,
 	#instVars : [
 		'rectangleMorph'

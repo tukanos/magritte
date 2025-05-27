@@ -1,5 +1,5 @@
 Trait {
-	#name : #MATContainerPresenter,
+	#name : 'MATContainerPresenter',
 	#instVars : [
 		'children',
 		'answerBlock'

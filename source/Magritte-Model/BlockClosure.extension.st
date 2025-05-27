@@ -1,4 +1,4 @@
-Extension { #name : #BlockClosure }
+Extension { #name : 'BlockClosure' }
 
 { #category : '*Magritte-Model' }
 BlockClosure >> optionFor: anObject ifPresent: aBlock [

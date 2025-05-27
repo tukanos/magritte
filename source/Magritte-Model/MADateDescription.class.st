@@ -2,7 +2,7 @@
 I am a description of dates, possible values are instances of ==Date==. My visual representation could be a date-picker.
 "
 Class {
-	#name : #MADateDescription,
+	#name : 'MADateDescription',
 	#superclass : #MAMagnitudeDescription,
 	#category : 'Magritte-Model-Description'
 }

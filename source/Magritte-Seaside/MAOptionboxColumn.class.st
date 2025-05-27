@@ -1,5 +1,5 @@
 Class {
-	#name : #MAOptionboxColumn,
+	#name : 'MAOptionboxColumn',
 	#superclass : #MASelectionColumn,
 	#category : 'Magritte-Seaside-Report'
 }

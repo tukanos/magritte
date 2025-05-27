@@ -2,7 +2,7 @@
 I am an access strategy used to chain two access strategies. To read and write a value the ==accessor== is performed on the given model and the result is passed into the ==next== accessor.
 "
 Class {
-	#name : #MAChainAccessor,
+	#name : 'MAChainAccessor',
 	#superclass : #MADelegatorAccessor,
 	#instVars : [
 		'accessor'

@@ -1,5 +1,5 @@
 Class {
-	#name : #MAFieldElement,
+	#name : 'MAFieldElement',
 	#superclass : #BrVerticalPane,
 	#category : 'Magritte-GToolkit'
 }

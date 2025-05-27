@@ -2,7 +2,7 @@
 A PanelMorphWithSplitters is which add splitters the way SystemWindow do it
 "
 Class {
-	#name : #PanelMorphWithSplitters,
+	#name : 'PanelMorphWithSplitters',
 	#superclass : #PanelMorph,
 	#instVars : [
 		'paneMorphs'

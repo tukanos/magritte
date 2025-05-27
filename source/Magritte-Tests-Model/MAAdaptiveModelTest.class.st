@@ -1,5 +1,5 @@
 Class {
-	#name : #MAAdaptiveModelTest,
+	#name : 'MAAdaptiveModelTest',
 	#superclass : #TestCase,
 	#instVars : [
 		'scaffolder'

@@ -1,5 +1,5 @@
 Class {
-	#name : #MAPluggableCondition,
+	#name : 'MAPluggableCondition',
 	#superclass : #MACondition,
 	#instVars : [
 		'receiver',

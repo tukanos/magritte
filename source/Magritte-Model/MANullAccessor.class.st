@@ -2,7 +2,7 @@
 I am a null access strategy and I should be neither read nor written. I am still comparable to other strategies by holding onto a unique-identifier.
 "
 Class {
-	#name : #MANullAccessor,
+	#name : 'MANullAccessor',
 	#superclass : #MAAccessor,
 	#instVars : [
 		'uuid'

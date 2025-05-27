@@ -1,5 +1,5 @@
 Class {
-	#name : #MACheckboxColumn,
+	#name : 'MACheckboxColumn',
 	#superclass : #MASelectionColumn,
 	#category : 'Magritte-Seaside-Report'
 }

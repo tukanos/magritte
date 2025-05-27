@@ -1,4 +1,4 @@
-Extension { #name : #MAStringDescription }
+Extension { #name : 'MAStringDescription' }
 
 { #category : '*Magritte-Glamour' }
 MAStringDescription >> glmDefaultPresentation [

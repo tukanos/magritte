@@ -1,5 +1,5 @@
 Class {
-	#name : #MARangeComponent,
+	#name : 'MARangeComponent',
 	#superclass : #MAElementComponent,
 	#category : 'Magritte-Seaside-Components'
 }

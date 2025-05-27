@@ -1,5 +1,5 @@
 Class {
-	#name : #MAMockAddress2,
+	#name : 'MAMockAddress2',
 	#superclass : #MAMockAddress,
 	#category : 'Magritte-Tests-Model-Mocks'
 }

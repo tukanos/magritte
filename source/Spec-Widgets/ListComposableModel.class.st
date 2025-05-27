@@ -25,7 +25,7 @@ t items: (Smalltalk allClasses).
 
 "
 Class {
-	#name : #ListComposableModel,
+	#name : 'ListComposableModel',
 	#superclass : #AbstractBasicWidget,
 	#instVars : [
 		'selectionHolder',

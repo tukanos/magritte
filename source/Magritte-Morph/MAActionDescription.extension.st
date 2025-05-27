@@ -1,4 +1,4 @@
-Extension { #name : #MAActionDescription }
+Extension { #name : 'MAActionDescription' }
 
 { #category : '*magritte-morph' }
 MAActionDescription >> buttonOn: anObject [

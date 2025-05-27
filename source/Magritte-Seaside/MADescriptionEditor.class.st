@@ -1,5 +1,5 @@
 Class {
-	#name : #MADescriptionEditor,
+	#name : 'MADescriptionEditor',
 	#superclass : #MAExampleEditor,
 	#instVars : [
 		'example',

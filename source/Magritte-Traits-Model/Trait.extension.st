@@ -1,4 +1,4 @@
-Extension { #name : #Trait }
+Extension { #name : 'Trait' }
 
 { #category : '*magritte-traits-model-configuration' }
 Trait >> descriptionContainer [

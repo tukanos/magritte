@@ -1,4 +1,4 @@
-Extension { #name : #ExecutableBlock }
+Extension { #name : 'ExecutableBlock' }
 
 { #category : '*magritte-gemstone-seaside' }
 ExecutableBlock >> decompile [

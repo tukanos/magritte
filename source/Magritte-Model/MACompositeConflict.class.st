@@ -1,5 +1,5 @@
 Class {
-	#name : #MACompositeConflict,
+	#name : 'MACompositeConflict',
 	#superclass : #Object,
 	#instVars : [
 		'kind',

@@ -1,5 +1,5 @@
 Class {
-	#name : #MAPatchMacroElement,
+	#name : 'MAPatchMacroElement',
 	#superclass : #BlElement,
 	#instVars : [
 		'model',

@@ -1,5 +1,5 @@
 Class {
-	#name : #TokenCollectorMorph,
+	#name : 'TokenCollectorMorph',
 	#superclass : #Morph,
 	#instVars : [
 		'options',

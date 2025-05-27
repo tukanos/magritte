@@ -1,1 +1,1 @@
-Package { #name : #ConfigurationOfMagritte3 }
+Package { #name : 'ConfigurationOfMagritte3' }

@@ -1,4 +1,4 @@
-Extension { #name : #ArrayedCollection }
+Extension { #name : 'ArrayedCollection' }
 
 { #category : '*magritte-model' }
 ArrayedCollection >> copyWithAll: aCollection [

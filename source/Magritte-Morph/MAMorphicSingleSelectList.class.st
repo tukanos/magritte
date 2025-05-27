@@ -1,5 +1,5 @@
 Class {
-	#name : #MAMorphicSingleSelectList,
+	#name : 'MAMorphicSingleSelectList',
 	#superclass : #MAMorphicList,
 	#category : 'Magritte-Morph-Model'
 }

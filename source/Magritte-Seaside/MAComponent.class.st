@@ -1,5 +1,5 @@
 Class {
-	#name : #MAComponent,
+	#name : 'MAComponent',
 	#superclass : #WAComponent,
 	#category : 'Magritte-Seaside-Core'
 }

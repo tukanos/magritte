@@ -1,5 +1,5 @@
 Class {
-	#name : #MAUrlDescription,
+	#name : 'MAUrlDescription',
 	#superclass : #MAElementDescription,
 	#category : 'Magritte-Model-Description'
 }

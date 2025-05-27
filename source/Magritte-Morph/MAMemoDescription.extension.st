@@ -1,4 +1,4 @@
-Extension { #name : #MAMemoDescription }
+Extension { #name : 'MAMemoDescription' }
 
 { #category : '*Magritte-Morph' }
 MAMemoDescription class >> defaultMorphicClasses [

@@ -1,5 +1,5 @@
 Class {
-	#name : #MASortBlock,
+	#name : 'MASortBlock',
 	#superclass : #MABasicObject,
 	#instVars : [
 		'accessor',

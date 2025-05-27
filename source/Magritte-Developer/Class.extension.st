@@ -1,4 +1,4 @@
-Extension { #name : #Class }
+Extension { #name : 'Class' }
 
 { #category : '*Magritte-Developer' }
 Class >> maAddField [

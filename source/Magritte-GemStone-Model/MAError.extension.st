@@ -1,4 +1,4 @@
-Extension { #name : #MAError }
+Extension { #name : 'MAError' }
 
 { #category : '*magritte-gemstone-model' }
 MAError >> greaseString [

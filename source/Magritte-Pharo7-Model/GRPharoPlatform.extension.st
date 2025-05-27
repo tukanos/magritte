@@ -1,4 +1,4 @@
-Extension { #name : #GRPharoPlatform }
+Extension { #name : 'GRPharoPlatform' }
 
 { #category : '*Magritte-Pharo7-Model' }
 GRPharoPlatform >> magritteAllSubInstancesOf: aClass do: aBlock [

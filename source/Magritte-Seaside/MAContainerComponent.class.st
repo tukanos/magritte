@@ -1,5 +1,5 @@
 Class {
-	#name : #MAContainerComponent,
+	#name : 'MAContainerComponent',
 	#superclass : #MADescriptionComponent,
 	#instVars : [
 		'children',

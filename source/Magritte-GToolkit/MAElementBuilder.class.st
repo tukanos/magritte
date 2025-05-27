@@ -6,7 +6,7 @@ Unlike the Morphic implementation, which has a presenter class per description t
 - serves as the reciever for form actions like ${method:MABlocContainerPresenter>>#save|label='save'}$.
 "
 Class {
-	#name : #MAElementBuilder,
+	#name : 'MAElementBuilder',
 	#superclass : #MAVisitor,
 	#instVars : [
 		'object',

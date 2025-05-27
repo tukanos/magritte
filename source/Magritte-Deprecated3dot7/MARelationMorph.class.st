@@ -1,5 +1,5 @@
 Class {
-	#name : #MARelationMorph,
+	#name : 'MARelationMorph',
 	#superclass : #MAMorphicRelation,
 	#category : 'Magritte-Deprecated3dot7'
 }

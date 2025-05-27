@@ -1,5 +1,5 @@
 Class {
-	#name : #MAValidatorVisitorTest,
+	#name : 'MAValidatorVisitorTest',
 	#superclass : #TestCase,
 	#category : 'Magritte-Tests-Model-Visitor'
 }

@@ -1,5 +1,5 @@
 Class {
-	#name : #MABrTextEditor,
+	#name : 'MABrTextEditor',
 	#superclass : #BrEditor,
 	#instVars : [
 		'elementDescription',

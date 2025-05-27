@@ -1,5 +1,5 @@
 Class {
-	#name : #MAMultiselectListComponent,
+	#name : 'MAMultiselectListComponent',
 	#superclass : #MAMultipleSelectionComponent,
 	#category : 'Magritte-Seaside-Components'
 }

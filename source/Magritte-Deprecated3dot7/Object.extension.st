@@ -1,4 +1,4 @@
-Extension { #name : #Object }
+Extension { #name : 'Object' }
 
 { #category : '*Magritte-Deprecated3dot7' }
 Object >> maLazyFrom: description [

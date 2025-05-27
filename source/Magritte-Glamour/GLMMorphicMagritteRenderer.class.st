@@ -1,5 +1,5 @@
 Class {
-	#name : #GLMMorphicMagritteRenderer,
+	#name : 'GLMMorphicMagritteRenderer',
 	#superclass : #GLMMorphicWidgetRenderer,
 	#instVars : [
 		'scrollPane',

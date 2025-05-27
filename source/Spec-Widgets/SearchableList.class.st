@@ -9,7 +9,7 @@ Because now I will have to delegate a lot? and I cannot plug a IconList
 How do I make textModel react to every keystroke without an accept
 "
 Class {
-	#name : #SearchableList,
+	#name : 'SearchableList',
 	#superclass : #ComposableModel,
 	#instVars : [
 		'listModel',

@@ -1,4 +1,4 @@
-Extension { #name : #MATokenDescription }
+Extension { #name : 'MATokenDescription' }
 
 { #category : '*magritte-seaside-defaults' }
 MATokenDescription class >> defaultComponentClasses [

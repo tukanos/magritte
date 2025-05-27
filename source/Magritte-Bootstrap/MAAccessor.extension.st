@@ -1,4 +1,4 @@
-Extension { #name : #MAAccessor }
+Extension { #name : 'MAAccessor' }
 
 { #category : '*Magritte-Bootstrap' }
 MAAccessor >> handleMessage: aMessage for: anObject [

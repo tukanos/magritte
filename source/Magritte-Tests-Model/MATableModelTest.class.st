@@ -1,5 +1,5 @@
 Class {
-	#name : #MATableModelTest,
+	#name : 'MATableModelTest',
 	#superclass : #TestCase,
 	#instVars : [
 		'table'

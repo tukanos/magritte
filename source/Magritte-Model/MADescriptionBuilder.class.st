@@ -9,7 +9,7 @@ Instance Variables:
 	buildedDescription: The result
 "
 Class {
-	#name : #MADescriptionBuilder,
+	#name : 'MADescriptionBuilder',
 	#superclass : #MAVisitor,
 	#instVars : [
 		'model',

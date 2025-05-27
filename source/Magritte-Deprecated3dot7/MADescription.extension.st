@@ -1,4 +1,4 @@
-Extension { #name : #MADescription }
+Extension { #name : 'MADescription' }
 
 { #category : '*Magritte-Deprecated3dot7' }
 MADescription >> beReadonly [

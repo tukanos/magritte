@@ -1,4 +1,4 @@
-Extension { #name : #GRPlatform }
+Extension { #name : 'GRPlatform' }
 
 { #category : '*magritte-model' }
 GRPlatform >> magritteAllSubInstancesOf: aClass do: aBlock [

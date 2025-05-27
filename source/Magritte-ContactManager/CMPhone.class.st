@@ -2,7 +2,7 @@
 A simple phone model
 "
 Class {
-	#name : #CMPhone,
+	#name : 'CMPhone',
 	#superclass : #Object,
 	#instVars : [
 		'kind',

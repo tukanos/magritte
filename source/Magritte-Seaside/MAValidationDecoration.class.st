@@ -2,7 +2,7 @@
 I am a normally invisible component. I show a list of validation errors in case the owner component fails to validate.
 "
 Class {
-	#name : #MAValidationDecoration,
+	#name : 'MAValidationDecoration',
 	#superclass : #MAComponentDecoration,
 	#category : 'Magritte-Seaside-Decorations'
 }

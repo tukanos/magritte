@@ -2,7 +2,7 @@
 I am a description of files, their contents, filename and mime-type. Possible values include instances of *MAFileModel*. My visual representation could be a file-upload dialog.
 "
 Class {
-	#name : #MAFileDescription,
+	#name : 'MAFileDescription',
 	#superclass : #MAElementDescription,
 	#category : 'Magritte-Model-Description'
 }

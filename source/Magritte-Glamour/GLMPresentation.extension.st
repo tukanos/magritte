@@ -1,4 +1,4 @@
-Extension { #name : #GLMPresentation }
+Extension { #name : 'GLMPresentation' }
 
 { #category : '*Magritte-Glamour' }
 GLMPresentation >> glmAddActions [

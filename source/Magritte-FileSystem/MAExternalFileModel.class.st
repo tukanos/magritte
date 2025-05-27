@@ -4,7 +4,7 @@ I manage the file-data I represent on the file-system. From the programmer this 
 I delegate my actual location on disk to MAFileDatabase (see class comment).
 "
 Class {
-	#name : #MAExternalFileModel,
+	#name : 'MAExternalFileModel',
 	#superclass : #MAFileModel,
 	#instVars : [
 		'location',

@@ -1,5 +1,5 @@
 Class {
-	#name : #MAMorphicRelation,
+	#name : 'MAMorphicRelation',
 	#superclass : #MAMorphicElement,
 	#instVars : [
 		'selected',

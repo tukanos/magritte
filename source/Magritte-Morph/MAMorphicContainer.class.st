@@ -1,5 +1,5 @@
 Class {
-	#name : #MAMorphicContainer,
+	#name : 'MAMorphicContainer',
 	#superclass : #MAMorphicDescription,
 	#instVars : [
 		'children',

@@ -1,5 +1,5 @@
 Class {
-	#name : #MAMorphicDescription,
+	#name : 'MAMorphicDescription',
 	#superclass : #Model,
 	#instVars : [
 		'memento',

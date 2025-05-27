@@ -2,7 +2,7 @@
 I display a simple list to allow the user to choose one element from the list. I am one of the two seaside components to render MASingleSelectionDescription.
 "
 Class {
-	#name : #MASelectListComponent,
+	#name : 'MASelectListComponent',
 	#superclass : #MASingleSelectionComponent,
 	#category : 'Magritte-Seaside-Components'
 }

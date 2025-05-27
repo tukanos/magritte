@@ -1,5 +1,5 @@
 Class {
-	#name : #MAElementRow,
+	#name : 'MAElementRow',
 	#superclass : #BorderedMorph,
 	#instVars : [
 		'object',

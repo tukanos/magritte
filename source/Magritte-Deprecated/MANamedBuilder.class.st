@@ -6,7 +6,7 @@ I dynamically build container descriptions from class-side methods using a simpl
 # All the keyword messages with one argument having a prefix of a method selected in step 2 will be called with the original description to further refine its definition.
 "
 Class {
-	#name : #MANamedBuilder,
+	#name : 'MANamedBuilder',
 	#superclass : #MADescriptionBuilder,
 	#category : 'Magritte-Deprecated'
 }

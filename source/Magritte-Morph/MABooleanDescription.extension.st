@@ -1,4 +1,4 @@
-Extension { #name : #MABooleanDescription }
+Extension { #name : 'MABooleanDescription' }
 
 { #category : '*magritte-morph-default' }
 MABooleanDescription class >> defaultMorphicClasses [

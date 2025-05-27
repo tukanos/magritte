@@ -1,4 +1,4 @@
-Extension { #name : #MACompositeAccessor }
+Extension { #name : 'MACompositeAccessor' }
 
 { #category : '*Magritte-GToolkit' }
 MACompositeAccessor class >> sampleContainer [

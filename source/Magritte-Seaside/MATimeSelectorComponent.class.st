@@ -1,5 +1,5 @@
 Class {
-	#name : #MATimeSelectorComponent,
+	#name : 'MATimeSelectorComponent',
 	#superclass : #MATimeInputComponent,
 	#category : 'Magritte-Seaside-Components'
 }

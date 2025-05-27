@@ -1,5 +1,5 @@
 Class {
-	#name : #MADeveloperTests,
+	#name : 'MADeveloperTests',
 	#superclass : #TestCase,
 	#category : 'Magritte-Developer-Tests'
 }

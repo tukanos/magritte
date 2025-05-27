@@ -1,5 +1,5 @@
 Class {
-	#name : #MAMockAddress,
+	#name : 'MAMockAddress',
 	#superclass : #Object,
 	#instVars : [
 		'place',

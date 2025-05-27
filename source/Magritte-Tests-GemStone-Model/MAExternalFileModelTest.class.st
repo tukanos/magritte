@@ -1,5 +1,5 @@
 Class {
-	#name : #MAExternalFileModelTest,
+	#name : 'MAExternalFileModelTest',
 	#superclass : #MAFileModelTest,
 	#category : 'Magritte-Tests-GemStone-Model'
 }

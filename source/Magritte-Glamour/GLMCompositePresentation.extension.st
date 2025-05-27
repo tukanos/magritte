@@ -1,4 +1,4 @@
-Extension { #name : #GLMCompositePresentation }
+Extension { #name : 'GLMCompositePresentation' }
 
 { #category : '*Magritte-Glamour' }
 GLMCompositePresentation >> magritte [

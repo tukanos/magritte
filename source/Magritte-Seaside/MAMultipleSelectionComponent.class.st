@@ -2,7 +2,7 @@
 I provide basic functionalities for MAListCompositionComponent and MACheckboxGroupComponent.
 "
 Class {
-	#name : #MAMultipleSelectionComponent,
+	#name : 'MAMultipleSelectionComponent',
 	#superclass : #MAOptionComponent,
 	#category : 'Magritte-Seaside-Components'
 }

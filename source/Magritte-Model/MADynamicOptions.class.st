@@ -1,5 +1,5 @@
 Class {
-	#name : #MADynamicOptions,
+	#name : 'MADynamicOptions',
 	#superclass : #Object,
 	#instVars : [
 		'block',

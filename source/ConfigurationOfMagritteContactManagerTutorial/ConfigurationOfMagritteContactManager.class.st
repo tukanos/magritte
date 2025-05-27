@@ -2,7 +2,7 @@
 (ConfigurationOfMagritteContactManager project version: '1.0') load
 "
 Class {
-	#name : #ConfigurationOfMagritteContactManager,
+	#name : 'ConfigurationOfMagritteContactManager',
 	#superclass : #Object,
 	#instVars : [
 		'project'

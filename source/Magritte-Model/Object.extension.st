@@ -1,4 +1,4 @@
-Extension { #name : #Object }
+Extension { #name : 'Object' }
 
 { #category : '*magritte-model-accessing' }
 Object >> basicMagritteDescription [

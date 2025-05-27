@@ -1,4 +1,4 @@
-Extension { #name : #SequenceableCollection }
+Extension { #name : 'SequenceableCollection' }
 
 { #category : '*magritte-model' }
 SequenceableCollection >> asAccessor [

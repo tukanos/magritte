@@ -2,7 +2,7 @@
 (ConfigurationOfMagritteSeaside project version: #stable) load
 "
 Class {
-	#name : #ConfigurationOfMagritteSeaside,
+	#name : 'ConfigurationOfMagritteSeaside',
 	#superclass : #Object,
 	#instVars : [
 		'project'

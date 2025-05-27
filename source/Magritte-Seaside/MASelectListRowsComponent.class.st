@@ -2,7 +2,7 @@
 I am similar to MASelectListComponent, but rather than displaying the options in a drop-down I display the options in a list.
 "
 Class {
-	#name : #MASelectListRowsComponent,
+	#name : 'MASelectListRowsComponent',
 	#superclass : #MASelectListComponent,
 	#category : 'Magritte-Seaside-Components'
 }

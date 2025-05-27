@@ -1,5 +1,5 @@
 Class {
-	#name : #MAInternalEditorComponent,
+	#name : 'MAInternalEditorComponent',
 	#superclass : #MAOneToOneComponent,
 	#instVars : [
 		'component'

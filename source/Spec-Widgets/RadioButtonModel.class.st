@@ -6,7 +6,7 @@ A RadioButtonModel is a spec model for RadioButton
 You can also have a look at RadioButtonGroupExample for a full example of how to use them with a group.
 "
 Class {
-	#name : #RadioButtonModel,
+	#name : 'RadioButtonModel',
 	#superclass : #AbstractBasicWidget,
 	#instVars : [
 		'actionWhenActivatedHolder',

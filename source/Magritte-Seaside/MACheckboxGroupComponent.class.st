@@ -2,7 +2,7 @@
 Use for MAMultipleSelectionComponent. I display as many checkboxes as my description has options. Another representation for the same description is MAListCompositionComponent.
 "
 Class {
-	#name : #MACheckboxGroupComponent,
+	#name : 'MACheckboxGroupComponent',
 	#superclass : #MAMultipleSelectionComponent,
 	#category : 'Magritte-Seaside-Components'
 }

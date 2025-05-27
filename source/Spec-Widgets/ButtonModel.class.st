@@ -4,7 +4,7 @@ A ButtonComposableModel is an applicative model which handle a basic button.
 self example
 "
 Class {
-	#name : #ButtonModel,
+	#name : 'ButtonModel',
 	#superclass : #AbstractBasicWidget,
 	#instVars : [
 		'actionHolder',

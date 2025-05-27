@@ -1,5 +1,5 @@
 Class {
-	#name : #MAValidatorVisitor,
+	#name : 'MAValidatorVisitor',
 	#superclass : #MAVisitor,
 	#instVars : [
 		'object'

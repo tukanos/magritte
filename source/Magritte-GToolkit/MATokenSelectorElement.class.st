@@ -1,5 +1,5 @@
 Class {
-	#name : #MATokenSelectorElement,
+	#name : 'MATokenSelectorElement',
 	#superclass : #BrHorizontalPane,
 	#instVars : [
 		'object',

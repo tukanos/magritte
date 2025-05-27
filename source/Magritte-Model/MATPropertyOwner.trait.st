@@ -1,5 +1,5 @@
 Trait {
-	#name : #MATPropertyOwner,
+	#name : 'MATPropertyOwner',
 	#instVars : [
 		'properties'
 	],

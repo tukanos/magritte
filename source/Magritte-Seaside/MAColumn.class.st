@@ -1,5 +1,5 @@
 Class {
-	#name : #MAColumn,
+	#name : 'MAColumn',
 	#superclass : #MAObject,
 	#instVars : [
 		'report',

@@ -1,4 +1,4 @@
-Extension { #name : #BlockClosure }
+Extension { #name : 'BlockClosure' }
 
 { #category : '*magritte-deprecated' }
 BlockClosure >> magritteDynamicObject [

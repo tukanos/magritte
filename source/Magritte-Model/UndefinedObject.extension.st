@@ -1,4 +1,4 @@
-Extension { #name : #UndefinedObject }
+Extension { #name : 'UndefinedObject' }
 
 { #category : '*Magritte-Model' }
 UndefinedObject >> asAccessor [

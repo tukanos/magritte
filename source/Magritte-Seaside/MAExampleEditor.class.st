@@ -1,5 +1,5 @@
 Class {
-	#name : #MAExampleEditor,
+	#name : 'MAExampleEditor',
 	#superclass : #WAComponent,
 	#instVars : [
 		'description',
