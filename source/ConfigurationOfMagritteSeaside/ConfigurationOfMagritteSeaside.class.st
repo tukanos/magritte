@@ -13,7 +13,7 @@ Class {
 	#category : 'ConfigurationOfMagritteSeaside'
 }
 
-{ #category : #private }
+{ #category : 'private' }
 ConfigurationOfMagritteSeaside class >> bootstrapPackage: aString from: aPath [ 
 	| repository version |
 	repository := MCHttpRepository
@@ -28,24 +28,24 @@ ConfigurationOfMagritteSeaside class >> bootstrapPackage: aString from: aPath [
 			version workingCopy repositoryGroup addRepository: repository]
 ]
 
-{ #category : #catalog }
+{ #category : 'catalog' }
 ConfigurationOfMagritteSeaside class >> catalogContactInfo [
 	^ 'Contact the Pharo mailing-list since this package is maintained by some active people on the mailing-list: S. Ducasse, S. Eggermont, S. De Nigris, E. Lorenzano and a couple of others.'
 ]
 
-{ #category : #catalog }
+{ #category : 'catalog' }
 ConfigurationOfMagritteSeaside class >> catalogDescription [
 
 	^ 'Magritte Seaside a cool package to ease the creation of form in Seaside. It is based on magritte descriptions. Remember: you should not write forms in Seaside but use Seaside Magritte :). '
 ]
 
-{ #category : #catalog }
+{ #category : 'catalog' }
 ConfigurationOfMagritteSeaside class >> catalogKeywords [
 	^ #(HTML web form metadata description)
 	
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 ConfigurationOfMagritteSeaside class >> ensureMetacello [
 	"Bootstrap Gofer (if necessary), bootstrap ConfigurationOfMetacello (using old Gofer API), then load the latest 
 	version of Metacello itself."
@@ -64,14 +64,14 @@ ConfigurationOfMagritteSeaside class >> ensureMetacello [
 		(Smalltalk at: #ConfigurationOfMetacello) perform: #load ]
 ]
 
-{ #category : #'metacello tool support' }
+{ #category : 'metacello tool support' }
 ConfigurationOfMagritteSeaside class >> isMetacelloConfig [
 	"Answer true and the Metacello tools will operate on you"
 	
 	^true
 ]
 
-{ #category : #'metacello tool support' }
+{ #category : 'metacello tool support' }
 ConfigurationOfMagritteSeaside class >> lastMetacelloVersionLoad [
 	"Answer the last version loaded and the list of packages loaded for that version."
 
@@ -79,14 +79,14 @@ ConfigurationOfMagritteSeaside class >> lastMetacelloVersionLoad [
 	^LastVersionLoad
 ]
 
-{ #category : #loading }
+{ #category : 'loading' }
 ConfigurationOfMagritteSeaside class >> load [
 	"self load"
 	
 	self project stableVersion load
 ]
 
-{ #category : #'metacello tool support' }
+{ #category : 'metacello tool support' }
 ConfigurationOfMagritteSeaside class >> metacelloVersion: versionString loads: anArrayOrString [
 	"Stash the last version loaded and the list of packages loaded for that version. The list
 	 of packages will be used by the tools when doing 'Load Package Version'"
@@ -94,13 +94,13 @@ ConfigurationOfMagritteSeaside class >> metacelloVersion: versionString loads: a
 	LastVersionLoad := versionString -> anArrayOrString
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 ConfigurationOfMagritteSeaside class >> project [
 
 	^self new project
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 ConfigurationOfMagritteSeaside >> project [
 
 	^ project ifNil: [ | projectAttributes |
@@ -114,7 +114,7 @@ ConfigurationOfMagritteSeaside >> project [
 		project loadType: #linear ]
 ]
 
-{ #category : #version }
+{ #category : 'version' }
 ConfigurationOfMagritteSeaside >> release35: spec [ 
 	<version: 'release3.5'>
 	
@@ -130,7 +130,7 @@ ConfigurationOfMagritteSeaside >> release35: spec [
 						repository: 'http://www.smalltalkhub.com/mc/Magritte/Magritte3/main/' ] ]
 ]
 
-{ #category : #version }
+{ #category : 'version' }
 ConfigurationOfMagritteSeaside >> stable: spec [ 
 	<symbolicVersion: #stable>
 	

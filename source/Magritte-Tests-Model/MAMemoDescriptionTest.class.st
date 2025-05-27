@@ -4,12 +4,12 @@ Class {
 	#category : 'Magritte-Tests-Model-Description'
 }
 
-{ #category : #private }
+{ #category : 'private' }
 MAMemoDescriptionTest >> actualClass [
 	^ MAMemoDescription
 ]
 
-{ #category : #'tests-properties' }
+{ #category : 'tests-properties' }
 MAMemoDescriptionTest >> testLineCount [
 	self description lineCount: 123.
 	self assert: self description lineCount = 123

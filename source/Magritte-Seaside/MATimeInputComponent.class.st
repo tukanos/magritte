@@ -4,12 +4,12 @@ Class {
 	#category : 'Magritte-Seaside-Components'
 }
 
-{ #category : #actions }
+{ #category : 'actions' }
 MATimeInputComponent >> now [
 	self value: Time now
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MATimeInputComponent >> renderButtonOn: html [
 	html submitButton on: #now of: self
 ]

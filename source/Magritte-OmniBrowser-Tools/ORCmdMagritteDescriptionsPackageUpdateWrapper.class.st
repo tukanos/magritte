@@ -4,7 +4,7 @@ Class {
 	#category : 'Magritte-OmniBrowser-Tools'
 }
 
-{ #category : #'instance creation' }
+{ #category : 'instance creation' }
 ORCmdMagritteDescriptionsPackageUpdateWrapper class >> on: target for: requestor [
 	^ ORCmdMagritteDescriptionsPackageUpdate new setTarget: target requestor: requestor
 ]

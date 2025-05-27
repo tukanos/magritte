@@ -7,23 +7,23 @@ Class {
 	#category : 'Magritte-Developer'
 }
 
-{ #category : #activation }
+{ #category : 'activation' }
 MAClyAddFieldCommand class >> contextMenuActivation [
 		<classAnnotation>
 		^ CmdContextMenuActivation byRootGroupItemFor: ClyClassContextOfFullBrowser
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MAClyAddFieldCommand class >> defaultMenuItemName [
 	^'Add Field (Magritte)'
 ]
 
-{ #category : #execution }
+{ #category : 'execution' }
 MAClyAddFieldCommand >> execute [
 	targetClass maAddField: fieldName asSymbol
 ]
 
-{ #category : #execution }
+{ #category : 'execution' }
 MAClyAddFieldCommand >> prepareFullExecutionInContext: aToolContext [
 	super prepareFullExecutionInContext: aToolContext.
 	fieldName := UIManager default request: 'Field name'.		

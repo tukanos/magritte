@@ -8,12 +8,12 @@ Class {
 	#category : 'Magritte-Pharo-Tools'
 }
 
-{ #category : #private }
+{ #category : 'private' }
 MAMethodRefactoring >> alreadyIncludesMagritteSelectors: parseTree [
 	^ parseTree pragmas anySatisfy: [ :each | MAPragmaBuilder magritteSelectors includes: each selector ]
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 MAMethodRefactoring >> createPragma [
 	((selector = #descriptionContainer) or: [ selector isDescriptionExtension: #descriptionContainer ]) ifTrue: [
 		^ RBPragmaNode selector: (Array with: MAPragmaBuilder containerPragma) arguments: #() ].
@@ -35,16 +35,16 @@ MAMethodRefactoring >> createPragma [
 
 ]
 
-{ #category : #preconditions }
+{ #category : 'preconditions' }
 MAMethodRefactoring >> preconditions [
 	^ RBCondition withBlock: [ selector isDescriptionSelector ]
 ]
 
-{ #category : #transforming }
+{ #category : 'transforming' }
 MAMethodRefactoring >> transform [
 	self privateTransform
 ]
-{ #category : #transforming }
+{ #category : 'transforming' }
 MAMethodRefactoring >> privateTransform [
 	| parseTree methodBody category |
 
@@ -62,12 +62,12 @@ MAMethodRefactoring >> privateTransform [
 	target compile: (parseTree formattedCode) classified: category.
 	class removeMethod: selector
 ]
-{ #category : #'instance creation' }
+{ #category : 'instance creation' }
 MAMethodRefactoring class >> swapMethod: aSelector in: aClass [
 	^ self new swapMethod: aSelector in: aClass
 ]
 
-{ #category : #'instance creation' }
+{ #category : 'instance creation' }
 MAMethodRefactoring class >> model: aRBSmalltalk swapMethod: aSelector in: aClass [
 	^ self new 
 		model: aRBSmalltalk;

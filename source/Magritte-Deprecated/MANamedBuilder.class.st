@@ -11,7 +11,7 @@ Class {
 	#category : 'Magritte-Deprecated'
 }
 
-{ #category : #private }
+{ #category : 'private' }
 MANamedBuilder >> build: anObject [
 	| selectors container |
 	selectors := SortedCollection withAll: (anObject class allSelectors select: [ :each | each isDescriptionSelector ]).
@@ -27,7 +27,7 @@ MANamedBuilder >> build: anObject [
 			result ]
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 MANamedBuilder >> build: anObject for: aSelector in: aCollection [
 	^ (aCollection select: [ :each | each isDescriptionExtension: aSelector ])
 		inject: (anObject perform: aSelector)
@@ -36,7 +36,7 @@ MANamedBuilder >> build: anObject for: aSelector in: aCollection [
 				ifFalse: [ anObject perform: each with: result ] ]
 ]
 
-{ #category : #configuration }
+{ #category : 'configuration' }
 MANamedBuilder >> containerSelector [
 	^ #descriptionContainer
 ]

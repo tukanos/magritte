@@ -6,10 +6,10 @@ See {{gtClass:MACompositeAccessor}} for more info.
 Class {
 	#name : #MACompositeElementBuilder,
 	#superclass : #MAElementBuilder,
-	#category : #'Magritte-GToolkit'
+	#category : 'Magritte-GToolkit'
 }
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MACompositeElementBuilder class >> example [
 	<gtExample>
 	^ self new
@@ -21,7 +21,7 @@ MACompositeElementBuilder class >> example [
 		element
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MACompositeElementBuilder >> visitSingleOptionDescription: aDescription [
 	
 	self flag: 'lots of duplication with super implementation'.

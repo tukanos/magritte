@@ -7,17 +7,17 @@ Class {
 	#category : 'Magritte-Seaside-Components'
 }
 
-{ #category : #testing }
+{ #category : 'testing' }
 MATextAreaComponent class >> isAbstract [
 	^ false
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 MATextAreaComponent >> hasLabelId [
 	^ self isReadOnly not
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MATextAreaComponent >> renderEditorOn: html [
 	html textArea
 		id: self labelId;
@@ -25,7 +25,7 @@ MATextAreaComponent >> renderEditorOn: html [
 		on: #string of: self
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MATextAreaComponent >> renderViewerOn: html [
 	(self string findTokens: Character cr)
 		do: [ :each | html render: each ]

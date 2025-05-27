@@ -3,7 +3,7 @@ Trait {
 	#category : 'Magritte-Bootstrap'
 }
 
-{ #category : #'reflective operations' }
+{ #category : 'reflective operations' }
 TMagritteBootstrap >> doesNotUnderstand: aMessage [
 	 
 	^ self magritteDescription 

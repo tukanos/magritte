@@ -13,7 +13,7 @@ Class {
 	#category : 'ConfigurationOfMagritte3'
 }
 
-{ #category : #private }
+{ #category : 'private' }
 ConfigurationOfMagritte3 class >> bootstrapPackage: aString from: aPath [ 
 	| repository version |
 	repository := MCHttpRepository
@@ -28,7 +28,7 @@ ConfigurationOfMagritte3 class >> bootstrapPackage: aString from: aPath [
 			version workingCopy repositoryGroup addRepository: repository]
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 ConfigurationOfMagritte3 class >> ensureMetacello [
 	"Bootstrap Gofer (if necessary), bootstrap ConfigurationOfMetacello (using old Gofer API), then load the latest 
 	version of Metacello itself."
@@ -47,14 +47,14 @@ ConfigurationOfMagritte3 class >> ensureMetacello [
 		(Smalltalk at: #ConfigurationOfMetacello) perform: #load ]
 ]
 
-{ #category : #'metacello tool support' }
+{ #category : 'metacello tool support' }
 ConfigurationOfMagritte3 class >> isMetacelloConfig [
 	"Answer true and the Metacello tools will operate on you"
 	
 	^true
 ]
 
-{ #category : #'metacello tool support' }
+{ #category : 'metacello tool support' }
 ConfigurationOfMagritte3 class >> lastMetacelloVersionLoad [
 	"Answer the last version loaded and the list of packages loaded for that version."
 
@@ -62,14 +62,14 @@ ConfigurationOfMagritte3 class >> lastMetacelloVersionLoad [
 	^LastVersionLoad
 ]
 
-{ #category : #loading }
+{ #category : 'loading' }
 ConfigurationOfMagritte3 class >> load [
 	"self load"
 	
 	self project stableVersion load
 ]
 
-{ #category : #'metacello tool support' }
+{ #category : 'metacello tool support' }
 ConfigurationOfMagritte3 class >> metacelloVersion: versionString loads: anArrayOrString [
 	"Stash the last version loaded and the list of packages loaded for that version. The list
 	 of packages will be used by the tools when doing 'Load Package Version'"
@@ -77,13 +77,13 @@ ConfigurationOfMagritte3 class >> metacelloVersion: versionString loads: anArray
 	LastVersionLoad := versionString -> anArrayOrString
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 ConfigurationOfMagritte3 class >> project [
 
 	^self new project
 ]
 
-{ #category : #release }
+{ #category : 'release' }
 ConfigurationOfMagritte3 class >> releaseToGemSource [
 	"self releaseToGemSource"
 
@@ -93,7 +93,7 @@ ConfigurationOfMagritte3 class >> releaseToGemSource [
 		push
 ]
 
-{ #category : #release }
+{ #category : 'release' }
 ConfigurationOfMagritte3 class >> releaseToSqueakSource [
 	"self releaseToSqueakSource"
 
@@ -103,7 +103,7 @@ ConfigurationOfMagritte3 class >> releaseToSqueakSource [
 		push
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 ConfigurationOfMagritte3 >> baseline300: spec [
 	<version: '3.0-baseline'>
 	spec
@@ -129,7 +129,7 @@ ConfigurationOfMagritte3 >> baseline300: spec [
 	self baseline300ForGemStone: spec
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 ConfigurationOfMagritte3 >> baseline300CommonExtDeps: spec [
 	"Common external dependencies for baseline 3.0.0"
 	spec
@@ -149,7 +149,7 @@ ConfigurationOfMagritte3 >> baseline300CommonExtDeps: spec [
 						repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ]
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 ConfigurationOfMagritte3 >> baseline300ForGemStone: spec [
 	spec
 		for: #gemstone
@@ -174,7 +174,7 @@ ConfigurationOfMagritte3 >> baseline300ForGemStone: spec [
 				package: 'Magritte-GemStone-Seaside' with: [ spec requires: #('Magritte-Seaside') ] ]
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 ConfigurationOfMagritte3 >> baseline300ForPharo: spec [
 	spec
 		for: #'pharo1.x'
@@ -218,7 +218,7 @@ ConfigurationOfMagritte3 >> baseline300ForPharo: spec [
 				group: 'Morphic' with: #('Magritte-Morph') ] 
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 ConfigurationOfMagritte3 >> baseline310: spec [
 	<version: '3.1-baseline'>
 	spec
@@ -244,7 +244,7 @@ ConfigurationOfMagritte3 >> baseline310: spec [
 	self baseline300ForGemStone: spec
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 ConfigurationOfMagritte3 >> baseline310CommonExtDeps: spec [
 	"Common external dependencies for baseline 3.1.0"
 	spec
@@ -265,7 +265,7 @@ ConfigurationOfMagritte3 >> baseline310CommonExtDeps: spec [
 						repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ]
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 ConfigurationOfMagritte3 >> baseline330: spec [
 	<version: '3.3-baseline'>
 	spec
@@ -292,7 +292,7 @@ ConfigurationOfMagritte3 >> baseline330: spec [
 	self baseline300ForGemStone: spec
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 ConfigurationOfMagritte3 >> baseline330ForPharo: spec [
 	spec
 		for: #'pharo1.x'
@@ -355,7 +355,7 @@ ConfigurationOfMagritte3 >> baseline330ForPharo: spec [
 				group: 'default' with: 'Morphic' ] 
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 ConfigurationOfMagritte3 >> baseline350: spec [
 	<version: '3.5-baseline'>
 	spec
@@ -386,7 +386,7 @@ ConfigurationOfMagritte3 >> baseline350: spec [
 
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 ConfigurationOfMagritte3 >> baseline350ForFiles: spec [
 
 	spec
@@ -413,7 +413,7 @@ ConfigurationOfMagritte3 >> baseline350ForFiles: spec [
 				package: 'Magritte-FileDirectory' with: [ spec requires: #('Magritte-Files-Model') ]].
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 ConfigurationOfMagritte3 >> baseline350ForGemStone: spec [
 	spec
 		for: #gemstone
@@ -436,7 +436,7 @@ ConfigurationOfMagritte3 >> baseline350ForGemStone: spec [
 				package: 'Magritte-GemStone-Seaside' with: [ spec requires: #('Magritte-Seaside') ] ]
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 ConfigurationOfMagritte3 >> baseline350ForPharo: spec [
 	spec
 		for: #'pharo1.x'
@@ -502,7 +502,7 @@ ConfigurationOfMagritte3 >> baseline350ForPharo: spec [
 				package: 'Magritte-Traits-Model' with: [ spec requires: #('Magritte-Model') ]].			
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 ConfigurationOfMagritte3 >> customProjectAttributes [
 
 	| projectAttributes versionString |
@@ -526,14 +526,14 @@ ConfigurationOfMagritte3 >> customProjectAttributes [
 	^ projectAttributes
 ]
 
-{ #category : #'symbolic versions' }
+{ #category : 'symbolic versions' }
 ConfigurationOfMagritte3 >> development: spec [
 	<symbolicVersion: #'development'>
 
 	spec for: #'common' version: '3.5-baseline'
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 ConfigurationOfMagritte3 >> project [
 
 	^ project ifNil: [ 
@@ -546,49 +546,49 @@ ConfigurationOfMagritte3 >> project [
 		project loadType: #linear ]
 ]
 
-{ #category : #'symbolic versions' }
+{ #category : 'symbolic versions' }
 ConfigurationOfMagritte3 >> release30: spec [ 
 	<symbolicVersion: #'release3.0'>
 	
 	spec for: #'common' version: '3.0.4'
 ]
 
-{ #category : #'symbolic versions' }
+{ #category : 'symbolic versions' }
 ConfigurationOfMagritte3 >> release31: spec [ 
 	<symbolicVersion: #'release3.1'>
 	
 	spec for: #'common' version: '3.1.4'
 ]
 
-{ #category : #'symbolic versions' }
+{ #category : 'symbolic versions' }
 ConfigurationOfMagritte3 >> release32: spec [ 
 	<symbolicVersion: #'release3.2'>
 	
 	spec for: #'common' version: '3.2.0'
 ]
 
-{ #category : #'symbolic versions' }
+{ #category : 'symbolic versions' }
 ConfigurationOfMagritte3 >> release33: spec [ 
 	<symbolicVersion: #'release3.3'>
 	
 	spec for: #'common' version: '3.3.2'
 ]
 
-{ #category : #'symbolic versions' }
+{ #category : 'symbolic versions' }
 ConfigurationOfMagritte3 >> release34: spec [ 
 	<symbolicVersion: #'release3.4'>
 	
 	spec for: #'common' version: '3.4.2'
 ]
 
-{ #category : #'symbolic versions' }
+{ #category : 'symbolic versions' }
 ConfigurationOfMagritte3 >> release35: spec [ 
 	<symbolicVersion: #'release3.5'>
 	
 	spec for: #'common' version: '3.5.2'
 ]
 
-{ #category : #'symbolic versions' }
+{ #category : 'symbolic versions' }
 ConfigurationOfMagritte3 >> release3: spec [ 
 	<symbolicVersion: #'release3'>
 	
@@ -599,7 +599,7 @@ ConfigurationOfMagritte3 >> release3: spec [
 	spec for: #'pharo4.x' version: #'release3.2'
 ]
 
-{ #category : #'symbolic versions' }
+{ #category : 'symbolic versions' }
 ConfigurationOfMagritte3 >> stable: spec [ 
 	<symbolicVersion: #stable>
 
@@ -607,7 +607,7 @@ ConfigurationOfMagritte3 >> stable: spec [
 
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version300: spec [
 	<version: '3.0' imports: #('3.0-baseline' )>
 
@@ -655,7 +655,7 @@ Updated configuration to use Seaside3'.
 			package: 'Magritte-GemStone-Seaside' with: 'Magritte-GemStone-Seaside-DaleHenrichs.2'.].
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version301: spec [
 	<version: '3.0.1' imports: #('3.0-baseline' )>
 
@@ -703,7 +703,7 @@ Updated configuration to use Seaside3'.
 			package: 'Magritte-GemStone-Seaside' with: 'Magritte-GemStone-Seaside-DaleHenrichs.2'.].
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version302: spec [
 	<version: '3.0.2' imports: #('3.0-baseline' )>
 
@@ -745,7 +745,7 @@ ConfigurationOfMagritte3 >> version302: spec [
 			package: 'Magritte-GemStone-Seaside' with: 'Magritte-GemStone-Seaside-DaleHenrichs.2'.].
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version303: spec [
 	<version: '3.0.3' imports: #('3.0-baseline' )>
 
@@ -788,7 +788,7 @@ ConfigurationOfMagritte3 >> version303: spec [
 			package: 'Magritte-GemStone-Seaside' with: 'Magritte-GemStone-Seaside-DaleHenrichs.2'.].
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version304: spec [
 	<version: '3.0.4' imports: #('3.0-baseline' )>
 
@@ -830,7 +830,7 @@ ConfigurationOfMagritte3 >> version304: spec [
 			package: 'Magritte-GemStone-Seaside' with: 'Magritte-GemStone-Seaside-DaleHenrichs.2'.].
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version310: spec [
 	<version: '3.1' imports: #('3.1-baseline' )>
 
@@ -878,7 +878,7 @@ ConfigurationOfMagritte3 >> version310: spec [
 			package: 'Magritte-GemStone-Seaside' with: 'Magritte-GemStone-Seaside-DaleHenrichs.2'.].
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version3111: spec [
 	<version: '3.1.1.1' imports: #('3.1-baseline' )>
 
@@ -925,7 +925,7 @@ ConfigurationOfMagritte3 >> version3111: spec [
 			package: 'Magritte-GemStone-Seaside' with: 'Magritte-GemStone-Seaside-DaleHenrichs.2'.].
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version311: spec [
 	<version: '3.1.1' imports: #('3.1-baseline' )>
 
@@ -972,7 +972,7 @@ ConfigurationOfMagritte3 >> version311: spec [
 			package: 'Magritte-GemStone-Seaside' with: 'Magritte-GemStone-Seaside-DaleHenrichs.2'.].
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version312: spec [
 	<version: '3.1.2' imports: #('3.1-baseline' )>
 
@@ -1018,7 +1018,7 @@ ConfigurationOfMagritte3 >> version312: spec [
 			package: 'Magritte-GemStone-Seaside' with: 'Magritte-GemStone-Seaside-DaleHenrichs.2'.].
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version313: spec [
 	<version: '3.1.3' imports: #('3.1-baseline' )>
 
@@ -1061,7 +1061,7 @@ ConfigurationOfMagritte3 >> version313: spec [
 			package: 'Magritte-GemStone-Seaside' with: 'Magritte-GemStone-Seaside-DaleHenrichs.2'.].
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version314: spec [
 	<version: '3.1.4' imports: #('3.1-baseline' )>
 
@@ -1104,7 +1104,7 @@ ConfigurationOfMagritte3 >> version314: spec [
 			package: 'Magritte-GemStone-Seaside' with: 'Magritte-GemStone-Seaside-DaleHenrichs.2'.].
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version315: spec [
 	<version: '3.1.5' imports: #('3.1-baseline' )>
 
@@ -1147,7 +1147,7 @@ ConfigurationOfMagritte3 >> version315: spec [
 			package: 'Magritte-GemStone-Seaside' with: 'Magritte-GemStone-Seaside-DaleHenrichs.2'.].
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version320: spec [
   <version: '3.2.0' imports: #('3.1-baseline')>
   spec
@@ -1198,7 +1198,7 @@ ConfigurationOfMagritte3 >> version320: spec [
           with: 'Magritte-GemStone-Seaside-DaleHenrichs.2' ]
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version330: spec [
   <version: '3.3.0' imports: #('3.3-baseline')>
   spec
@@ -1252,7 +1252,7 @@ ConfigurationOfMagritte3 >> version330: spec [
           with: 'Magritte-GemStone-Seaside-DaleHenrichs.2' ]
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version331: spec [
   <version: '3.3.1' imports: #('3.3-baseline')>
   spec
@@ -1306,7 +1306,7 @@ ConfigurationOfMagritte3 >> version331: spec [
           with: 'Magritte-GemStone-Seaside-DaleHenrichs.2' ]
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version332: spec [
   <version: '3.3.2' imports: #('3.3-baseline')>
   spec
@@ -1361,7 +1361,7 @@ ConfigurationOfMagritte3 >> version332: spec [
           with: 'Magritte-GemStone-Seaside-DaleHenrichs.2' ]
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version342: spec [
   <version: '3.4.2' imports: #('3.3-baseline')>
   spec
@@ -1416,7 +1416,7 @@ ConfigurationOfMagritte3 >> version342: spec [
           with: 'Magritte-GemStone-Seaside-DaleHenrichs.2' ]
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version350: spec [
   <version: '3.5.0' imports: #('3.3-baseline')>
   spec
@@ -1481,7 +1481,7 @@ ConfigurationOfMagritte3 >> version350: spec [
           with: 'Magritte-GemStone-Seaside-DaleHenrichs.2' ]
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version351: spec [
   <version: '3.5.1' imports: #('3.3-baseline')>
   spec
@@ -1538,7 +1538,7 @@ ConfigurationOfMagritte3 >> version351: spec [
           with: 'Magritte-GemStone-Seaside-DaleHenrichs.2' ]
 ]
 
-{ #category : #versions }
+{ #category : 'versions' }
 ConfigurationOfMagritte3 >> version352: spec [
   <version: '3.5.2' imports: #('3.5-baseline')>
   spec

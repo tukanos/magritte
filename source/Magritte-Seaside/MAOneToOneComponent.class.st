@@ -4,28 +4,28 @@ Class {
 	#category : 'Magritte-Seaside-Components'
 }
 
-{ #category : #actions }
+{ #category : 'actions' }
 MAOneToOneComponent >> create [
 	self subclassResponsibility
 ]
 
-{ #category : #actions }
+{ #category : 'actions' }
 MAOneToOneComponent >> remove [
 	self value: nil
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MAOneToOneComponent >> renderButtonsOn: html [
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MAOneToOneComponent >> renderEditorOn: html [
 	self value isNil
 		ifTrue: [ self renderSelectListOn: html ]
 		ifFalse: [ self renderViewerOn: html; renderButtonsOn: html ]
 ]
 
-{ #category : #'rendering-tools' }
+{ #category : 'rendering-tools' }
 MAOneToOneComponent >> renderSelectButtonOn: html [
 	html submitButton on: #create of: self
 ]

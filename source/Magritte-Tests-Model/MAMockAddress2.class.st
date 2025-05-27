@@ -4,7 +4,7 @@ Class {
 	#category : 'Magritte-Tests-Model-Mocks'
 }
 
-{ #category : #'acessing-magritte' }
+{ #category : 'acessing-magritte' }
 MAMockAddress2 >> descriptionContainer [
 	"this pragma #magritteContainer is optional as the pragma will be retrieved from the super class's overridden method."
 	<magritteContainer>
@@ -14,7 +14,7 @@ MAMockAddress2 >> descriptionContainer [
 		yourself
 ]
 
-{ #category : #'acessing-magritte' }
+{ #category : 'acessing-magritte' }
 MAMockAddress2 >> descriptionStreet [
 	"this pragma #magritteDescription is optional as the pragma will be retrieved from the super class's overridden method."
 	<magritteDescription>

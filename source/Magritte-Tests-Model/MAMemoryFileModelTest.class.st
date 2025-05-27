@@ -4,7 +4,7 @@ Class {
 	#category : 'Magritte-Tests-Model-Models'
 }
 
-{ #category : #private }
+{ #category : 'private' }
 MAMemoryFileModelTest >> actualClass [
 	^ MAMemoryFileModel
 ]

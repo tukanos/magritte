@@ -15,31 +15,31 @@ Class {
 	#classVars : [
 		'DefaultMoneyClass'
 	],
-	#category : #'Magritte-Money'
+	#category : 'Magritte-Money'
 }
 
-{ #category : #'accessing-defaults' }
+{ #category : 'accessing-defaults' }
 MAMoneyDescription class >> defaultKind [
 	^ DefaultMoneyClass
 ]
 
-{ #category : #'accessing-defaults' }
+{ #category : 'accessing-defaults' }
 MAMoneyDescription class >> defaultKind: aClass [
 	"This is a hook so one can choose any Money library. An alternative would be to allow the chosen library to implement #defaultKind as an extension method and remove this setter, but that would dirty packages if multiple libraries were loaded simultaneously (not sure how much that matters in practice, especially since each of my instances can specify their kind)"
 	DefaultMoneyClass := aClass
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 MAMoneyDescription class >> isAbstract [
 	^ false
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MAMoneyDescription class >> label [
 	^ 'Money'
 ]
 
-{ #category : #visiting }
+{ #category : 'visiting' }
 MAMoneyDescription >> acceptMagritte: aVisitor [
 	aVisitor visitMoneyDescription: self
 ]

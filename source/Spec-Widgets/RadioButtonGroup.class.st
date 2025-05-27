@@ -10,7 +10,7 @@ Class {
 	#category : 'Spec-Widgets-Utilities'
 }
 
-{ #category : #protocol }
+{ #category : 'protocol' }
 RadioButtonGroup >> addRadioButton: aButton [
 
 	buttons do: [:b | 
@@ -21,14 +21,14 @@ RadioButtonGroup >> addRadioButton: aButton [
 	aButton privateSetState: false
 ]
 
-{ #category : #protocol }
+{ #category : 'protocol' }
 RadioButtonGroup >> default: aButton [
 
 	aButton privateSetState: true.
 	aButton takeKeyboardFocus.
 ]
 
-{ #category : #initialization }
+{ #category : 'initialization' }
 RadioButtonGroup >> initialize [
 	"Initialization code for RadioButtonGroup"
 

@@ -7,19 +7,19 @@ Class {
 	#category : 'Magritte-Seaside-Decorations'
 }
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MAValidationDecoration >> errors [
 	^ self decoratedComponent errors
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MAValidationDecoration >> renderContentOn: html [
 	self errors isEmpty
 		ifFalse: [ self renderErrorsOn: html ].
 	super renderContentOn: html
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MAValidationDecoration >> renderErrorsOn: html [
 	html unorderedList
 		class: 'errors';

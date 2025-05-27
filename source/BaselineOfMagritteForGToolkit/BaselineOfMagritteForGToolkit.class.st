@@ -1,10 +1,10 @@
 Class {
 	#name : #BaselineOfMagritteForGToolkit,
 	#superclass : #BaselineOf,
-	#category : #BaselineOfMagritteForGToolkit
+	#category : 'BaselineOfMagritteForGToolkit'
 }
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 BaselineOfMagritteForGToolkit >> baseline: spec [
 
 	<baseline>

@@ -4,17 +4,17 @@ Class {
 	#category : 'Magritte-OmniBrowser-Tools'
 }
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 ORCmdMagritteDescriptionsClassUpdate >> label [
 	^ 'Update Magritte descriptions'
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 ORCmdMagritteDescriptionsClassUpdate >> longDescription [
 	^ 'Move Magritte descriptions to instance side and convert to use pragmas.'
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 ORCmdMagritteDescriptionsClassUpdate >> refactoring [
 	^ MAClassRefactoring model: self model className: self currentNode theClass name
 ]

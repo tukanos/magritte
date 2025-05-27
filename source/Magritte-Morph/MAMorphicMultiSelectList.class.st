@@ -4,10 +4,10 @@ Class {
 	#instVars : [
 		'selected'
 	],
-	#category : #'Magritte-Morph-Model'
+	#category : 'Magritte-Morph-Model'
 }
 
-{ #category : #private }
+{ #category : 'private' }
 MAMorphicMultiSelectList >> buildMorphView [
 	^ (PluggableListMorph on: self list: #strings primarySelection: #selected changePrimarySelection: #selected: listSelection: #selectionAt: changeListSelection: #selectionAt:put: menu: nil)
 		hResizing: #spaceFill;
@@ -17,23 +17,23 @@ MAMorphicMultiSelectList >> buildMorphView [
 		yourself
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MAMorphicMultiSelectList >> selected [
 	^ selected ifNil: [ selected := 0 ]
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MAMorphicMultiSelectList >> selected: anInteger [
 	selected := anInteger.
 	self changed: #selected
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MAMorphicMultiSelectList >> selectionAt: anInteger [
 	^ self value includes: (self options at: anInteger)
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MAMorphicMultiSelectList >> selectionAt: anInteger put: aBoolean [
 	| option |
 	option := self options at: anInteger.

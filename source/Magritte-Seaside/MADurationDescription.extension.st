@@ -1,6 +1,6 @@
 Extension { #name : #MADurationDescription }
 
-{ #category : #'*magritte-seaside' }
+{ #category : '*magritte-seaside' }
 MADurationDescription class >> defaultComponentClasses [
 	^ Array with: MATextInputComponent
 ]

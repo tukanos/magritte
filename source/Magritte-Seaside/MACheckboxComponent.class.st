@@ -7,17 +7,17 @@ Class {
 	#category : 'Magritte-Seaside-Components'
 }
 
-{ #category : #testing }
+{ #category : 'testing' }
 MACheckboxComponent class >> isAbstract [
 	^ false
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 MACheckboxComponent >> hasLabelId [
 	^ true
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MACheckboxComponent >> renderEditorOn: html [
 	html label: [
 		html checkbox

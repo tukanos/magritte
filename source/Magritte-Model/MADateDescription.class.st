@@ -4,25 +4,25 @@ I am a description of dates, possible values are instances of ==Date==. My visua
 Class {
 	#name : #MADateDescription,
 	#superclass : #MAMagnitudeDescription,
-	#category : #'Magritte-Model-Description'
+	#category : 'Magritte-Model-Description'
 }
 
-{ #category : #'accessing-defaults' }
+{ #category : 'accessing-defaults' }
 MADateDescription class >> defaultKind [
 	^ Date
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 MADateDescription class >> isAbstract [
 	^ false
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MADateDescription class >> label [
 	^ 'Date'
 ]
 
-{ #category : #visiting }
+{ #category : 'visiting' }
 MADateDescription >> acceptMagritte: aVisitor [
 	aVisitor visitDateDescription: self
 ]

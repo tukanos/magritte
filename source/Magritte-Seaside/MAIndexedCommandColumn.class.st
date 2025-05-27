@@ -4,12 +4,12 @@ Class {
 	#category : 'Magritte-Seaside-Report'
 }
 
-{ #category : #'accessing-defaults' }
+{ #category : 'accessing-defaults' }
 MAIndexedCommandColumn >> defaultFormat [
 	^ MessageSend receiver: self selector: #renderCellContent:on:index:
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MAIndexedCommandColumn >> renderCellContent: anObject on: html index: anInteger [
 	self commands
 		do: [ :each |

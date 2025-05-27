@@ -18,7 +18,7 @@ Class {
 	#category : 'Spec-Widgets-PolyWidgets'
 }
 
-{ #category : #specs }
+{ #category : 'specs' }
 SearchableList class >> defaultSpec [
 
 	^ {#ComposableSpec .
@@ -29,7 +29,7 @@ SearchableList class >> defaultSpec [
 															topOffset: 25) }}
 ]
 
-{ #category : #initialize }
+{ #category : 'initialize' }
 SearchableList >> initializePresenter [
 
 	searchModel whenTextChanged: [:newText || text |
@@ -40,7 +40,7 @@ SearchableList >> initializePresenter [
 				listModel filteringBlock: [:col | col select: [:e | e asLowercase beginsWith: searchModel getText asLowercase ]]]]
 ]
 
-{ #category : #initialize }
+{ #category : 'initialize' }
 SearchableList >> initializeWidgets [
 
 	self instantiateModels: #(	
@@ -51,12 +51,12 @@ SearchableList >> initializeWidgets [
 		ghostText: 'filter'.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 SearchableList >> listModel [
 	^ listModel
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 SearchableList >> searchModel [
 	^ searchModel
 ]

@@ -4,7 +4,7 @@ Class {
 	#category : 'Magritte-Tests-GemStone-Model'
 }
 
-{ #category : #private }
+{ #category : 'private' }
 MAExternalFileModelTest >> actualClass [
 	^ MAExternalFileModel
 ]

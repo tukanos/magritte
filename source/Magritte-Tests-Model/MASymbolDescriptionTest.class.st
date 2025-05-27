@@ -4,21 +4,21 @@ Class {
 	#category : 'Magritte-Tests-Model-Description'
 }
 
-{ #category : #testing }
+{ #category : 'testing' }
 MASymbolDescriptionTest class >> isAbstract [
 	^ false
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 MASymbolDescriptionTest >> actualClass [
 	^ MASymbolDescription
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 MASymbolDescriptionTest >> includedInstance [
 	^ #magritte
 ]
 
-{ #category : #'tests-validation' }
+{ #category : 'tests-validation' }
 MASymbolDescriptionTest >> testValidateConditions [
 ]

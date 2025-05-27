@@ -4,12 +4,12 @@ Class {
 	#category : 'Magritte-Seaside-Components'
 }
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MASingleSelectionComponent >> options [
 	^ self magritteDescription allOptionsWith: self value
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MASingleSelectionComponent >> renderViewerOn: html [
 	html render: (self labelForOption: self value)
 ]

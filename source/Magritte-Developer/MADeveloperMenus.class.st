@@ -4,7 +4,7 @@ Class {
 	#category : 'Magritte-Developer'
 }
 
-{ #category : #'nautilus menus' }
+{ #category : 'nautilus menus' }
 MADeveloperMenus class >> maNautilusMethodMenu: aBuilder [
 	<nautilusGlobalClassMenu>
 

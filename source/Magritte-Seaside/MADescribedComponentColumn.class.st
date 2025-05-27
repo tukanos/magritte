@@ -10,14 +10,14 @@ Class {
 	#category : 'Magritte-Seaside-Report'
 }
 
-{ #category : #readme }
+{ #category : 'readme' }
 MADescribedComponentColumn >> NOW [
 	" very experimental ... use only if you're willing to fix bugs
 	  this only works for readonly views without callbacks
 	  on the positive side: only one component per column is created "
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MADescribedComponentColumn >> component [
 	component isNil ifTrue: [
 		component := self magritteDescription componentClass new
@@ -26,7 +26,7 @@ MADescribedComponentColumn >> component [
 	^component
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MADescribedComponentColumn >> renderCellContent: anObject on: html [
 	self component setMemento: (anObject mementoClass
 			model: anObject

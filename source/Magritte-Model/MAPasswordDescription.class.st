@@ -4,20 +4,20 @@ I am a description of a password string, possible values are instances of ==Stri
 Class {
 	#name : #MAPasswordDescription,
 	#superclass : #MAStringDescription,
-	#category : #'Magritte-Model-Description'
+	#category : 'Magritte-Model-Description'
 }
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 MAPasswordDescription class >> label [
 	^ 'Password'
 ]
 
-{ #category : #visiting }
+{ #category : 'visiting' }
 MAPasswordDescription >> acceptMagritte: aVisitor [
 	aVisitor visitPasswordDescription: self
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 MAPasswordDescription >> isObfuscated: anObject [
 	^ anObject notNil
 		and: [ anObject isString
@@ -25,12 +25,12 @@ MAPasswordDescription >> isObfuscated: anObject [
 		and: [ anObject allSatisfy: [ :each | each = $* ] ] ] ]
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 MAPasswordDescription >> isSortable [
 	^ false
 ]
 
-{ #category : #operators }
+{ #category : 'operators' }
 MAPasswordDescription >> obfuscated: anObject [
 	^ String new: (self toString: anObject) size withAll: $*
 ]

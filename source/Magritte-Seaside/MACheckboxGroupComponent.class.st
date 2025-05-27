@@ -7,27 +7,27 @@ Class {
 	#category : 'Magritte-Seaside-Components'
 }
 
-{ #category : #testing }
+{ #category : 'testing' }
 MACheckboxGroupComponent class >> isAbstract [
 	^ false
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 MACheckboxGroupComponent >> hasLabelId [
 	^ self isReadOnly
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 MACheckboxGroupComponent >> isDistinct [
 	^ true
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 MACheckboxGroupComponent >> optionId: anInteger [ 
 	^ self ajaxId: 'option' , anInteger greaseString
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 MACheckboxGroupComponent >> optionsWithIndexDo: elementAndIndexBlock separatedBy: separatorBlock [
 	| index |
 	index := 1.
@@ -38,7 +38,7 @@ MACheckboxGroupComponent >> optionsWithIndexDo: elementAndIndexBlock separatedBy
 		separatedBy: separatorBlock
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 MACheckboxGroupComponent >> renderEditorOn: html [
 	html hiddenInput 
 		callback: [ :value | self clear ].

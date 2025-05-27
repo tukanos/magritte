@@ -4,7 +4,7 @@ Class {
 	#category : 'Magritte-Seaside-Decorations'
 }
 
-{ #category : #defaults }
+{ #category : 'defaults' }
 MAComponentDecoration class >> defaultErrorClass [
 	^ MAError
 ]
