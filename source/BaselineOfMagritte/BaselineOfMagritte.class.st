@@ -8,33 +8,34 @@ Class {
 BaselineOfMagritte >> baseline300ForGemStone: spec [
 	spec
 		for: #gemstone
-		do: [ 
+		do: [
+			spec blessing: #'baseline'.
 			spec
-				project: #'GsCore'
+				baseline: 'GLASS1'
 				with: [ 
 					spec
-						className: #'ConfigurationOfGsCore';
-						versionString: #bleedingEdge;
-						repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ].
+						loads: #('Base');
+						repository: 'github://glassdb/glass:master/repository' ].
+
 			spec
 				package: #'Magritte-Model'
 					with: [ 
 							spec
-								requires: #(#'GsCore');
-								includes: #(#'Magritte-GemStone-Model') ];
+								includes: #('Magritte-GemStone-Model') ];
+								requires: #('GLASS1');
 				package: #'Magritte-Tests-Model' with: [ spec includes: #('Magritte-Tests-GemStone-Model') ];
-				package: #'Magritte-Seaside' with: [ spec includes: #(#'Magritte-GemStone-Seaside') ];
-				package: #'Magritte-GemStone-Model' with: [ spec requires: #(#'Magritte-Model') ];
-				package: #'Magritte-Tests-GemStone-Model' with: [ spec requires: #(#'Magritte-GemStone-Model') ];
-				package: #'Magritte-GemStone-Seaside' with: [ spec requires: #(#'Magritte-Seaside') ] ]
+				package: #'Magritte-Seaside' with: [ spec includes: #('Magritte-GemStone-Seaside') ];
+				package: #'Magritte-GemStone-Model' with: [ spec requires: #('Magritte-Model') ];
+				package: #'Magritte-Tests-GemStone-Model' with: [ spec requires: #('Magritte-GemStone-Model') ];
+				package: #'Magritte-GemStone-Seaside' with: [ spec requires: #('Magritte-Seaside') ] ]
 ]
 
 { #category : #baselines }
 BaselineOfMagritte >> baseline310CommonExtDeps: spec [
 	"Common external dependencies for baseline 3.1.0"
-	
+
 	spec
-		baseline: #'Grease' with: [ spec repository: 'github://SeasideSt/Grease:v1.18.x/repository' ];	
+		baseline: #'Grease' with: [ spec repository: 'github://SeasideSt/Grease:v1.18.x/repository' ];
 		baseline: #'Seaside3'
 			with: [ "note: we do not want to depend on Zinc, since this is not present in Squeak. Currently no adapter is loaded"
 			spec
@@ -44,7 +45,7 @@ BaselineOfMagritte >> baseline310CommonExtDeps: spec [
 
 { #category : #baselines }
 BaselineOfMagritte >> baseline330ForPharo: spec [
-			
+
 	spec for: #(#'pharo7.x' #'pharo8.x' #'pharo9.x' #'pharo10.x' #'pharo11.x' #'pharo12.x' #'pharo13.x') do: [
 		spec 
 			baseline: #'PharoEnhancements' with: [ spec repository: 'github://seandenigris/Pharo-Enhancements' ].
@@ -55,18 +56,17 @@ BaselineOfMagritte >> baseline330ForPharo: spec [
 			package: #'Magritte-Tests-Files-Model' with: [ spec requires: #(#'Magritte-FileSystem') ];
 			package: #'Magritte-Tests-Model' with: [ spec includes: #(#'Magritte-Tests-Files-Model') ].
 		spec group: #'default' with: #(#'Magritte-Developer') ].
-	
+
 	spec for: #(#'pharo9.x') do: [
 		spec
 			package: #'Magritte-Pillar' 
 				with: [ spec requires: #(#'Magritte-Model') "assumes Pillar is loaded, which is the case in P9 and GT before port to P10" ] ].
-			
-	
+
 	spec for: #(#'pharo7.x' #'pharo8.x' #'pharo9.x') do: [ 
 		spec
 			package: #'Magritte-Glamour' with: [ spec requires: #(#'Magritte-Model' #'Magritte-Morph') ];
 			package: #'Magritte-GT' with: [ spec requires: #(#'Magritte-Morph' #'Magritte-Glamour') ] ].
-	
+
 	spec for: #GToolkit do: [ 
 		spec 
 			package: #'Magritte-Developer' with: [ spec includes: #(#'Magritte-GToolkit') ];
