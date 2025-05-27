@@ -1,0 +1,15 @@
+{
+	"category" : "Magritte-Model-Accessor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"readBlock",
+		"writeBlock" ],
+	"name" : "MAPluggableAccessor",
+	"pools" : [
+		 ],
+	"super" : "MAAccessor",
+	"type" : "normal" }

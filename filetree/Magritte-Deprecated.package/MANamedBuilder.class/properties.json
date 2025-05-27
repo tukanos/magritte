@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Deprecated",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MANamedBuilder",
+	"pools" : [
+		 ],
+	"super" : "MADescriptionBuilder",
+	"type" : "normal" }

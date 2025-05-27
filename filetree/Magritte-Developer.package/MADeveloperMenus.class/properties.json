@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Developer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MADeveloperMenus",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

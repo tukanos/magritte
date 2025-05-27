@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-GToolkit-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MATokenCollectorElement",
+	"pools" : [
+		 ],
+	"super" : "MATokenSelectorElement",
+	"type" : "normal" }

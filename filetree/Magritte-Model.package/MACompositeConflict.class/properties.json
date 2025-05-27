@@ -1,0 +1,15 @@
+{
+	"category" : "Magritte-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"kind",
+		"string" ],
+	"name" : "MACompositeConflict",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Developer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fieldName" ],
+	"name" : "MAClyAddFieldCommand",
+	"pools" : [
+		 ],
+	"super" : "SycSingleClassCommand",
+	"type" : "normal" }

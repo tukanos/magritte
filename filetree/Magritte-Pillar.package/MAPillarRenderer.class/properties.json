@@ -1,0 +1,16 @@
+{
+	"category" : "Magritte-Pillar",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"object",
+		"pillarStack",
+		"objectDescription" ],
+	"name" : "MAPillarRenderer",
+	"pools" : [
+		 ],
+	"super" : "MAVisitor",
+	"type" : "normal" }

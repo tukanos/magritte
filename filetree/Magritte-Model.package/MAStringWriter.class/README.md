@@ -1,0 +1,1 @@
+I take into account the description's specified ==undefined== string. See ${method:MAStringWriter>>#write:description:to:}$.

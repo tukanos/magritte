@@ -1,0 +1,17 @@
+{
+	"category" : "Magritte-GToolkit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"elementDescription",
+		"builder",
+		"errors",
+		"header" ],
+	"name" : "MABrTextEditor",
+	"pools" : [
+		 ],
+	"super" : "BrEditor",
+	"type" : "normal" }

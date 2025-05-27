@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Deprecated",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MADynamicObject",
+	"pools" : [
+		 ],
+	"super" : "MAProxyObject",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-OmniBrowser-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ORCmdMagritteDescriptionsPackageUpdate",
+	"pools" : [
+		 ],
+	"super" : "ORCmdRefactoring",
+	"type" : "normal" }

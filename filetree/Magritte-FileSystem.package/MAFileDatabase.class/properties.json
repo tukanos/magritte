@@ -1,0 +1,15 @@
+{
+	"category" : "Magritte-FileSystem",
+	"classinstvars" : [
+		"baseDirectory",
+		"baseUrl" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MAFileDatabase",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

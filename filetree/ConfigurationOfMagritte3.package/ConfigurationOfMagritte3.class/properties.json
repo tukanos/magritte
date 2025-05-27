@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfMagritte3",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfMagritte3",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

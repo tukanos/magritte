@@ -1,0 +1,16 @@
+{
+	"category" : "Magritte-Model-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"key",
+		"value",
+		"owner" ],
+	"name" : "MAPropertyChangedAnnouncement",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

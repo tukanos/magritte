@@ -1,0 +1,16 @@
+{
+	"category" : "Magritte-Model-Models",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"MimeTypes" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filename",
+		"mimetype",
+		"filesize" ],
+	"name" : "MAFileModel",
+	"pools" : [
+		 ],
+	"super" : "MABasicObject",
+	"type" : "normal" }

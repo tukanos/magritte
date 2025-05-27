@@ -1,0 +1,16 @@
+{
+	"category" : "Magritte-GToolkit-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"object",
+		"relationDescription",
+		"tokenContainer" ],
+	"name" : "MATokenSelectorElement",
+	"pools" : [
+		 ],
+	"super" : "BrHorizontalPane",
+	"type" : "normal" }

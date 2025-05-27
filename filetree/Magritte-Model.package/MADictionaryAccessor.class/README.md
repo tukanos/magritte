@@ -1,0 +1,1 @@
+I am an access strategy to be used on dictionary-like model objects. I use my ==key== to read from and write to indexed collections. I am mainly used for prototyping as it allows one to treat dictionaries like objects with object-based instance variables.

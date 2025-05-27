@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfMagritteContactManagerTutorial",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfMagritteContactManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

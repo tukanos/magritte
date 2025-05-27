@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-GToolkit-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"action" ],
+	"name" : "MATokenRequest",
+	"pools" : [
+		 ],
+	"super" : "BlEvent",
+	"type" : "normal" }

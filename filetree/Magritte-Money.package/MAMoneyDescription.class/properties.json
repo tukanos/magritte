@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Money",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultMoneyClass" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MAMoneyDescription",
+	"pools" : [
+		 ],
+	"super" : "MAElementDescription",
+	"type" : "normal" }

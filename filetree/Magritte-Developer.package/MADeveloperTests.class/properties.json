@@ -1,0 +1,14 @@
+{
+	"category" : "Magritte-Developer-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MADeveloperTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
