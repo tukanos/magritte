@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAContainerTest',
-	#superclass : #MADescriptionTest,
+	#superclass : 'MADescriptionTest',
 	#instVars : [
 		'child1',
 		'child2',

@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAMorphicOneToMany',
-	#superclass : #MAMorphicRelation,
+	#superclass : 'MAMorphicRelation',
 	#category : 'Magritte-Morph-Model'
 }
 

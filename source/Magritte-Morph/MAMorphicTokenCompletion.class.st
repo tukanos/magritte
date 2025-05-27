@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAMorphicTokenCompletion',
-	#superclass : #MAMorphicList,
+	#superclass : 'MAMorphicList',
 	#category : 'Magritte-Morph-Model'
 }
 

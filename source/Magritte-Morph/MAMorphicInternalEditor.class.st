@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAMorphicInternalEditor',
-	#superclass : #MAMorphicOneToOne,
+	#superclass : 'MAMorphicOneToOne',
 	#instVars : [
 		'component'
 	],

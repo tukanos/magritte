@@ -3,7 +3,7 @@ Like MAToManyRelationDescription but for scalar values.
 "
 Class {
 	#name : 'MAToManyScalarRelationDescription',
-	#superclass : #MAToManyRelationDescription,
+	#superclass : 'MAToManyRelationDescription',
 	#category : 'Magritte-Model-Description'
 }
 

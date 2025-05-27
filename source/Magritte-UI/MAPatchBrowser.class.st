@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAPatchBrowser',
-	#superclass : #SpPresenter,
+	#superclass : 'SpPresenter',
 	#category : 'Magritte-UI'
 }
 

@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAAccessorTest',
-	#superclass : #MAObjectTest,
+	#superclass : 'MAObjectTest',
 	#instVars : [
 		'accessor',
 		'value'

@@ -3,7 +3,7 @@ A DialogWindowModel is a model used to describe a DialogWindow
 "
 Class {
 	#name : 'DialogWindowModel',
-	#superclass : #WindowModel,
+	#superclass : 'WindowModel',
 	#instVars : [
 		'contentMorph'
 	],

@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAToOneRelationDescriptionTest',
-	#superclass : #MARelationDescriptionTest,
+	#superclass : 'MARelationDescriptionTest',
 	#category : 'Magritte-Tests-Model-Description'
 }
 

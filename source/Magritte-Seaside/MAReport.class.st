@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAReport',
-	#superclass : #MAComponent,
+	#superclass : 'MAComponent',
 	#instVars : [
 		'rows',
 		'cache',

@@ -29,7 +29,7 @@ MyDomainClass>>employeeDescription
 "
 Class {
 	#name : 'MAMessagingStringWriter',
-	#superclass : #MAStringWriter,
+	#superclass : 'MAStringWriter',
 	#instVars : [
 		'messageSend'
 	],

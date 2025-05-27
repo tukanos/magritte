@@ -3,7 +3,7 @@ The only difference to the superclass is that on answer it does not delete the m
 "
 Class {
 	#name : 'MAMorphicSilentContainer',
-	#superclass : #MAMorphicContainer,
+	#superclass : 'MAMorphicContainer',
 	#category : 'Magritte-Morph-Model'
 }
 

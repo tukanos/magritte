@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAWriter',
-	#superclass : #MAStreamingVisitor,
+	#superclass : 'MAStreamingVisitor',
 	#category : 'Magritte-Model-Visitor'
 }
 

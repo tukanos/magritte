@@ -1,6 +1,6 @@
 Class {
 	#name : 'MATimeStampInputComponent',
-	#superclass : #MATextInputComponent,
+	#superclass : 'MATextInputComponent',
 	#category : 'Magritte-Seaside-Components'
 }
 

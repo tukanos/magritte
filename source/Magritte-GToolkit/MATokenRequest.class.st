@@ -1,6 +1,6 @@
 Class {
 	#name : 'MATokenRequest',
-	#superclass : #BlEvent,
+	#superclass : 'BlEvent',
 	#instVars : [
 		'action'
 	],

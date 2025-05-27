@@ -4,7 +4,7 @@ I handle basic multi-line text. Try:
 "
 Class {
 	#name : 'TextModel',
-	#superclass : #AbstractBasicWidget,
+	#superclass : 'AbstractBasicWidget',
 	#instVars : [
 		'aboutToStyleHolder',
 		'behaviorHolder',

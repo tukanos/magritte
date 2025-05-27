@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAMorphicDate',
-	#superclass : #MAMorphicElement,
+	#superclass : 'MAMorphicElement',
 	#category : 'Magritte-Morph-Model'
 }
 

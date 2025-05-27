@@ -1,5 +1,5 @@
 Class {
 	#name : 'MAExternalEditorMorph',
-	#superclass : #MAMorphicExternalEditor,
+	#superclass : 'MAMorphicExternalEditor',
 	#category : 'Magritte-Deprecated3dot7'
 }

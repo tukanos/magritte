@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAReferenceDescriptionTest',
-	#superclass : #MAElementDescriptionTest,
+	#superclass : 'MAElementDescriptionTest',
 	#category : 'Magritte-Tests-Model-Description'
 }
 

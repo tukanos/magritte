@@ -51,7 +51,7 @@ From *a 2006 thread>http://forum.world.st/MA-labaled-options-tp116188.html`*, se
 "
 Class {
 	#name : 'MAReferenceDescription',
-	#superclass : #MAElementDescription,
+	#superclass : 'MAElementDescription',
 	#instVars : [
 		'reference'
 	],

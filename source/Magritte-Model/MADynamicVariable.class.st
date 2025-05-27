@@ -1,6 +1,6 @@
 Class {
 	#name : 'MADynamicVariable',
-	#superclass : #GRNotification,
+	#superclass : 'GRNotification',
 	#category : 'Magritte-Model-Utility'
 }
 

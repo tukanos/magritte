@@ -1,6 +1,6 @@
 Class {
 	#name : 'GLMMorphicMagritteRenderer',
-	#superclass : #GLMMorphicWidgetRenderer,
+	#superclass : 'GLMMorphicWidgetRenderer',
 	#instVars : [
 		'scrollPane',
 		'containerMorphClass'

@@ -3,7 +3,7 @@ I'm a seaside component used to display MABooleanDescription. If I'm writeable (
 "
 Class {
 	#name : 'MACheckboxComponent',
-	#superclass : #MAElementComponent,
+	#superclass : 'MAElementComponent',
 	#category : 'Magritte-Seaside-Components'
 }
 

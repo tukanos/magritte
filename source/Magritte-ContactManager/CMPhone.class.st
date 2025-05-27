@@ -3,7 +3,7 @@ A simple phone model
 "
 Class {
 	#name : 'CMPhone',
-	#superclass : #Object,
+	#superclass : 'Object',
 	#instVars : [
 		'kind',
 		'number'

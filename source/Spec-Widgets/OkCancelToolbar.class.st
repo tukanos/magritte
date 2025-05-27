@@ -3,7 +3,7 @@ An OkCancelToolbar is a model for a basic Ok-Cancel toolbar
 "
 Class {
 	#name : 'OkCancelToolbar',
-	#superclass : #OkToolbar,
+	#superclass : 'OkToolbar',
 	#instVars : [
 		'cancelButton',
 		'cancelAction',

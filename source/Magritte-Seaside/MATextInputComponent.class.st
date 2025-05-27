@@ -3,7 +3,7 @@ I'm a simple input box for MAStringDescription.
 "
 Class {
 	#name : 'MATextInputComponent',
-	#superclass : #MAElementComponent,
+	#superclass : 'MAElementComponent',
 	#category : 'Magritte-Seaside-Components'
 }
 

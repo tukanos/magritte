@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAPackageRefactoring',
-	#superclass : #RBRefactoring,
+	#superclass : 'RBRefactoring',
 	#instVars : [
 		'classes'
 	],

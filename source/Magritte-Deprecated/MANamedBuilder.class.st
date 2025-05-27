@@ -7,7 +7,7 @@ I dynamically build container descriptions from class-side methods using a simpl
 "
 Class {
 	#name : 'MANamedBuilder',
-	#superclass : #MADescriptionBuilder,
+	#superclass : 'MADescriptionBuilder',
 	#category : 'Magritte-Deprecated'
 }
 

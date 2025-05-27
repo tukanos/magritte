@@ -3,7 +3,7 @@ My access strategy is to delegate to the next accessor. I am not that useful all
 "
 Class {
 	#name : 'MADelegatorAccessor',
-	#superclass : #MAAccessor,
+	#superclass : 'MAAccessor',
 	#instVars : [
 		'next'
 	],

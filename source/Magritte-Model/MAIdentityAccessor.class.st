@@ -3,7 +3,7 @@ I am a read-only access strategy and I answer the model itself when being read.
 "
 Class {
 	#name : 'MAIdentityAccessor',
-	#superclass : #MAAccessor,
+	#superclass : 'MAAccessor',
 	#category : 'Magritte-Model-Accessor'
 }
 

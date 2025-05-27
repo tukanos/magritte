@@ -3,7 +3,7 @@ I handle one line of text.
 "
 Class {
 	#name : 'TextInputFieldModel',
-	#superclass : #TextModel,
+	#superclass : 'TextModel',
 	#instVars : [
 		'ghostText',
 		'alwaysAccept',

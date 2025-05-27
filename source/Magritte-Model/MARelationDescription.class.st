@@ -37,7 +37,7 @@ that solve the current problems. - *Lukas>http://forum.world.st/magrite-toOne-re
 "
 Class {
 	#name : 'MARelationDescription',
-	#superclass : #MAReferenceDescription,
+	#superclass : 'MAReferenceDescription',
 	#instVars : [
 		'classes'
 	],

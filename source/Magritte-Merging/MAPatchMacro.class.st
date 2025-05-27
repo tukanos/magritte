@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAPatchMacro',
-	#superclass : #Object,
+	#superclass : 'Object',
 	#instVars : [
 		'operations'
 	],

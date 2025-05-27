@@ -6,7 +6,7 @@ You can also have a look at CheckBoxExample for a full example of how to use the
 "
 Class {
 	#name : 'CheckBoxModel',
-	#superclass : #AbstractBasicWidget,
+	#superclass : 'AbstractBasicWidget',
 	#instVars : [
 		'actionWhenActivatedHolder',
 		'actionWhenDesactivatedHolder',

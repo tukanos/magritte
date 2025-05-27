@@ -5,7 +5,7 @@ I delegate my actual location on disk to MAFileDatabase (see class comment).
 "
 Class {
 	#name : 'MAExternalFileModel',
-	#superclass : #MAFileModel,
+	#superclass : 'MAFileModel',
 	#instVars : [
 		'location',
 		'directory'

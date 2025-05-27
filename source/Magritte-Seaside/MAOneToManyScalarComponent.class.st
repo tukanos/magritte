@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAOneToManyScalarComponent',
-	#superclass : #MAOneToManyComponent,
+	#superclass : 'MAOneToManyComponent',
 	#category : 'Magritte-Seaside-Components'
 }
 

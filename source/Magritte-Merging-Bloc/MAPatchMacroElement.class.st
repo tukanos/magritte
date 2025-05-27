@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAPatchMacroElement',
-	#superclass : #BlElement,
+	#superclass : 'BlElement',
 	#instVars : [
 		'model',
 		'expander',

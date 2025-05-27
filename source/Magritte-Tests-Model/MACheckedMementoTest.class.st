@@ -1,6 +1,6 @@
 Class {
 	#name : 'MACheckedMementoTest',
-	#superclass : #MACachedMementoTest,
+	#superclass : 'MACachedMementoTest',
 	#category : 'Magritte-Tests-Model-Memento'
 }
 

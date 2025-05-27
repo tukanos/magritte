@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAComponentRenderer',
-	#superclass : #MAVisitor,
+	#superclass : 'MAVisitor',
 	#instVars : [
 		'component',
 		'html',

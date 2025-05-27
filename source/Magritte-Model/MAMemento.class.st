@@ -7,7 +7,7 @@ I am an abstract memento. I am a stand-in for an object, typically for reading a
 "
 Class {
 	#name : 'MAMemento',
-	#superclass : #MAObject,
+	#superclass : 'MAObject',
 	#instVars : [
 		'model',
 		'description'

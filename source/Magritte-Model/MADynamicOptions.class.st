@@ -1,6 +1,6 @@
 Class {
 	#name : 'MADynamicOptions',
-	#superclass : #Object,
+	#superclass : 'Object',
 	#instVars : [
 		'block',
 		'completionToObjectBlock',

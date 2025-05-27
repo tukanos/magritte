@@ -3,7 +3,7 @@ I am an adaptive model referencing a dynamic description of myself and a diction
 "
 Class {
 	#name : 'MAAdaptiveModel',
-	#superclass : #MABasicObject,
+	#superclass : 'MABasicObject',
 	#instVars : [
 		'magritteDescription',
 		'values'

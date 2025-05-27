@@ -9,7 +9,7 @@ As it is Spec-based, it can be easily adapted and composed into a larger UI.
 "
 Class {
 	#name : 'DateModel',
-	#superclass : #ComposableModel,
+	#superclass : 'ComposableModel',
 	#instVars : [
 		'dateLabel',
 		'chooseDateButton',

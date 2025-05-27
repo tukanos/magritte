@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAColumn',
-	#superclass : #MAObject,
+	#superclass : 'MAObject',
 	#instVars : [
 		'report',
 		'accessor'

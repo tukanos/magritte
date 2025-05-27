@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAContainerPresenter',
-	#superclass : #MADescriptionPresenter,
+	#superclass : 'MADescriptionPresenter',
 	#traits : 'MATContainerPresenter @ {#superValidate->#validate}',
 	#classTraits : 'MATContainerPresenter classTrait',
 	#category : 'Magritte-UI'

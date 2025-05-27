@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAComponentDecoration',
-	#superclass : #WADecoration,
+	#superclass : 'WADecoration',
 	#category : 'Magritte-Seaside-Decorations'
 }
 

@@ -3,7 +3,7 @@ I am an access strategy to be used on dictionary-like model objects. I use my ==
 "
 Class {
 	#name : 'MADictionaryAccessor',
-	#superclass : #MAAccessor,
+	#superclass : 'MAAccessor',
 	#instVars : [
 		'key'
 	],

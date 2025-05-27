@@ -1,6 +1,6 @@
 Class {
 	#name : 'MADateSelectorComponent',
-	#superclass : #MADateInputComponent,
+	#superclass : 'MADateInputComponent',
 	#category : 'Magritte-Seaside-Components'
 }
 

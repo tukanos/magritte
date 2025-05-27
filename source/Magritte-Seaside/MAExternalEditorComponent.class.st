@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAExternalEditorComponent',
-	#superclass : #MAOneToOneComponent,
+	#superclass : 'MAOneToOneComponent',
 	#category : 'Magritte-Seaside-Components'
 }
 

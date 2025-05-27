@@ -1,5 +1,5 @@
 Class {
 	#name : 'MAMemoMorph',
-	#superclass : #MAMorphicMemo,
+	#superclass : 'MAMorphicMemo',
 	#category : 'Magritte-Deprecated3dot7'
 }

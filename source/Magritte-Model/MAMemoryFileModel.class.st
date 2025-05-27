@@ -3,7 +3,7 @@ I represent a file using a ByteArray in the object memory. I am not practicable 
 "
 Class {
 	#name : 'MAMemoryFileModel',
-	#superclass : #MAFileModel,
+	#superclass : 'MAFileModel',
 	#instVars : [
 		'contents'
 	],

@@ -1,6 +1,6 @@
 Class {
 	#name : 'MACssRenderer',
-	#superclass : #MAComponentRenderer,
+	#superclass : 'MAComponentRenderer',
 	#category : 'Magritte-Seaside-Renderer'
 }
 

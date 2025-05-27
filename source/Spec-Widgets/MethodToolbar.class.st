@@ -9,7 +9,7 @@ b method: nil
 "
 Class {
 	#name : 'MethodToolbar',
-	#superclass : #ComposableModel,
+	#superclass : 'ComposableModel',
 	#instVars : [
 		'methodHolder',
 		'browseModel',

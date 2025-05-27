@@ -5,7 +5,7 @@ Note that my lineage might a bit confusing because my superclass is used when a 
 "
 Class {
 	#name : 'MAPropertyAccessor',
-	#superclass : #MADictionaryAccessor,
+	#superclass : 'MADictionaryAccessor',
 	#category : 'Magritte-Model-Accessor'
 }
 

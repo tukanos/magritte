@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAMorphicRelation',
-	#superclass : #MAMorphicElement,
+	#superclass : 'MAMorphicElement',
 	#instVars : [
 		'selected',
 		'selectedIndex'

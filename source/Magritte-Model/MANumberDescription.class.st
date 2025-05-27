@@ -3,7 +3,7 @@ I am a description of numbers, possible values are instances of ==Number== and a
 "
 Class {
 	#name : 'MANumberDescription',
-	#superclass : #MAMagnitudeDescription,
+	#superclass : 'MAMagnitudeDescription',
 	#category : 'Magritte-Model-Description'
 }
 

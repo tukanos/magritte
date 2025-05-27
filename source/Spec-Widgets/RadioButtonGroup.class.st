@@ -3,7 +3,7 @@ A RadioButtonGroup is a group for radio buttons which ensure that only radio but
 "
 Class {
 	#name : 'RadioButtonGroup',
-	#superclass : #Object,
+	#superclass : 'Object',
 	#instVars : [
 		'buttons'
 	],

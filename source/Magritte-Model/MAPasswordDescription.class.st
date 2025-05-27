@@ -3,7 +3,7 @@ I am a description of a password string, possible values are instances of ==Stri
 "
 Class {
 	#name : 'MAPasswordDescription',
-	#superclass : #MAStringDescription,
+	#superclass : 'MAStringDescription',
 	#category : 'Magritte-Model-Description'
 }
 

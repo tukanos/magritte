@@ -3,7 +3,7 @@ A TreeModel is a spec model of a Tree ;)
 "
 Class {
 	#name : 'TreeModel',
-	#superclass : #AbstractBasicWidget,
+	#superclass : 'AbstractBasicWidget',
 	#instVars : [
 		'childrenBlockHolder',
 		'rootsHolder',

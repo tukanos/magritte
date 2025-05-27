@@ -3,7 +3,7 @@
 "
 Class {
 	#name : 'ConfigurationOfMagritteContactManager',
-	#superclass : #Object,
+	#superclass : 'Object',
 	#instVars : [
 		'project'
 	],

@@ -3,7 +3,7 @@
 "
 Class {
 	#name : 'ConfigurationOfMagritteSeaside',
-	#superclass : #Object,
+	#superclass : 'Object',
 	#instVars : [
 		'project'
 	],

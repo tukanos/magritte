@@ -3,7 +3,7 @@ I am a description of date and times, possible values are instances of ==DateAnd
 "
 Class {
 	#name : 'MADateAndTimeDescription',
-	#superclass : #MAMagnitudeDescription,
+	#superclass : 'MAMagnitudeDescription',
 	#category : 'Magritte-Model-Description'
 }
 

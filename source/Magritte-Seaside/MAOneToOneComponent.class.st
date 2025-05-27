@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAOneToOneComponent',
-	#superclass : #MARelationComponent,
+	#superclass : 'MARelationComponent',
 	#category : 'Magritte-Seaside-Components'
 }
 

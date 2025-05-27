@@ -1,6 +1,6 @@
 Class {
 	#name : 'TokenMorph',
-	#superclass : #Morph,
+	#superclass : 'Morph',
 	#instVars : [
 		'object'
 	],

@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAActionColumn',
-	#superclass : #MAColumn,
+	#superclass : 'MAColumn',
 	#category : 'Magritte-Seaside-Report'
 }
 

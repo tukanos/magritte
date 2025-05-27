@@ -18,7 +18,7 @@ The write-accessor is automatically deduced by adding a colon to the read-select
 "
 Class {
 	#name : 'MADescription',
-	#superclass : #MAObject,
+	#superclass : 'MAObject',
 	#instVars : [
 		'accessor'
 	],

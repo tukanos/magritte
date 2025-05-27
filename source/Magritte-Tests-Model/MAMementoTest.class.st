@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAMementoTest',
-	#superclass : #MAObjectTest,
+	#superclass : 'MAObjectTest',
 	#instVars : [
 		'memento',
 		'value',

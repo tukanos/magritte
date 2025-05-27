@@ -3,7 +3,7 @@ I am a dynamic variable that caches descriptions defined in the current call sta
 "
 Class {
 	#name : 'MADynamicDescriptionCache',
-	#superclass : #MADynamicVariable,
+	#superclass : 'MADynamicVariable',
 	#category : 'Magritte-Model-Utility'
 }
 

@@ -3,7 +3,7 @@ I am a description of symbols, possible values are instances of ==Symbol==.
 "
 Class {
 	#name : 'MASymbolDescription',
-	#superclass : #MAStringDescription,
+	#superclass : 'MAStringDescription',
 	#category : 'Magritte-Model-Description'
 }
 

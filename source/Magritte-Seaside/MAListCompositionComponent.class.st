@@ -3,7 +3,7 @@ I'm, like MACheckboxComponent, a seaside component for MAMultipleSelectionDescri
 "
 Class {
 	#name : 'MAListCompositionComponent',
-	#superclass : #MAMultipleSelectionComponent,
+	#superclass : 'MAMultipleSelectionComponent',
 	#instVars : [
 		'availableSelected',
 		'selectedSelected'

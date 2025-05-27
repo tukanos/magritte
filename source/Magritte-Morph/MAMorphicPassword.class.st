@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAMorphicPassword',
-	#superclass : #MAMorphicText,
+	#superclass : 'MAMorphicText',
 	#category : 'Magritte-Morph-Model'
 }
 

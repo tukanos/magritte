@@ -3,7 +3,7 @@ I display an html text area for the magritte MAMemoDescription.
 "
 Class {
 	#name : 'MATextAreaComponent',
-	#superclass : #MAElementComponent,
+	#superclass : 'MAElementComponent',
 	#category : 'Magritte-Seaside-Components'
 }
 

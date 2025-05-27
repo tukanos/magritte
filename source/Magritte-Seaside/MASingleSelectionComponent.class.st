@@ -1,6 +1,6 @@
 Class {
 	#name : 'MASingleSelectionComponent',
-	#superclass : #MAOptionComponent,
+	#superclass : 'MAOptionComponent',
 	#category : 'Magritte-Seaside-Components'
 }
 

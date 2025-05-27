@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAOneToManyComponent',
-	#superclass : #MARelationComponent,
+	#superclass : 'MARelationComponent',
 	#instVars : [
 		'report',
 		'commandColumn'

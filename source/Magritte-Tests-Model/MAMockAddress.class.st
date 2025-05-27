@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAMockAddress',
-	#superclass : #Object,
+	#superclass : 'Object',
 	#instVars : [
 		'place',
 		'street',

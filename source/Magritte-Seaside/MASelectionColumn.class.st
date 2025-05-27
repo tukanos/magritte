@@ -1,6 +1,6 @@
 Class {
 	#name : 'MASelectionColumn',
-	#superclass : #MAActionColumn,
+	#superclass : 'MAActionColumn',
 	#instVars : [
 		'selection'
 	],

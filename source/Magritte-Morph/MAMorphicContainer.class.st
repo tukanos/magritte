@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAMorphicContainer',
-	#superclass : #MAMorphicDescription,
+	#superclass : 'MAMorphicDescription',
 	#instVars : [
 		'children',
 		'answerBlock'

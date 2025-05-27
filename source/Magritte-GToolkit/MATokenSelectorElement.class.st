@@ -1,6 +1,6 @@
 Class {
 	#name : 'MATokenSelectorElement',
-	#superclass : #BrHorizontalPane,
+	#superclass : 'BrHorizontalPane',
 	#instVars : [
 		'object',
 		'relationDescription',

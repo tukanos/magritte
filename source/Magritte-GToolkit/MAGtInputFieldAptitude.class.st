@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAGtInputFieldAptitude',
-	#superclass : #BrGlamorousInputFieldSpacingAptitude,
+	#superclass : 'BrGlamorousInputFieldSpacingAptitude',
 	#category : 'Magritte-GToolkit'
 }
 

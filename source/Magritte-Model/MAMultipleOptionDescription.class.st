@@ -3,7 +3,7 @@ I am a description of multiple options, possible options are stored within the =
 "
 Class {
 	#name : 'MAMultipleOptionDescription',
-	#superclass : #MAOptionDescription,
+	#superclass : 'MAOptionDescription',
 	#category : 'Magritte-Model-Description'
 }
 

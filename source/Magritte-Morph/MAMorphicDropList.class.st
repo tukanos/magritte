@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAMorphicDropList',
-	#superclass : #MAMorphicList,
+	#superclass : 'MAMorphicList',
 	#category : 'Magritte-Morph-Model'
 }
 

@@ -3,7 +3,7 @@ I take into account the description's specified ==undefined== string. See ${meth
 "
 Class {
 	#name : 'MAStringWriter',
-	#superclass : #MAWriter,
+	#superclass : 'MAWriter',
 	#category : 'Magritte-Model-Visitor'
 }
 

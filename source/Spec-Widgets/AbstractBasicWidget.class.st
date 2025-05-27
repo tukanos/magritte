@@ -3,7 +3,7 @@ AbstractBasicWidget is an abstract class for basic widgets
 "
 Class {
 	#name : 'AbstractBasicWidget',
-	#superclass : #ComposableModel,
+	#superclass : 'ComposableModel',
 	#instVars : [
 		'helpHolder',
 		'borderWidth',

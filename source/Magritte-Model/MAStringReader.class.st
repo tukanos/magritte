@@ -3,7 +3,7 @@ I recreate Magritte-described domain objects from strings. Typically I am used t
 "
 Class {
 	#name : 'MAStringReader',
-	#superclass : #MAReader,
+	#superclass : 'MAReader',
 	#category : 'Magritte-Model-Visitor'
 }
 

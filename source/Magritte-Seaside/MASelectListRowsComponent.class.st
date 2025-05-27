@@ -3,7 +3,7 @@ I am similar to MASelectListComponent, but rather than displaying the options in
 "
 Class {
 	#name : 'MASelectListRowsComponent',
-	#superclass : #MASelectListComponent,
+	#superclass : 'MASelectListComponent',
 	#category : 'Magritte-Seaside-Components'
 }
 

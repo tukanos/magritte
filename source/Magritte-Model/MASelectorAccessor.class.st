@@ -3,7 +3,7 @@ I am the most common access strategy defined by a read- and a write-selector. I 
 "
 Class {
 	#name : 'MASelectorAccessor',
-	#superclass : #MAAccessor,
+	#superclass : 'MAAccessor',
 	#instVars : [
 		'readSelector',
 		'writeSelector'

@@ -1,6 +1,6 @@
 Class {
 	#name : 'MAMorphicDirectory',
-	#superclass : #MAMorphicFile,
+	#superclass : 'MAMorphicFile',
 	#category : 'Magritte-Morph-Model'
 }
 

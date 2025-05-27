@@ -1,6 +1,6 @@
 Class {
 	#name : 'MADescriptionPresenter',
-	#superclass : #Model,
+	#superclass : 'Model',
 	#traits : 'MATDescriptionPresenter',
 	#classTraits : 'MATDescriptionPresenter classTrait',
 	#instVars : [

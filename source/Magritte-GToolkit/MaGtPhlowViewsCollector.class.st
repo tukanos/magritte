@@ -1,6 +1,6 @@
 Class {
 	#name : 'MaGtPhlowViewsCollector',
-	#superclass : #GtPhlowViewsCollector,
+	#superclass : 'GtPhlowViewsCollector',
 	#category : 'Magritte-GToolkit'
 }
 

@@ -3,7 +3,7 @@ I am a normally invisible component. I show a list of validation errors in case 
 "
 Class {
 	#name : 'MAValidationDecoration',
-	#superclass : #MAComponentDecoration,
+	#superclass : 'MAComponentDecoration',
 	#category : 'Magritte-Seaside-Decorations'
 }
 

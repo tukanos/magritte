@@ -1,6 +1,6 @@
 Class {
 	#name : 'MADescriptionContext',
-	#superclass : #MABasicObject,
+	#superclass : 'MABasicObject',
 	#instVars : [
 		'modelClass',
 		'methodSelector'
