@@ -123,7 +123,7 @@ BaselineOfMagritte >> baseline: spec [
 			spec
 				package: 'Magritte-Model' with: [ 
 					spec 
-						requires: #('Grease');
+						requires: #('Grease') ];
 				package: #'Magritte-Tests-Model' with: [ spec requires: #('Magritte-Model') ];
 				package: #'Magritte-Tests-Files-Model' with: [ spec requires: #('Grease' 'Magritte-Tests-Model') ];
 				package: #'Magritte-Seaside' with: [ spec requires: #('Magritte-Model' 'Seaside3') ];
