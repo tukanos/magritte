@@ -1,7 +1,7 @@
 baselines
 baseline330ForSqueakCommon: spec
 
-	spec for: #squeak do: [
+	spec for: #'squeak' do: [
 		spec
 			package: #'Magritte-OmniBrowser-Tools' with: [ spec requires: #('Magritte-Deprecated') ].
 		spec
@@ -24,7 +24,7 @@ baseline330ForSqueakCommon: spec
 			group: #'Tools' with: #('Magritte-Pharo-Tools');
 			group: #'default' with: #('Magritte-Morph') ].
 
-	spec for: #notGToolkit do: [ 
+	spec for: #'notGToolkit' do: [ 
 		spec 
 			package: #'Magritte-Model' with: [ spec includes: #('Magritte-NotGToolkit') ];
 			package: #'Magritte-NotGToolkit' ]

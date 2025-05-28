@@ -2,7 +2,7 @@ baselines
 baseline: spec
 	<baseline>
 	spec
-		for: #common
+		for: #'common'
 		do: [
 			"spec author: 'SeanDeNigris'.
 			spec timestamp: '2015-04-05'.
@@ -10,16 +10,16 @@ baseline: spec
 
 			self baseline310CommonExtDeps: spec.
 			spec
-				package: #'Magritte-Model' with: [ 
+				package: 'Magritte-Model' with: [ 
 					spec 
 						requires: #('Grease') ];
-				package: #'Magritte-Tests-Model' with: [ spec requires: #('Magritte-Model') ];
-				package: #'Magritte-Tests-Files-Model' with: [ spec requires: #('Grease' 'Magritte-Tests-Model') ];
-				package: #'Magritte-Seaside' with: [ spec requires: #('Magritte-Model' 'Seaside3') ];
-				package: #'Magritte-Bootstrap' with: [ spec requires: #('Magritte-Model') ];
-				package: #'Magritte-Deprecated' with: [ spec requires: #('Magritte-Model') ];
-				package: #'Magritte-Merging' with: [ spec requires: #('Magritte-Model') ];
-				package: #'Magritte-Money' with: [ spec requires: #('Magritte-Model') ].
+				package: 'Magritte-Tests-Model' with: [ spec requires: #('Magritte-Model') ];
+				package: 'Magritte-Tests-Files-Model' with: [ spec requires: #('Grease' 'Magritte-Tests-Model') ];
+				package: 'Magritte-Seaside' with: [ spec requires: #('Magritte-Model' 'Seaside3') ];
+				package: 'Magritte-Bootstrap' with: [ spec requires: #('Magritte-Model') ];
+				package: 'Magritte-Deprecated' with: [ spec requires: #('Magritte-Model') ];
+				package: 'Magritte-Merging' with: [ spec requires: #('Magritte-Model') ];
+				package: 'Magritte-Money' with: [ spec requires: #('Magritte-Model') ].
 			spec
 				group: #'Core' with: #('Magritte-Model');
 				group: #'Tests' with: #('Magritte-Tests-Files-Model');
