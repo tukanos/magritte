@@ -121,7 +121,7 @@ BaselineOfMagritte >> baseline: spec [
 
 			self baseline310CommonExtDeps: spec.
 			spec
-				package: #'Magritte-Model' with: [ 
+				package: 'Magritte-Model' with: [ 
 					spec 
 						requires: #('Grease');
 				package: #'Magritte-Tests-Model' with: [ spec requires: #('Magritte-Model') ];
