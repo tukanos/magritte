@@ -221,3 +221,8 @@ whenPropertyChangedSend: aSelector to: aReceiver
 		send: aSelector
 		to: aReceiver
 %
+! ------------------- Traits for MAObject
+doit
+MAObject addTrait: MATPropertyOwner.
+true.
+%
