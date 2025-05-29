@@ -22,7 +22,7 @@ baseline330ForPharo: spec
 			package: 'Magritte-Glamour' with: [ spec requires: #('Magritte-Model' 'Magritte-Morph') ];
 			package: 'Magritte-GT' with: [ spec requires: #('Magritte-Morph' 'Magritte-Glamour') ] ].
 
-	spec for: #GToolkit do: [ 
+	spec for: #'GToolkit' do: [ 
 		spec 
 			package: 'Magritte-Developer' with: [ spec includes: #('Magritte-GToolkit') ];
 			package: 'Magritte-GToolkit' with: [ spec requires: #('Magritte-Model' 'Magritte-UI') ];
