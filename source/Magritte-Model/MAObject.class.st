@@ -4,6 +4,7 @@ I provide functionality available to all Magritte objects. I implement a diction
 Class {
 	#name : 'MAObject',
 	#superclass : 'MABasicObject',
+	#instVars : [ 'properties' ],
 	#traits : 'MATPropertyOwner',
 	#classTraits : 'MATPropertyOwner classTrait',
 	#category : 'Magritte-Model-Core'
