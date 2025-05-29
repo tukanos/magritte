@@ -3,12 +3,14 @@ baseline300ForGemStone: spec
 	spec
 		for: #'gemstone'
 		do: [ 
+			"Default Metacello repository location taken from here:
+				https://github.com/GsDevKit/gsUpgrader?tab=readme-ov-file#gsupgrader-classupgradeglass1"
 			spec
 				baseline: 'Metacello'
 				with: [ 
 					spec
 						loads: #('Core');
-						repository: 'github://Metacello/metacello-work:gs_port/repository' ].
+						repository: 'github://dalehenrich/metacello-work:master/repository' ].
 			spec
 				package: 'Magritte-Model'
 					with: [ 

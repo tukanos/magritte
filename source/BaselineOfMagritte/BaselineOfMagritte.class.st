@@ -9,20 +9,20 @@ BaselineOfMagritte >> baseline300ForGemStone: spec [
 	spec
 		for: #gemstone
 		do: [
-			spec blessing: 'baseline'.
+			"Default Metacello repository location taken from here:
+				https://github.com/GsDevKit/gsUpgrader?tab=readme-ov-file#gsupgrader-classupgradeglass1"
 			spec
-				baseline: 'GLASS1'
+				baseline: 'Metacello'
 				with: [ 
 					spec
-						loads: #('Base');
-						repository: 'github://glassdb/glass:master/repository' ].
-
+						loads: #('Core');
+						repository: 'github://dalehenrich/metacello-work:master/repository' ].
 			spec
 				package: 'Magritte-Model'
 					with: [ 
 							spec
 								includes: #('Magritte-GemStone-Model') ];
-								requires: #('GLASS1');
+								requires: #('Metacello');
 				package: 'Magritte-Tests-Model' with: [ spec includes: #('Magritte-Tests-GemStone-Model') ];
 				package: 'Magritte-Seaside' with: [ spec includes: #('Magritte-GemStone-Seaside') ];
 				package: 'Magritte-GemStone-Model' with: [ spec requires: #('Magritte-Model') ];
