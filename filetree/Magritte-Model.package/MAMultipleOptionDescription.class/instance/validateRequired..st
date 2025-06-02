@@ -1,4 +1,4 @@
-validating
+validation-private
 validateRequired: anObject
 	super validateRequired: anObject.
 	(self isRequired and: [ anObject isCollection and: [ anObject isEmpty ] ])

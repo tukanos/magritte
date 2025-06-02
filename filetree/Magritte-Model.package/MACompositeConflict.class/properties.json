@@ -11,5 +11,5 @@
 	"name" : "MACompositeConflict",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MAObject",
 	"type" : "normal" }

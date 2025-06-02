@@ -1,6 +1,6 @@
 Class {
 	#name : 'MACompositeConflict',
-	#superclass : 'Object',
+	#superclass : 'MAObject',
 	#instVars : [
 		'kind',
 		'string'
@@ -25,10 +25,11 @@ MACompositeConflict >> hash [
 	^ self species hash
 ]
 
-{ #category : 'class membership' }
-MACompositeConflict >> isKindOf: aClass [
-	"This is to pass #validateKind:"
-	^ (super isKindOf: aClass) or: [ self kind = aClass ]
+{ #category : 'validation-private' }
+MACompositeConflict >> validateKind: aClass [
+	"Validate ==aClass== to be of the right kind."
+	((self isKindOf: aClass) or: [ self kind = aClass ])
+		ifFalse: [ MAKindError description: self signal: self kindErrorMessage ]
 ]
 
 { #category : 'accessing' }
@@ -54,4 +55,14 @@ MACompositeConflict >> string [
 { #category : 'accessing' }
 MACompositeConflict >> string: aString [
 	string := aString
+]
+
+{ #category : 'accessing-messages' }
+MACompositeConflict >> kindErrorMessage [
+	^ self propertyAt: #kindErrorMessage ifAbsent: [ 'Invalid input given' ]
+]
+
+{ #category : 'accessing-messages' }
+MACompositeConflict >> kindErrorMessage: aString [
+	self propertyAt: #kindErrorMessage put: aString
 ]

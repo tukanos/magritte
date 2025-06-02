@@ -114,14 +114,14 @@ MAMultipleOptionDescription >> ordered: aBoolean [
 	self propertyAt: #ordered put: aBoolean
 ]
 
-{ #category : 'validating' }
+{ #category : 'validation-private' }
 MAMultipleOptionDescription >> validateKind: anObject [
 	self 
 		tryValidation: [ super validateKind: anObject ]
 	  ifPass: [ anObject do: [ :e | self validateOptionKind: e ] ]
 ]
 
-{ #category : 'validating' }
+{ #category : 'validation-private' }
 MAMultipleOptionDescription >> validateRequired: anObject [
 	super validateRequired: anObject.
 	(self isRequired and: [ anObject isCollection and: [ anObject isEmpty ] ])

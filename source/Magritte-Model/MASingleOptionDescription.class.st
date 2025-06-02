@@ -65,7 +65,7 @@ MASingleOptionDescription >> prepareOptions: aCollection [
 		ifFalse: [ (Array with: self undefinedValue) , (super prepareOptions: aCollection) ]
 ]
 
-{ #category : 'validating' }
+{ #category : 'validation-private' }
 MASingleOptionDescription >> validateKind: anObject [
 	super validateKind: anObject.
 	self validateOptionKind: anObject

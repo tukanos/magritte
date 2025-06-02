@@ -1,4 +1,4 @@
-validating
+validation-private
 validateKind: anObject
 	super validateKind: anObject.
 	(self classes anySatisfy: [ :class | anObject species includesBehavior: class ])

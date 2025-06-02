@@ -1,6 +1,5 @@
-validating
+validation-private
 validateKind: anObject
-
 	self
 		tryValidation: [ super validateKind: anObject ]
 		ifPass: [ 

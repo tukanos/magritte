@@ -34,7 +34,7 @@ MAToOneRelationDescription >> isOrdered [
 	^ false
 ]
 
-{ #category : 'validating' }
+{ #category : 'validation-private' }
 MAToOneRelationDescription >> validateKind: anObject [
 	super validateKind: anObject.
 	(self classes anySatisfy: [ :class | anObject species includesBehavior: class ])

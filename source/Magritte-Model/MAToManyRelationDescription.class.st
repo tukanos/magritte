@@ -164,9 +164,8 @@ MAToManyRelationDescription >> sorted: aBoolean [
 	self propertyAt: #sorted put: aBoolean
 ]
 
-{ #category : 'validating' }
+{ #category : 'validation-private' }
 MAToManyRelationDescription >> validateKind: anObject [
-
 	self
 		tryValidation: [ super validateKind: anObject ]
 		ifPass: [ 
@@ -175,7 +174,7 @@ MAToManyRelationDescription >> validateKind: anObject [
 					ifFalse: [ MAKindError description: self signal: self kindErrorMessage ] ] ]
 ]
 
-{ #category : 'validating' }
+{ #category : 'validation-private' }
 MAToManyRelationDescription >> validateRequired: anObject [
 	super validateRequired: anObject.
 	(self isRequired and: [ anObject isCollection and: [ anObject isEmpty ] ])
