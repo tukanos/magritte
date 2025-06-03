@@ -5,7 +5,7 @@ Class {
 		'kind',
 		'string'
 	],
-	#category : 'Magritte-Model'
+	#category : 'Magritte-Model-Conflict'
 }
 
 { #category : 'comparing' }
