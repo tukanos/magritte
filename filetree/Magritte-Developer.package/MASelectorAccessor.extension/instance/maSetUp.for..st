@@ -1,4 +1,4 @@
-*Magritte-Developer-private
+*magritte-developer-private
 maSetUp: aClass for: anMAElementDescription
 	"Ensure inst var, setter and getter exist"
 

@@ -1,4 +1,4 @@
-*Magritte-Developer-private
+*magritte-developer-private
 maCompile: templateString asAccessor: aSymbol forinstVarNamed: variableName in: aClass 
 	(aClass canUnderstand: aSymbol) ifTrue: [ ^ self ].
 	aClass

@@ -1,4 +1,4 @@
-*Magritte-Developer-private
+*magritte-developer-private
 storeVia: anAccessor inDescriptionOn: aStream 
 	| isSymmetrical |
 	isSymmetrical := self writeSelector = (self readSelector, ':') asSymbol.

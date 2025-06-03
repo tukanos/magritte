@@ -1,4 +1,4 @@
-*Magritte-Merging-Bloc
+*magritte-merging-bloc
 asElement
 	^ BlElement new
 		layout: (BlLinearLayout horizontal cellSpacing: 10);
