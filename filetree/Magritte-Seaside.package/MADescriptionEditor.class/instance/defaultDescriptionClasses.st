@@ -16,7 +16,6 @@ defaultDescriptionClasses
 		add: MADurationDescription;
 		add: MADateDescription;
 		add: MATimeDescription;
-		add: MATimeStampDescription;
 		add: nil;
 		add: MAColorDescription;
 		add: MATokenDescription;
