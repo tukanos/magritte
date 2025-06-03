@@ -1,4 +1,4 @@
-*Magritte-GToolkit
+*magritte-gToolkit
 gtView
 	| valuable |
 	valuable := self 

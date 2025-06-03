@@ -1,4 +1,4 @@
-*Magritte-Merging
+*magritte-merging
 patchRelativeToBase: baseName 
 
 	| operations relevantFields relevantOperations |

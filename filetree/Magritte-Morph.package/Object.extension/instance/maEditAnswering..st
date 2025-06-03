@@ -1,4 +1,4 @@
-*Magritte-Morph
+*magritte-morph
 maEditAnswering: aBlock
  
 	self asMagritteMorph

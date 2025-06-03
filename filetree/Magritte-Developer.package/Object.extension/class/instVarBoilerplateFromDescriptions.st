@@ -1,4 +1,4 @@
-*Magritte-Developer
+*magritte-developer
 instVarBoilerplateFromDescriptions
 	self new magritteDescription do: [ :e | 
 		| varName refactoring |

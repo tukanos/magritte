@@ -1,3 +1,3 @@
-*Magritte-Morph
+*magritte-morph
 defaultMorphClasses
 	^ Array with: MAMorphicMemo

@@ -1,4 +1,4 @@
-*Magritte-GToolkit
+*magritte-gToolkit
 maGtFormFor: aView
 	<gtView>
 	| description |

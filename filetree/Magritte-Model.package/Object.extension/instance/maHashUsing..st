@@ -1,4 +1,4 @@
-*Magritte-Model
+*magritte-model
 maHashUsing: valuabledescription
 	"See isSameAs:using: comments"
 	^ valuabledescription value children 

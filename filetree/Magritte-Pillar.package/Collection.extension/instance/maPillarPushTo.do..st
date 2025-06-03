@@ -1,4 +1,4 @@
-*Magritte-Pillar
+*magritte-pillar
 maPillarPushTo: stack do: aBlock
 	self do: [ :e | 
 		stack top add: e.

@@ -1,4 +1,4 @@
-*Magritte-Developer
+*magritte-developer
 descriptionFuelOut
 	<magritteActionDescription>
 	^ MAActionDescription new	

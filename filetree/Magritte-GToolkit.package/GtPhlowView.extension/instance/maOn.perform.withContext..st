@@ -1,4 +1,4 @@
-*Magritte-GToolkit
+*magritte-gToolkit
 maOn: anObject perform: aMessageSymbol withContext: aContext
 	"Adapted from on:perform:withArguments:"
 	<return: #GtPhlowView>

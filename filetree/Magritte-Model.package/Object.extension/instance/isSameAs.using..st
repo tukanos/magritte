@@ -1,4 +1,4 @@
-*Magritte-Model
+*magritte-model
 isSameAs: rhs using: descriptionValuable
 	"Use #isSameAs: unless you need to cache the description for efficiency.
 	CAUTION: this may not work if the description depends on the instance e.g. uses `self` in a block

@@ -1,4 +1,4 @@
-*Magritte-Morph
+*magritte-morph
 descriptionClassesWithMorphic: description
 	<magritteDescription: #descriptionClasses>
 	^ description

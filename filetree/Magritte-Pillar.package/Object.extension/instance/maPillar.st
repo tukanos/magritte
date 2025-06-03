@@ -1,4 +1,4 @@
-*Magritte-Pillar
+*magritte-pillar
 maPillar
 	| doc |
 	doc := PRDocument new.

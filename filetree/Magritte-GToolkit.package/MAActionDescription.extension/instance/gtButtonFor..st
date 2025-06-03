@@ -1,4 +1,4 @@
-*Magritte-GToolkit
+*magritte-gToolkit
 gtButtonFor: anObject
 
 	| button icn |

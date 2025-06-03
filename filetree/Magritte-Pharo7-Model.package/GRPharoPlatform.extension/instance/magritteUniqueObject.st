@@ -1,4 +1,4 @@
-*Magritte-Pharo7-Model
+*magritte-pharo7-Model
 magritteUniqueObject
 	"Answer a random object, such as a UUID, that is extremely likely to
 	be unique over space and time."

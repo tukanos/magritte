@@ -1,4 +1,4 @@
-*Magritte-Developer
+*magritte-developer
 descriptionInspect
 	<magritteActionDescription>
 	^ MAActionDescription new

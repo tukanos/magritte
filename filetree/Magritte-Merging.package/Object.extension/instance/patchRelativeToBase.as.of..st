@@ -1,4 +1,4 @@
-*Magritte-Merging
+*magritte-merging
 patchRelativeToBase: oldValue as: description of: receiver 
 
 		^ (receiver is: self anInterestingReplacementFor: oldValue)

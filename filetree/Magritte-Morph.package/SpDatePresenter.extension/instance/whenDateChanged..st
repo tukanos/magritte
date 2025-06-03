@@ -1,4 +1,4 @@
-*Magritte-Morph
+*magritte-morph
 whenDateChanged: aBlock
 
 	self flag:

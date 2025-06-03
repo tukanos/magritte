@@ -1,4 +1,4 @@
-*Magritte-Developer
+*magritte-developer
 maAddField
 	| fieldName |
 	fieldName := UIManager default request: 'Field name?'.

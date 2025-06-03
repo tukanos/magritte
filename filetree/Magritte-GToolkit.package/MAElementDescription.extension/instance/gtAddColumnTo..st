@@ -1,4 +1,4 @@
-*Magritte-GToolkit
+*magritte-gToolkit
 gtAddColumnTo: aView
 
 	self 

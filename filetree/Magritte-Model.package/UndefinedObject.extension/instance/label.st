@@ -1,3 +1,3 @@
-*Magritte-Model
+*magritte-model
 label
 	^ 'n/a'

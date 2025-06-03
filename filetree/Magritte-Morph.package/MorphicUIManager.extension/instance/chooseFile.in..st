@@ -1,4 +1,4 @@
-*Magritte-Morph
+*magritte-morph
 chooseFile: windowTitle in: directoryString
 	| chooser |
 	chooser := FileDialogWindow newWithTheme: Smalltalk ui theme.

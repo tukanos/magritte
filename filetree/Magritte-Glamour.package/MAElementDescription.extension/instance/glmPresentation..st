@@ -1,4 +1,4 @@
-*Magritte-Glamour
+*magritte-glamour
 glmPresentation: aValuable
 	"aValuable:
 		- Return value: a Glamour presentaion; FYI a default title, label, and selection actions will be added automatically by Magritte (see #glmCustomizePresentation:for:).

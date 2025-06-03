@@ -1,4 +1,4 @@
-*Magritte-Merging
+*magritte-merging
 patch: target relativeTo: base 
 	| oldValue newValue |
 	oldValue := self read: base.

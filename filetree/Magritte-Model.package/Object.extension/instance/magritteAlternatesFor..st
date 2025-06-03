@@ -1,4 +1,4 @@
-*Magritte-Model
+*magritte-model
 magritteAlternatesFor: aDescriptionSelector
 	| altDescriptionMethods relevantDescMeths |
 	altDescriptionMethods := Pragma

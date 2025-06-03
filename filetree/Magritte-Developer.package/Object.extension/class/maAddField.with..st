@@ -1,4 +1,4 @@
-*Magritte-Developer
+*magritte-developer
 maAddField: aSymbol with: customizationBlock
 	"If you don't need to customize the field description, you can use the simpler `#maAddField:`
 	

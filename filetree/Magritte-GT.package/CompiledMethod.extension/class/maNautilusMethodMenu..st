@@ -1,4 +1,4 @@
-*Magritte-GT
+*magritte-gT
 maNautilusMethodMenu: aBuilder
 	<nautilusGlobalMethodMenu>
 

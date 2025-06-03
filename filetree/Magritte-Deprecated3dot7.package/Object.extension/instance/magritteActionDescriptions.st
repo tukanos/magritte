@@ -1,4 +1,4 @@
-*Magritte-Deprecated3dot7
+*magritte-deprecated3dot7
 magritteActionDescriptions
 	self 
 		deprecated: 'Renamed to #magritteActions for ease of use and also slightly more accurate (see new method comment'

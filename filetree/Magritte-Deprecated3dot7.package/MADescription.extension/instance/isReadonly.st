@@ -1,4 +1,4 @@
-*Magritte-Deprecated3dot7
+*magritte-deprecated3dot7
 isReadonly
 	self 
 		deprecated: 'Use #isReadOnly instead.' 

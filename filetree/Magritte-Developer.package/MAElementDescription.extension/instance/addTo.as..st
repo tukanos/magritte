@@ -1,4 +1,4 @@
-*Magritte-Developer
+*magritte-developer
 addTo: aClass as: aSymbol
 	| source formattedSource |
 	source := String streamContents: [ :s | 

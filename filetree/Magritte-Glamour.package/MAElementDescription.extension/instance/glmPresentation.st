@@ -1,4 +1,4 @@
-*Magritte-Glamour
+*magritte-glamour
 glmPresentation
 	| valuable |
 	valuable := self 

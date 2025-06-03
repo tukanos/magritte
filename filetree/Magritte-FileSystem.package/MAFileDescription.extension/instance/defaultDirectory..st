@@ -1,4 +1,4 @@
-*Magritte-FileSystem
+*magritte-fileSystem
 defaultDirectory: fileReference
 	"fileReference - a FileSystem FileReference, or an MAFileReference if FileSystem is not installed"
 

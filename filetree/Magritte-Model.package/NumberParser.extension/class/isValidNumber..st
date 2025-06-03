@@ -1,4 +1,4 @@
-*Magritte-Model
+*magritte-model
 isValidNumber: aStringOrStream
 	| stream parser |
 	stream := aStringOrStream readStream.

@@ -1,4 +1,4 @@
-*Magritte-Deprecated3dot7
+*magritte-deprecated3dot7
 maLazyFrom: description
 	self 
 		deprecated: 'Renamed to #maLazyInstVarUsing: because now there is also #maLazyPropertyUsing:'

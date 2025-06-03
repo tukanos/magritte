@@ -1,4 +1,4 @@
-*Magritte-GT
+*magritte-gT
 maShowInGtInspectorOrder: aNumber
 	
 	| nodes newPragmaNode |	

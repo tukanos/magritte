@@ -1,4 +1,4 @@
-*Magritte-GToolkit
+*magritte-gToolkit
 gtActionOf: anObject
 
 	(self enableBlock cull: anObject) ifFalse: [ ^ GtPhlowAction noAction ].

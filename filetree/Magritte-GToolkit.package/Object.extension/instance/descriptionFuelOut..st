@@ -1,4 +1,4 @@
-*Magritte-GToolkit
+*magritte-gToolkit
 descriptionFuelOut: desc
 	<magritteActionDescription: #descriptionFuelOut>
 	^ desc

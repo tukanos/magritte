@@ -1,4 +1,4 @@
-*Magritte-GToolkit
+*magritte-gToolkit
 gtView: aValuable
 	"aValuable:
 		- FYI a default title, label, and selection actions will be added automatically by Magritte (see #glmCustomizeView:for:).

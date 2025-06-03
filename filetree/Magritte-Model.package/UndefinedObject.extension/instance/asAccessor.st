@@ -1,3 +1,3 @@
-*Magritte-Model
+*magritte-model
 asAccessor
 	^ MANullAccessor new

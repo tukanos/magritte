@@ -1,4 +1,4 @@
-*Magritte-Pharo7-Model
+*magritte-pharo7-Model
 magritteClassNamed: aString
 	"Return the class named aString, nil if the class can't be found."
 

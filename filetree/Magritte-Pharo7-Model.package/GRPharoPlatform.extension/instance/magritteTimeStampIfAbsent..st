@@ -1,4 +1,4 @@
-*Magritte-Pharo7-Model
+*magritte-pharo7-Model
 magritteTimeStampIfAbsent: absentBlock
 	"Return the TimeStamp class, or if the platform does not have a TimeStamp
 	return the result of evaluating absentBlock."

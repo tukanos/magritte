@@ -1,4 +1,4 @@
-*Magritte-Developer
+*magritte-developer
 storeVia: anAccessor inDescriptionOn: aStream
 
 	aStream

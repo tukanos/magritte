@@ -1,4 +1,4 @@
-*Magritte-Pharo7-Model
+*magritte-pharo7-Model
 magritteColorClass
 	"Return a Color class"
 	

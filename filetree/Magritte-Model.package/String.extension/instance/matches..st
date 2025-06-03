@@ -1,4 +1,4 @@
-*Magritte-Model
+*magritte-model
 matches: aString
 	aString isEmpty ifTrue: [ ^ true ].
 	^ (aString includesAnyOf: '*#')

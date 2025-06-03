@@ -1,4 +1,4 @@
-*Magritte-Bootstrap
+*magritte-bootstrap
 handleMessage: aMessage for: anObject
 	^ aMessage hasArguments
 			ifTrue: [ self write: aMessage arguments first to: anObject ]

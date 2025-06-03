@@ -1,4 +1,4 @@
-*Magritte-GToolkit
+*magritte-gToolkit
 gtAction: aValuable
 	"aValuable - optional arguments:
 		- aGtPhlowNoAction (same as the argument to a standard GT action method)

@@ -1,4 +1,4 @@
-*Magritte-Morph
+*magritte-morph
 maEdit
  
 	self maEditAnswering: [ :editedObj | ]

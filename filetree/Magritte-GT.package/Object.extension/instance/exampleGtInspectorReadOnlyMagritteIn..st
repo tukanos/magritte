@@ -1,4 +1,4 @@
-*Magritte-GT
+*magritte-gT
 exampleGtInspectorReadOnlyMagritteIn: composite
 	"<gtInspectorPresentationOrder: 300>"
 	"A simple GT presentation. Disabled by default because we have one that shows the full editable form, but could be useful..."

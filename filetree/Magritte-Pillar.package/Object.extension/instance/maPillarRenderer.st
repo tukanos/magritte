@@ -1,4 +1,4 @@
-*Magritte-Pillar
+*magritte-pillar
 maPillarRenderer
 	^ MAPillarRenderer new
 			object: self;

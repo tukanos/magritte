@@ -1,4 +1,4 @@
-*Magritte-Pillar
+*magritte-pillar
 pillarFor: anObject
 	| doc elements |
 	doc := PRTable new.

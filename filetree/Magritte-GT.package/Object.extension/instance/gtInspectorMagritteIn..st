@@ -1,4 +1,4 @@
-*Magritte-GT
+*magritte-gT
 gtInspectorMagritteIn: composite
 	<gtInspectorPresentationOrder: 40>
 	composite magritte

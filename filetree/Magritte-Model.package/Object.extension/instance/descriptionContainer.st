@@ -1,4 +1,4 @@
-*Magritte-Model
+*magritte-model
 descriptionContainer
 	"Return the default description container."
 	<magritteContainer>
