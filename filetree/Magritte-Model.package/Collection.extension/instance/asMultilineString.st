@@ -2,5 +2,5 @@
 asMultilineString
 	^ String streamContents: [ :stream |
 		self
-			do: [ :each | stream nextPutAll: each ]
+			do: [ :each | stream nextPutAll: each asString ]
 			separatedBy: [ stream nextPut: Character cr ] ]
