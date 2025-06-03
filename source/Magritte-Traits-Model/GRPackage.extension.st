@@ -1,6 +1,6 @@
 Extension { #name : 'GRPackage' }
 
-{ #category : '*magritte-traits-model' }
+{ #category : '*Magritte-Traits-Model' }
 GRPackage class >> magritteTraitsModel [
 	^ self new
 		name: 'Magritte-Traits-Model';

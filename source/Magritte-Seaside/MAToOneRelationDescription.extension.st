@@ -1,6 +1,6 @@
 Extension { #name : 'MAToOneRelationDescription' }
 
-{ #category : '*magritte-seaside-defaults' }
+{ #category : '*Magritte-Seaside-Defaults' }
 MAToOneRelationDescription class >> defaultComponentClasses [
 	^ Array with: MAExternalEditorComponent with: MAInternalEditorComponent
 ]

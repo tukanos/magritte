@@ -1,6 +1,6 @@
 Extension { #name : 'AbstractDictionary' }
 
-{ #category : '*magritte-gemstone-model' }
+{ #category : '*Magritte-Gemstone-Model' }
 AbstractDictionary >> optionFor: anObject ifPresent: aBlock [
 	self at: anObject ifPresent: aBlock
 

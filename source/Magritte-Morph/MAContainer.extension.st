@@ -1,6 +1,6 @@
 Extension { #name : 'MAContainer' }
 
-{ #category : '*magritte-morph-converting' }
+{ #category : '*Magritte-Morph-Converting' }
 MAContainer >> asMorphOn: anObject [
 	| memento |
 	memento := anObject mementoClass
@@ -14,7 +14,7 @@ MAContainer class >> defaultMorphicClasses [
 	^ Array with: MAMorphicContainer
 ]
 
-{ #category : '*magritte-morph-converting' }
+{ #category : '*Magritte-Morph-Converting' }
 MAContainer >> elementBuilderFor: anObject [
 	
 	self flag: 'Commented out from #asMorphOn:'.

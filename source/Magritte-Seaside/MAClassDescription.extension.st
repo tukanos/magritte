@@ -1,6 +1,6 @@
 Extension { #name : 'MAClassDescription' }
 
-{ #category : '*magritte-seaside-accessing-defaults' }
+{ #category : '*Magritte-Seaside-Accessing-Defaults' }
 MAClassDescription class >> defaultComponentClasses [
 	^ Array with: MATextInputComponent
 ]

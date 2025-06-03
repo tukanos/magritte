@@ -1,6 +1,6 @@
 Extension { #name : 'MADateDescription' }
 
-{ #category : '*magritte-seaside' }
+{ #category : '*Magritte-Seaside' }
 MADateDescription class >> defaultComponentClasses [
 	^ Array with: MADateInputComponent with: MADateSelectorComponent
 ]

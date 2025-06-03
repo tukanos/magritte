@@ -16,7 +16,7 @@ MADescription class >> defaultMorphicClasses [
 	^ Array new
 ]
 
-{ #category : '*magritte-morph-accessing' }
+{ #category : '*Magritte-Morph-Accessing' }
 MADescription >> descriptionMorphicClass [
 	<magritteDescription>
 	^ MASingleOptionDescription new

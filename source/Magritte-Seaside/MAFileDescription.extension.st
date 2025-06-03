@@ -1,6 +1,6 @@
 Extension { #name : 'MAFileDescription' }
 
-{ #category : '*magritte-seaside-defaults' }
+{ #category : '*Magritte-Seaside-Defaults' }
 MAFileDescription class >> defaultComponentClasses [
 	^ Array with: MAFileUploadComponent
 ]

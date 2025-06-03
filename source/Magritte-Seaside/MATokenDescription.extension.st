@@ -1,6 +1,6 @@
 Extension { #name : 'MATokenDescription' }
 
-{ #category : '*magritte-seaside-defaults' }
+{ #category : '*Magritte-Seaside-Defaults' }
 MATokenDescription class >> defaultComponentClasses [
 	^ Array with: MATextInputComponent
 ]

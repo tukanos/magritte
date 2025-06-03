@@ -1,6 +1,6 @@
 Extension { #name : 'MAFileModel' }
 
-{ #category : '*magritte-seaside-rendering' }
+{ #category : '*Magritte-Seaside-Rendering' }
 MAFileModel >> renderOn: html [
 	"Renders a download link of the receiver."
 
@@ -13,7 +13,7 @@ MAFileModel >> renderOn: html [
 		with: self filename
 ]
 
-{ #category : '*magritte-seaside-accessing' }
+{ #category : '*Magritte-Seaside-Accessing' }
 MAFileModel >> url [
 	"Answer a link to a request handler for the given file."
 	| handler |
@@ -23,7 +23,7 @@ MAFileModel >> url [
 		urlFor: handler
 ]
 
-{ #category : '*magritte-seaside-accessing' }
+{ #category : '*Magritte-Seaside-Accessing' }
 MAFileModel >> urlFor: aRenderContext [ 
 	self 
 		greaseDeprecatedApi: 'MAFileModel>>#urlFor:'
@@ -31,7 +31,7 @@ MAFileModel >> urlFor: aRenderContext [
 	^ self url
 ]
 
-{ #category : '*magritte-seaside-accessing' }
+{ #category : '*Magritte-Seaside-Accessing' }
 MAFileModel >> urlOn: html [ 
 	self 
 		greaseDeprecatedApi: 'MAFileModel>>#urlOn:'

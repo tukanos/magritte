@@ -1,6 +1,6 @@
 Extension { #name : 'MAToManyRelationDescription' }
 
-{ #category : '*magritte-seaside-accessing-defaults' }
+{ #category : '*Magritte-Seaside-Accessing-Defaults' }
 MAToManyRelationDescription class >> defaultComponentClasses [
 	^ Array with: MAOneToManyComponent
 ]

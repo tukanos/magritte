@@ -1,6 +1,6 @@
 Extension { #name : 'GRPackage' }
 
-{ #category : '*magritte-pharo-seaside' }
+{ #category : '*Magritte-Pharo-Seaside' }
 GRPackage class >> magrittePharoSeaside [
 	^ self new
 		name: 'Magritte-Pharo-Seaside';

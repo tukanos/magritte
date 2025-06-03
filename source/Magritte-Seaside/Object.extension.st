@@ -1,6 +1,6 @@
 Extension { #name : 'Object' }
 
-{ #category : '*magritte-seaside-converting' }
+{ #category : '*Magritte-Seaside-Converting' }
 Object >> asComponent [
 	^ self magritteDescription asComponentOn: self
 ]

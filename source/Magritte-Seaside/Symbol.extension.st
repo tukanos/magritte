@@ -1,6 +1,6 @@
 Extension { #name : 'Symbol' }
 
-{ #category : '*magritte-seaside' }
+{ #category : '*Magritte-Seaside' }
 Symbol >> fixTemps [
 	^ self
 ]

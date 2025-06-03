@@ -1,6 +1,6 @@
 Extension { #name : 'MAContainer' }
 
-{ #category : '*magritte-seaside-converting' }
+{ #category : '*Magritte-Seaside-Converting' }
 MAContainer >> asComponentOn: anObject [
 	^ self componentClass
 		memento: (anObject mementoClass
@@ -8,22 +8,22 @@ MAContainer >> asComponentOn: anObject [
 			description: self)
 ]
 
-{ #category : '*magritte-seaside-accessing' }
+{ #category : '*Magritte-Seaside-Accessing' }
 MAContainer >> componentRenderer [
 	^ self propertyAt: #componentRenderer ifAbsent: [ self class defaultComponentRenderer ]
 ]
 
-{ #category : '*magritte-seaside-accessing' }
+{ #category : '*Magritte-Seaside-Accessing' }
 MAContainer >> componentRenderer: aClass [
 	self propertyAt: #componentRenderer put: aClass
 ]
 
-{ #category : '*magritte-seaside-defaults' }
+{ #category : '*Magritte-Seaside-Defaults' }
 MAContainer class >> defaultComponentClasses [
 	^ Array with: MAContainerComponent
 ]
 
-{ #category : '*magritte-seaside-defaults' }
+{ #category : '*Magritte-Seaside-Defaults' }
 MAContainer class >> defaultComponentRenderer [
 	^ MATableRenderer
 ]

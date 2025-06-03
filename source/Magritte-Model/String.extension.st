@@ -8,7 +8,7 @@ String >> matches: aString [
 		ifFalse: [ self includesSubstring: aString caseSensitive: false ]
 ]
 
-{ #category : '*magritte-model' }
+{ #category : '*Magritte-Model' }
 String >> normalizeCamelCase [
 
 	^ self class streamContents: [ :out |

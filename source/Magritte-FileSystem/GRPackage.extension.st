@@ -1,6 +1,6 @@
 Extension { #name : 'GRPackage' }
 
-{ #category : '*magritte-filesystem' }
+{ #category : '*Magritte-Filesystem' }
 GRPackage class >> magritteFileSystem [
 	^ self new
 		name: 'Magritte-FileSystem';

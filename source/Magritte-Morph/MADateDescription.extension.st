@@ -1,6 +1,6 @@
 Extension { #name : 'MADateDescription' }
 
-{ #category : '*magritte-morph-default' }
+{ #category : '*Magritte-Morph-Default' }
 MADateDescription class >> defaultMorphicClasses [
 	^ Array with: MAMorphicDate.
 ]

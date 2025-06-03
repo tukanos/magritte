@@ -1,11 +1,11 @@
 Extension { #name : 'MAElementDescription' }
 
-{ #category : '*magritte-seaside-accessing' }
+{ #category : '*Magritte-Seaside-Accessing' }
 MAElementDescription >> checkboxLabel [
 	^ self propertyAt: #checkboxLabel ifAbsent: [ self label ]
 ]
 
-{ #category : '*magritte-seaside-accessing' }
+{ #category : '*Magritte-Seaside-Accessing' }
 MAElementDescription >> checkboxLabel: aString [
 	self propertyAt: #checkboxLabel put: aString
 ]

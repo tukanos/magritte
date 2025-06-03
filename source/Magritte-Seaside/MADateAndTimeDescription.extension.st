@@ -1,6 +1,6 @@
 Extension { #name : 'MADateAndTimeDescription' }
 
-{ #category : '*magritte-seaside' }
+{ #category : '*Magritte-Seaside' }
 MADateAndTimeDescription class >> defaultComponentClasses [
 	^ Array with: MATimeStampInputComponent
 ]

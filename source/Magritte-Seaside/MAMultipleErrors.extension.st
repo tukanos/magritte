@@ -1,6 +1,6 @@
 Extension { #name : 'MAMultipleErrors' }
 
-{ #category : '*magritte-seaside-rendering' }
+{ #category : '*Magritte-Seaside-Rendering' }
 MAMultipleErrors >> renderOn: html [
 	html unorderedList: [
 		self collection

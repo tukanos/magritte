@@ -1,6 +1,6 @@
 Extension { #name : 'MAError' }
 
-{ #category : '*magritte-gemstone-model' }
+{ #category : '*Magritte-Gemstone-Model' }
 MAError >> greaseString [
 	^ self printString
 ]

@@ -1,6 +1,6 @@
 Extension { #name : 'Collection' }
 
-{ #category : '*magritte-model' }
+{ #category : '*Magritte-Model' }
 Collection >> asMultilineString [
 	^ String streamContents: [ :stream |
 		self
@@ -8,14 +8,14 @@ Collection >> asMultilineString [
 			separatedBy: [ stream nextPut: Character cr ] ]
 ]
 
-{ #category : '*magritte-model' }
+{ #category : '*Magritte-Model' }
 Collection >> copyWithAll: aCollection [
 	^ self copy
 		addAll: aCollection;
 		yourself
 ]
 
-{ #category : '*magritte-model' }
+{ #category : '*Magritte-Model' }
 Collection >> copyWithoutFirst: anObject [
 	| done |
 	done := false.
@@ -25,7 +25,7 @@ Collection >> copyWithoutFirst: anObject [
 				and: [ done := true ] ]
 ]
 
-{ #category : '*magritte-model' }
+{ #category : '*Magritte-Model' }
 Collection >> copyWithoutFirstOccurrenceOf: anObject [
 	| done |
 	done := false.
@@ -35,7 +35,7 @@ Collection >> copyWithoutFirstOccurrenceOf: anObject [
 			and: [ done := true ] ] ]
 ]
 
-{ #category : '*magritte-model-dynopt' }
+{ #category : '*Magritte-Model-Dynopt' }
 Collection >> maAllOptionsFor: aDescription [
 	^ aDescription prepareOptions: self copy
 ]

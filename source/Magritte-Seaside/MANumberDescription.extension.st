@@ -1,6 +1,6 @@
 Extension { #name : 'MANumberDescription' }
 
-{ #category : '*magritte-seaside' }
+{ #category : '*Magritte-Seaside' }
 MANumberDescription class >> defaultComponentClasses [
 	^ Array with: MATextInputComponent with: MARangeComponent
 ]
