@@ -81,7 +81,7 @@ Test suite:MAMagnitudeDescriptionTest: Error count: 0; FailureCount: 0; Passed: 
 Test suite:MATimeDescriptionTest: Error count: 0; FailureCount: 0; Passed: 69; Run: 69
 ```
 
-## The upstream README:
+## The upstream README (adding link to this repository):
 [![Build Status](https://travis-ci.org/magritte-metamodel/magritte.svg?branch=master)](https://travis-ci.org/magritte-metamodel/magritte)
 
 Most applications consist of a big number of model- or so called domain-objects. Building different views, editors, and reports; querying, validating and storing those objects is very repetitive and error-prone, if an object changes its shape frequently.
