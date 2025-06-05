@@ -10,7 +10,6 @@ Trait name: 'MATPropertyOwner'
   classVars: #()
   classInstVars: #()
   inDictionary: UserGlobals
-  
 
 %
 ! ------------------- Remove existing behavior from MATPropertyOwner
