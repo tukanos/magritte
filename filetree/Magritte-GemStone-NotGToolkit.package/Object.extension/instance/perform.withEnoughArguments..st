@@ -1,4 +1,4 @@
-*magritte-gemStone-notGToolkit
+*magritte-gemstone-notgtoolkit
 perform: selector withEnoughArguments: anArray
 	"Send the selector, aSymbol, to the receiver with arguments in argArray.
 	Only use enough arguments for the arity of the selector; supply nils for missing ones."
