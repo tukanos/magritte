@@ -20,7 +20,8 @@ baseline300ForGemStone: spec
 				package: 'Magritte-Tests-Model' with: [ spec includes: #('Magritte-Tests-GemStone-Model') ];
 				package: 'Magritte-Seaside' with: [ spec includes: #('Magritte-GemStone-Seaside') ];
 				package: 'Magritte-GemStone-Model' with: [ spec requires: #('Magritte-Model');
-																includes: #('Magritte-GemStone-NotGToolkit') ];
+																includes: #('Magritte-FileDirectory' 'Magritte-GemStone-NotGToolkit') ];
 				package: 'Magritte-Tests-GemStone-Model' with: [ spec requires: #('Magritte-GemStone-Model') ];
 				package: 'Magritte-GemStone-Seaside' with: [ spec requires: #('Magritte-Seaside') ];
+				package: 'Magritte-FileDirectory';
 				package: 'Magritte-GemStone-NotGToolkit' ]
