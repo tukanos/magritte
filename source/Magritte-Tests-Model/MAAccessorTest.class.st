@@ -68,7 +68,7 @@ MAAccessorTest >> testStore [
 	GRPlatform current isGRGemStonePlatform ifTrue: [ self assert: (evaluator evaluate: self accessor storeString) = self accessor ]
 		ifFalse: [ self assert: (evaluator new 
 									source: self accessor storeString;
-									evaluate) = self accessor
+									evaluate) = self accessor ]
 ]
 
 { #category : 'tests' }
