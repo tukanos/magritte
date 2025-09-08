@@ -51,34 +51,58 @@ GsFileIn fromGemHostPath: '/<path>/gsFiles/TMagritteBootstrap.gs'
  - The log of passing tests from GemStone 3.7.2:
 
 ```Smalltalk
-Test suite:MADurationDescriptionTest: Error count: 0; FailureCount: 0; Passed: 68; Run: 68
-Test suite:MASingleOptionDescriptionTest: Error count: 0; FailureCount: 0; Passed: 78; Run: 78
-Test suite:MAMemoDescriptionTest: Error count: 0; FailureCount: 0; Passed: 61; Run: 61
-Test suite:MAPasswordDescriptionTest: Error count: 0; FailureCount: 0; Passed: 62; Run: 62
-Test suite:MADescriptionTest: Error count: 0; FailureCount: 0; Passed: 1423; Run: 1423
-Test suite:MADateAndTimeDescriptionTest: Error count: 0; FailureCount: 0; Passed: 69; Run: 69
-Test suite:MAContainerTest: Error count: 0; FailureCount: 0; Passed: 67; Run: 67
-Test suite:MAPriorityContainerTest: Error count: 0; FailureCount: 0; Passed: 67; Run: 67
-Test suite:MADateDescriptionTest: Error count: 0; FailureCount: 0; Passed: 68; Run: 68
-Test suite:MATableDescriptionTest: Error count: 0; FailureCount: 0; Passed: 60; Run: 60
-Test suite:MAColorDescriptionTest: Error count: 0; FailureCount: 0; Passed: 59; Run: 59
-Test suite:MANumberDescriptionTest: Error count: 0; FailureCount: 0; Passed: 73; Run: 73
-Test suite:MABooleanDescriptionTest: Error count: 0; FailureCount: 0; Passed: 65; Run: 65
-Test suite:MATokenDescriptionTest: Error count: 0; FailureCount: 0; Passed: 60; Run: 60
-Test suite:MAClassDescriptionTest: Error count: 0; FailureCount: 0; Passed: 59; Run: 59
-Test suite:MAFileDescriptionTest: Error count: 0; FailureCount: 0; Passed: 59; Run: 59
-Test suite:MAToOneRelationDescriptionTest: Error count: 0; FailureCount: 0; Passed: 61; Run: 61
-Test suite:MARelationDescriptionTest: Error count: 0; FailureCount: 0; Passed: 189; Run: 189
-Test suite:MAToManyRelationDescriptionTest: Error count: 0; FailureCount: 0; Passed: 64; Run: 64
-Test suite:MAToManyScalarRelationDescriptionTest: Error count: 0; FailureCount: 0; Passed: 64; Run: 64
-Test suite:MAElementDescriptionTest: Error count: 0; FailureCount: 0; Passed: 1289; Run: 1289
-Test suite:MAReferenceDescriptionTest: Error count: 0; FailureCount: 0; Passed: 457; Run: 457
-Test suite:MAOptionDescriptionTest: Error count: 0; FailureCount: 0; Passed: 148; Run: 148
-Test suite:MAMultipleOptionDescriptionTest: Error count: 0; FailureCount: 0; Passed: 70; Run: 70
-Test suite:MAStringDescriptionTest: Error count: 0; FailureCount: 0; Passed: 60; Run: 60
-Test suite:MASymbolDescriptionTest: Error count: 0; FailureCount: 0; Passed: 60; Run: 60
-Test suite:MAMagnitudeDescriptionTest: Error count: 0; FailureCount: 0; Passed: 347; Run: 347
-Test suite:MATimeDescriptionTest: Error count: 0; FailureCount: 0; Passed: 69; Run: 69
+Test suite: MAObjectTest: Error count: 0; FailureCount: 0; Passed: 1669; Run: 1669
+Test suite: MAExternalFileModelTest: Error count: 0; FailureCount: 0; Passed: 11; Run: 11
+Test suite: MAVariableAccessorTest: Error count: 0; FailureCount: 0; Passed: 20; Run: 20
+Test suite: MAPluggableAccessorTest: Error count: 0; FailureCount: 0; Passed: 21; Run: 21
+Test suite: MADictionaryAccessorTest: Error count: 0; FailureCount: 0; Passed: 20; Run: 20
+Test suite: MAChainAccessorTest: Error count: 0; FailureCount: 0; Passed: 23; Run: 23
+Test suite: MASelectorAccessorTest: Error count: 0; FailureCount: 0; Passed: 22; Run: 22
+Test suite: MANullAccessorTest: Error count: 0; FailureCount: 0; Passed: 19; Run: 19
+Test suite: MAIdentityAccessorTest: Error count: 0; FailureCount: 0; Passed: 19; Run: 19
+Test suite: MAAccessorTest: Error count: 0; FailureCount: 0; Passed: 163; Run: 163
+Test suite: MADelegatorAccessorTest: Error count: 0; FailureCount: 0; Passed: 19; Run: 19
+Test suite: MADurationDescriptionTest: Error count: 0; FailureCount: 0; Passed: 68; Run: 68
+Test suite: MASingleOptionDescriptionTest: Error count: 0; FailureCount: 0; Passed: 78; Run: 78
+Test suite: MAMemoDescriptionTest: Error count: 0; FailureCount: 0; Passed: 61; Run: 61
+Test suite: MAPasswordDescriptionTest: Error count: 0; FailureCount: 0; Passed: 62; Run: 62
+Test suite: MADescriptionTest: Error count: 0; FailureCount: 0; Passed: 1423; Run: 1423
+Test suite: MADateAndTimeDescriptionTest: Error count: 0; FailureCount: 0; Passed: 69; Run: 69
+Test suite: MAContainerTest: Error count: 0; FailureCount: 0; Passed: 67; Run: 67
+Test suite: MAPriorityContainerTest: Error count: 0; FailureCount: 0; Passed: 67; Run: 67
+Test suite: MADateDescriptionTest: Error count: 0; FailureCount: 0; Passed: 68; Run: 68
+Test suite: MATableDescriptionTest: Error count: 0; FailureCount: 0; Passed: 60; Run: 60
+Test suite: MAColorDescriptionTest: Error count: 0; FailureCount: 0; Passed: 59; Run: 59
+Test suite: MANumberDescriptionTest: Error count: 0; FailureCount: 0; Passed: 73; Run: 73
+Test suite: MABooleanDescriptionTest: Error count: 0; FailureCount: 0; Passed: 65; Run: 65
+Test suite: MATokenDescriptionTest: Error count: 0; FailureCount: 0; Passed: 60; Run: 60
+Test suite: MAClassDescriptionTest: Error count: 0; FailureCount: 0; Passed: 59; Run: 59
+Test suite: MAFileDescriptionTest: Error count: 0; FailureCount: 0; Passed: 59; Run: 59
+Test suite: MAToOneRelationDescriptionTest: Error count: 0; FailureCount: 0; Passed: 61; Run: 61
+Test suite: MARelationDescriptionTest: Error count: 0; FailureCount: 0; Passed: 189; Run: 189
+Test suite: MAToManyRelationDescriptionTest: Error count: 0; FailureCount: 0; Passed: 64; Run: 64
+Test suite: MAToManyScalarRelationDescriptionTest: Error count: 0; FailureCount: 0; Passed: 64; Run: 64
+Test suite: MAElementDescriptionTest: Error count: 0; FailureCount: 0; Passed: 1289; Run: 1289
+Test suite: MAReferenceDescriptionTest: Error count: 0; FailureCount: 0; Passed: 457; Run: 457
+Test suite: MAOptionDescriptionTest: Error count: 0; FailureCount: 0; Passed: 148; Run: 148
+Test suite: MAMultipleOptionDescriptionTest: Error count: 0; FailureCount: 0; Passed: 70; Run: 70
+Test suite: MAStringDescriptionTest: Error count: 0; FailureCount: 0; Passed: 60; Run: 60
+Test suite: MASymbolDescriptionTest: Error count: 0; FailureCount: 0; Passed: 60; Run: 60
+Test suite: MAMagnitudeDescriptionTest: Error count: 0; FailureCount: 0; Passed: 347; Run: 347
+Test suite: MATimeDescriptionTest: Error count: 0; FailureCount: 0; Passed: 69; Run: 69
+Test suite: MACheckedMementoTest: Error count: 0; FailureCount: 0; Passed: 32; Run: 32
+Test suite: MAStraightMementoTest: Error count: 0; FailureCount: 0; Passed: 25; Run: 25
+Test suite: MAMementoTest: Error count: 0; FailureCount: 0; Passed: 83; Run: 83
+Test suite: MACachedMementoTest: Error count: 0; FailureCount: 0; Passed: 26; Run: 26
+Test suite: MAExtensionsTest: Error count: 0; FailureCount: 0; Passed: 17; Run: 17
+Test suite: MAConditionTest: Error count: 0; FailureCount: 0; Passed: 6; Run: 6
+Test suite: MADescriptionBuilderTest: Error count: 0; FailureCount: 0; Passed: 5; Run: 5
+Test suite: MAAdaptiveModelTest: Error count: 0; FailureCount: 0; Passed: 2; Run: 2
+Test suite: MACollectionExtensionTest: Error count: 0; FailureCount: 0; Passed: 1; Run: 1
+Test suite: MAFileModelTest: Error count: 0; FailureCount: 0; Passed: 22; Run: 22
+Test suite: MAMemoryFileModelTest: Error count: 0; FailureCount: 0; Passed: 11; Run: 11
+Test suite: MATableModelTest: Error count: 0; FailureCount: 0; Passed: 15; Run: 15
+Test suite: MAValidatorVisitorTest: Error count: 0; FailureCount: 0; Passed: 1; Run: 1
 ```
 
 ## The upstream README (adding link to this repository):
