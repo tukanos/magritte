@@ -127,13 +127,14 @@ BaselineOfMagritte >> baseline: spec [
 				package: 'Magritte-Tests-Model' with: [ spec requires: #('Magritte-Model') ];
 				package: 'Magritte-Tests-Files-Model' with: [ spec requires: #('Grease' 'Magritte-Tests-Model') ];
 				package: 'Magritte-Seaside' with: [ spec requires: #('Magritte-Model' 'Seaside3') ];
+				package: 'Magritte-Tests-Seaside' with: [ spec requires: #('Magritte-Seaside') ];
 				package: 'Magritte-Bootstrap' with: [ spec requires: #('Magritte-Model') ];
 				package: 'Magritte-Deprecated' with: [ spec requires: #('Magritte-Model') ];
 				package: 'Magritte-Merging' with: [ spec requires: #('Magritte-Model') ];
 				package: 'Magritte-Money' with: [ spec requires: #('Magritte-Model') ].
 			spec
 				group: 'Core' with: #('Magritte-Model');
-				group: 'Tests' with: #('Magritte-Tests-Files-Model');
+				group: 'Tests' with: #('Magritte-Tests-Files-Model' 'Magritte-Tests-Seaside');
 				group: 'Seaside' with: #('Magritte-Seaside');
 				group: 'Deprecated' with: #('Magritte-Deprecated') ].
 	self baseline330ForPharo: spec.

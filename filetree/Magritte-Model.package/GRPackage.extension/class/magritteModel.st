@@ -2,7 +2,7 @@
 magritteModel
 	^ self new
 		name: 'Magritte-Model';
-		description: 'The Magritte metamodel.';
+		description: 'Magritte metamodel.';
 		addDependency: 'Grease-Core';
 		url: #magritteUrl;
 		yourself

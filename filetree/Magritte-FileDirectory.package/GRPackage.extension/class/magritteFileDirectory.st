@@ -2,6 +2,7 @@
 magritteFileDirectory
 	^ self new
 		name: 'Magritte-FileDirectory';
-		addDependency: 'Magritte-Files-Model';
+		description: 'The file-data integration with Magritte metamodel.';
+		addDependency: 'Magritte-Model';
 		url: #magritteUrl;
 		yourself
